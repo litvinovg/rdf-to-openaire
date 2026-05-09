@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Person xmlns="https://www.openaire.eu/cerif-profile/1.2/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:vitro="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+        xmlns:vivo="http://vivoweb.org/ontology/core#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:fn="http://www.w3.org/2005/xpath-functions"
+        xmlns:res="http://vivoweb.org/rdf-functions"
+        xmlns:obo="http://purl.obolibrary.org/obo/"
+        xmlns:bibo="http://purl.org/ontology/bibo/"
+        xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+        id="http://vivo.mydomain.edu/individual/n6341">
+   <PersonName xmlns="">
+      <FamilyNames>Litvinov</FamilyNames>
+      <FirstNames>Georgy</FirstNames>
+   </PersonName>
+</Person>
