@@ -30,6 +30,14 @@
 			</xsl:choose>
 		</xsl:for-each>
 	</xsl:function>
+	
+	<xsl:function name="res:types">
+		<xsl:param name="cur_elements" as="node()*" />
+		<xsl:for-each select="$cur_elements[self::*]">
+			<xsl:sequence select="res:id(./rdf:type)" />
+			<xsl:sequence select="concat(namespace-uri(),local-name())" />
+		</xsl:for-each>
+	</xsl:function>
 
 	<xsl:function name="res:get" as="node()*">
 		<xsl:param name="cur_elements" as="node()*" />
@@ -244,9 +252,65 @@
 		</xsl:for-each>
 	</xsl:template>
 
-
 	<xsl:template name="publicationType">
-		<Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#HigherEducation
+		<xsl:variable name="types" select="res:types(.)" /> 
+		<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">
+			<xsl:choose>
+ 				<xsl:when test="$types = 'http://purl.obolibrary.org/obo/IAO_0000013'">
+					<xsl:text>http://purl.org/coar/resource_type/c_6501</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Article'">
+					<xsl:text>http://purl.org/coar/resource_type/c_18cf</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#BlogPosting'">
+					<xsl:text>http://purl.org/coar/resource_type/c_6947</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#ConferencePaper'">
+					<xsl:text>http://purl.org/coar/resource_type/c_5794</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#EditorialArticle'">
+					<xsl:text>http://purl.org/coar/resource_type/c_b239</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#Review'">
+					<xsl:text>http://purl.org/coar/resource_type/c_efa0</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Book'">
+					<xsl:text>http://purl.org/coar/resource_type/c_2f33</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Chapter'">
+					<xsl:text>http://purl.org/coar/resource_type/c_3248</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/spar/fabio/Comment'">
+					<xsl:text>http://purl.org/coar/resource_type/D97F-VB57</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#ConferencePoster'">
+					<xsl:text>http://purl.org/coar/resource_type/c_6670</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Manuscript'">
+					<xsl:text>http://purl.org/coar/resource_type/c_0040</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Letter'">
+					<xsl:text>http://purl.org/coar/resource_type/c_0857</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.obolibrary.org/obo/OBI_0000272'">
+					<xsl:text>http://purl.org/coar/resource_type/YZ1N-ZFT9</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Report'">
+					<xsl:text>http://purl.org/coar/resource_type/c_93fc</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#ResearchProposal'">
+					<xsl:text>http://purl.org/coar/resource_type/c_baaf</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#Speech'">
+					<xsl:text>http://purl.org/coar/resource_type/6NC7-GK9S</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Thesis'">
+					<xsl:text>http://purl.org/coar/resource_type/c_46ec</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#WorkingPaper'">
+					<xsl:text>http://purl.org/coar/resource_type/c_8042</xsl:text>
+				</xsl:when>
+			</xsl:choose>
 		</Type>
 	</xsl:template>
 
