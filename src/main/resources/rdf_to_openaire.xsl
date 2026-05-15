@@ -131,6 +131,7 @@
 			<xsl:call-template name="startPage" />
 			<xsl:call-template name="endPage" />
 			<xsl:call-template name="doi" />
+			<xsl:call-template name="issn" />
 			<xsl:call-template name="isbn" />
 			<xsl:call-template name="subject" />
 			<xsl:call-template name="keyword" />
@@ -253,6 +254,15 @@
 			</ISBN>
 		</xsl:for-each>
 	</xsl:template>
+
+	<xsl:template name="issn">
+		<xsl:for-each select="bibo:issn">
+			<ISSN>
+				<xsl:value-of select="text()" />
+			</ISSN>
+		</xsl:for-each>
+	</xsl:template>
+
 
 	<xsl:template name="subject">
 		<xsl:for-each select="res:get(vivo:hasSubjectArea)">
