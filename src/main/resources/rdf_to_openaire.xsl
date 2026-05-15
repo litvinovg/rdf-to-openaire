@@ -16,7 +16,7 @@
 	xmlns:geo="http://aims.fao.org/aos/geopolitical.owl#"
 	xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
 	xmlns="https://www.openaire.eu/cerif-profile/1.2/"
-	exclude-result-prefixes="geo"
+	exclude-result-prefixes="geo res vcard bibo obo fn skos vivo vitro owl rdf rdfs xs xsd"
 	>
 
 	<xsl:output method="xml" indent="yes" encoding="UTF-8" />
