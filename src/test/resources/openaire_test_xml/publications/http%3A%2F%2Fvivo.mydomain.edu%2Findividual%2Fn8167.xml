@@ -16,6 +16,9 @@
              id="http://vivo.mydomain.edu/individual/n8167">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_0640</Type>
    <DOI>10.1022/182</DOI>
-   <Keyword xml:lang="en-US">Cellular, regeneration, Stem cells, Tissue repair</Keyword>
+   <Keyword xml:lang="en-US">Cellular</Keyword>
+   <Keyword xml:lang="en-US">regeneration</Keyword>
+   <Keyword xml:lang="en-US">Stem cells</Keyword>
+   <Keyword xml:lang="en-US">Tissue repair</Keyword>
    <Abstract xml:lang="en-US">"Insights into Cellular Regeneration Mechanisms" explores the intricate processes underlying cellular regeneration, highlighting key molecular pathways and signaling networks. It emphasizes the role of stem cells and regenerative medicine in tissue repair and disease treatment, providing a comprehensive understanding of how organisms restore and maintain cellular integrity.</Abstract>
 </Publication>

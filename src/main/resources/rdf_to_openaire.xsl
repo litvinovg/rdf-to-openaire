@@ -180,6 +180,7 @@
             <xsl:call-template name="productType" />
             <xsl:call-template name="name" />
             <xsl:call-template name="url" />
+            <xsl:call-template name="description" />
 		</Product>
 	</xsl:template>
 
@@ -252,12 +253,15 @@
 
 	<xsl:template name="keyword">
 		<xsl:for-each select="vivo:freetextKeyword">
-			<Keyword>
-				<xsl:attribute name="xml:lang">
-	                <xsl:value-of select="@xml:lang" />
-	            </xsl:attribute>
-				<xsl:value-of select="text()" />
-			</Keyword>
+			<xsl:variable name="lang" select="@xml:lang" /> 
+			<xsl:for-each select="tokenize(text(), ',')">
+				<Keyword>
+					<xsl:attribute name="xml:lang">
+		                <xsl:value-of select="$lang" />
+		            </xsl:attribute>
+					<xsl:value-of select="normalize-space(.)" />
+				</Keyword>
+			</xsl:for-each>
 		</xsl:for-each>
 	</xsl:template>
 
@@ -269,6 +273,17 @@
 	            </xsl:attribute>
 				<xsl:value-of select="text()" />
 			</Abstract>
+		</xsl:for-each>
+	</xsl:template>
+	
+	<xsl:template name="description">
+		<xsl:for-each select="bibo:abstract">
+			<Description>
+				<xsl:attribute name="xml:lang">
+	                <xsl:value-of select="@xml:lang" />
+	            </xsl:attribute>
+				<xsl:value-of select="text()" />
+			</Description>
 		</xsl:for-each>
 	</xsl:template>
 

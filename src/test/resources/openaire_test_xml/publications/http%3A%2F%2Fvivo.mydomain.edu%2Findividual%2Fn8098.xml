@@ -17,6 +17,10 @@
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/D97F-VB57</Type>
    <Volume>7</Volume>
    <DOI>s41280-440-2554-8</DOI>
-   <Keyword xml:lang="en-US">Patient evaluation, treatment response, clinical assessment, therapeutic effectiveness, health outcomes</Keyword>
+   <Keyword xml:lang="en-US">Patient evaluation</Keyword>
+   <Keyword xml:lang="en-US">treatment response</Keyword>
+   <Keyword xml:lang="en-US">clinical assessment</Keyword>
+   <Keyword xml:lang="en-US">therapeutic effectiveness</Keyword>
+   <Keyword xml:lang="en-US">health outcomes</Keyword>
    <Abstract xml:lang="en-US">This article presents a thorough evaluation of patient responses to treatment, emphasizing the importance of clinical assessments and feedback. It highlights methodologies for measuring therapeutic effectiveness, aiming to enhance personalized care and improve overall health outcomes in diverse patient populations.</Abstract>
 </Publication>
