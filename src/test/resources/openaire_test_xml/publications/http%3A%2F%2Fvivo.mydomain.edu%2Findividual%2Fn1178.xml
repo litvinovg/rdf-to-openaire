@@ -15,6 +15,7 @@
              xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
              id="http://vivo.mydomain.edu/individual/n1178">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_18cf</Type>
+   <Title xml:lang="en-US">Unlocking the Secrets to a More Productive and Fulfilling Life</Title>
    <Volume>12</Volume>
    <Issue>5</Issue>
    <StartPage>6</StartPage>

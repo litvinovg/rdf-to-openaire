@@ -15,6 +15,7 @@
              xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
              id="http://vivo.mydomain.edu/individual/n2799">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_6670</Type>
+   <Title xml:lang="en-US">Innovative Approaches in Medicine: Advancing Patient Care</Title>
    <Volume>6</Volume>
    <DOI>776583-880-4433-8</DOI>
    <Keyword xml:lang="en-US">Innovative approaches</Keyword>

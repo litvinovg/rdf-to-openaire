@@ -15,4 +15,5 @@
              xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
              id="http://vivo.mydomain.edu/individual/n4763">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_46ec</Type>
+   <Title xml:lang="en-US">Innovative Approaches to Enhancing Patient Care and Outcomes</Title>
 </Publication>

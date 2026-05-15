@@ -15,6 +15,7 @@
              xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
              id="http://vivo.mydomain.edu/individual/n6002">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_18cf</Type>
+   <Title xml:lang="en-US">Innovations in Scientific Research</Title>
    <Volume>8</Volume>
    <Issue>4</Issue>
    <StartPage>11</StartPage>

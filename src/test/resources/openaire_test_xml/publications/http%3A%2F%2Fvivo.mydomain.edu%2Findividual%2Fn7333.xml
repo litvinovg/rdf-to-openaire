@@ -15,6 +15,7 @@
              xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
              id="http://vivo.mydomain.edu/individual/n7333">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_0857</Type>
+   <Title xml:lang="en-US">Innovative Approaches in Quantum Computing</Title>
    <Volume>2</Volume>
    <DOI>s87683-155-2554-4</DOI>
    <Keyword xml:lang="en-US">Quantum computing</Keyword>

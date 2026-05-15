@@ -124,6 +124,7 @@
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
 			<xsl:call-template name="publicationType" />
+			<xsl:call-template name="title" />
 			<xsl:call-template name="volume" />
 			<xsl:call-template name="issue" />
 			<xsl:call-template name="edition" />
@@ -468,6 +469,19 @@
 				</xsl:if>
 				<xsl:value-of select="text()" />
 			</Name>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="title">
+		<xsl:for-each select="rdfs:label">
+			<Title>
+				<xsl:if test="@xml:lang">
+					<xsl:attribute name="xml:lang">
+                    	<xsl:value-of select="@xml:lang" />
+                    </xsl:attribute>
+				</xsl:if>
+				<xsl:value-of select="text()" />
+			</Title>
 		</xsl:for-each>
 	</xsl:template>
 
