@@ -109,7 +109,7 @@
 			<xsl:call-template name="researcherId" />
 			<xsl:call-template name="email" />
 			<xsl:call-template name="telephone" />
-			<xsl:call-template name="url" />
+			<xsl:call-template name="electronicAddressUrl" />
 			<xsl:call-template name="affiliation" />
 		</Person>
 	</xsl:template>
@@ -129,6 +129,7 @@
 			<xsl:call-template name="isbn" />
 			<xsl:call-template name="subject" />
 			<xsl:call-template name="keyword" />
+			<xsl:call-template name="abstract" />
 		</Publication>
 	</xsl:template>
 
@@ -140,7 +141,7 @@
 			<xsl:call-template name="orgType" />
 			<xsl:call-template name="name" />
 			<xsl:call-template name="acronym" />
-			<xsl:call-template name="url" />
+			<xsl:call-template name="electronicAddressUrl" />
 		</OrgUnit>
 	</xsl:template>
 
@@ -177,6 +178,8 @@
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
             <xsl:call-template name="productType" />
+            <xsl:call-template name="name" />
+            <xsl:call-template name="url" />
 		</Product>
 	</xsl:template>
 
@@ -255,6 +258,17 @@
 	            </xsl:attribute>
 				<xsl:value-of select="text()" />
 			</Keyword>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="abstract">
+		<xsl:for-each select="bibo:abstract">
+			<Abstract>
+				<xsl:attribute name="xml:lang">
+	                <xsl:value-of select="@xml:lang" />
+	            </xsl:attribute>
+				<xsl:value-of select="text()" />
+			</Abstract>
 		</xsl:for-each>
 	</xsl:template>
 
@@ -509,12 +523,21 @@
 		</xsl:for-each>
 	</xsl:template>
 
-	<xsl:template name="url">
+	<xsl:template name="electronicAddressUrl">
 		<xsl:for-each
 			select="res:distinct(res:get(res:get(obo:ARG_2000028)/vcard:hasURL))">
 			<ElectronicAddress>
 				<xsl:value-of select="vcard:url/text()" />
 			</ElectronicAddress>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="url">
+		<xsl:for-each
+			select="res:distinct(res:get(res:get(obo:ARG_2000028)/vcard:hasURL))[1]">
+			<URL>
+				<xsl:value-of select="vcard:url/text()" />
+			</URL>
 		</xsl:for-each>
 	</xsl:template>
 
