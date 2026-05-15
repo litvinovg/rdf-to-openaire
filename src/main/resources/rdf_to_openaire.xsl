@@ -164,6 +164,7 @@
 			<xsl:call-template name="title" />
 			<xsl:call-template name="abstract" />
 			<xsl:call-template name="keyword" />
+			<xsl:call-template name="url" />
 		</Patent>
 	</xsl:template>
 
