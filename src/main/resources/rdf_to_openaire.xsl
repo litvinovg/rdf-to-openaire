@@ -176,7 +176,8 @@
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
             <xsl:call-template name="eventType" />
-             <xsl:call-template name="name" />
+            <xsl:call-template name="name" />
+            <xsl:call-template name="acronym" />
 		</Event>
 	</xsl:template>
 	

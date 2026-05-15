@@ -16,4 +16,5 @@
        id="http://vivo.mydomain.edu/individual/n6375">
    <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Conference</Type>
    <Name xml:lang="en-US">Cutting-Edge Solutions in Medical Practice  </Name>
+   <Acronym>CESMP</Acronym>
 </Event>
