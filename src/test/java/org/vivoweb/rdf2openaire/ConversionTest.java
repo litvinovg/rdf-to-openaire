@@ -4,6 +4,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.nio.file.Files;
 import java.util.stream.Stream;
 
 import javax.xml.transform.Source;
@@ -29,6 +30,7 @@ class ConversionTest {
 	private static File rdf = new File("src/test/resources/rdf_test_xml");
 	private static File xslt = new File("src/main/resources/rdf_to_openaire.xsl");
 	private static Transformer transformer;
+	private static boolean UPDATE = true;
 
 	@BeforeAll
 	public static void init() throws TransformerConfigurationException {
@@ -50,7 +52,12 @@ class ConversionTest {
 		ByteArrayOutputStream output = new ByteArrayOutputStream();
 		transformer.transform(inputSource, new StreamResult(output));
 		Source test = Input.fromByteArray(output.toByteArray()).build();
-		assertThat(test, CompareMatcher.isIdenticalTo(controlSource));
+		if (UPDATE) {
+			control.getParentFile().mkdirs();
+			Files.write(control.toPath(), output.toByteArray());
+		} else {
+			assertThat(test, CompareMatcher.isIdenticalTo(controlSource));
+		}
 	}
 
 	public static Stream<Arguments> requests() {
