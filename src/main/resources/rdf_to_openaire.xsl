@@ -96,6 +96,10 @@
 			select="//*[rdfs:comment/text() = 'CERIF Patent']">
 			<xsl:call-template name="patent" />
 		</xsl:for-each>
+		<xsl:for-each
+			select="//*[rdfs:comment/text() = 'CERIF Equipment']">
+			<xsl:call-template name="equipment" />
+		</xsl:for-each>
 	</xsl:template>
 
 	<xsl:template name="person">
@@ -170,6 +174,15 @@
             </xsl:attribute>
             <xsl:call-template name="eventType" />
 		</Event>
+	</xsl:template>
+	
+	<xsl:template name="equipment">
+		<Equipment>
+			<xsl:attribute name="id">
+                <xsl:value-of select="@rdf:about" />
+            </xsl:attribute>
+            <xsl:call-template name="name" />
+		</Equipment>
 	</xsl:template>
 
 	<xsl:template name="product">
