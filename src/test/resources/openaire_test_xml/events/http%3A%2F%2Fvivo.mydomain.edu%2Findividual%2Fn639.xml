@@ -16,4 +16,5 @@
        id="http://vivo.mydomain.edu/individual/n639">
    <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Breaking Barriers in Medical Research</Name>
+   <CountryCode>BR</CountryCode>
 </Event>

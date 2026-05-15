@@ -13,8 +13,11 @@
 	xmlns:res="http://vivoweb.org/rdf-functions"
 	xmlns:obo="http://purl.obolibrary.org/obo/"
 	xmlns:bibo="http://purl.org/ontology/bibo/"
+	xmlns:geo="http://aims.fao.org/aos/geopolitical.owl#"
 	xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-	xmlns="https://www.openaire.eu/cerif-profile/1.2/">
+	xmlns="https://www.openaire.eu/cerif-profile/1.2/"
+	exclude-result-prefixes="geo"
+	>
 
 	<xsl:output method="xml" indent="yes" encoding="UTF-8" />
 
@@ -178,6 +181,7 @@
             <xsl:call-template name="eventType" />
             <xsl:call-template name="name" />
             <xsl:call-template name="acronym" />
+            <xsl:call-template name="countryCode" />
 		</Event>
 	</xsl:template>
 	
@@ -526,6 +530,14 @@
 			<ORCID>
 				<xsl:value-of select="." />
 			</ORCID>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="countryCode">
+		<xsl:for-each select="res:get(obo:RO_0001025)/geo:codeISO2">
+			<CountryCode>
+                <xsl:value-of select="text()" />
+			</CountryCode>
 		</xsl:for-each>
 	</xsl:template>
 

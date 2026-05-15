@@ -16,4 +16,5 @@
        id="http://vivo.mydomain.edu/individual/n1193">
    <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Understanding Human Anatomy</Name>
+   <CountryCode>DE</CountryCode>
 </Event>

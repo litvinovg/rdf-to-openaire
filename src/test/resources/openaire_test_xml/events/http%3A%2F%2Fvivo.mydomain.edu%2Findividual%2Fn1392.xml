@@ -16,4 +16,5 @@
        id="http://vivo.mydomain.edu/individual/n1392">
    <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Advances in Biological Performance</Name>
+   <CountryCode>US</CountryCode>
 </Event>
