@@ -15,4 +15,5 @@
        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
        id="http://vivo.mydomain.edu/individual/n6375">
    <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Conference</Type>
+   <Name xml:lang="en-US">Cutting-Edge Solutions in Medical Practice  </Name>
 </Event>

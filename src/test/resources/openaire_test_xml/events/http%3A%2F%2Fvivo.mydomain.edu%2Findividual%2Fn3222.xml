@@ -15,4 +15,5 @@
        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
        id="http://vivo.mydomain.edu/individual/n3222">
    <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Workshop</Type>
+   <Name xml:lang="en-US">Advanced Clinical Techniques Workshop</Name>
 </Event>
