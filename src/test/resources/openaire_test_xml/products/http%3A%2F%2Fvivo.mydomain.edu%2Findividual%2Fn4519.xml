@@ -15,4 +15,6 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          id="http://vivo.mydomain.edu/individual/n4519">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">http://purl.org/coar/resource_type/c_ddb1</Type>
+   <Name xml:lang="en-US">Genomic Variants Dataset</Name>
+   <URL>https://genom.com</URL>
 </Product>
