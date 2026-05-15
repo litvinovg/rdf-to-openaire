@@ -4,4 +4,11 @@
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">http://purl.org/coar/resource_type/c_18cc</Type>
    <Name xml:lang="en-US">Unlocking the Secrets of the Universe</Name>
    <URL>https://universe.com</URL>
+   <Keyword xml:lang="en-US">Universe</Keyword>
+   <Keyword xml:lang="en-US">secrets</Keyword>
+   <Keyword xml:lang="en-US">cosmic exploration</Keyword>
+   <Keyword xml:lang="en-US">astrophysics</Keyword>
+   <Keyword xml:lang="en-US">fundamental laws</Keyword>
+   <Keyword xml:lang="en-US">scientific discovery</Keyword>
+   <DOI>s45543-129-443367</DOI>
 </Product>

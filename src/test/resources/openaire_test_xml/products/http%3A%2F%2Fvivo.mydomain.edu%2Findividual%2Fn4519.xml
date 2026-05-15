@@ -4,4 +4,11 @@
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">http://purl.org/coar/resource_type/c_ddb1</Type>
    <Name xml:lang="en-US">Genomic Variants Dataset</Name>
    <URL>https://genom.com</URL>
+   <Keyword xml:lang="en-US">Genomic variants</Keyword>
+   <Keyword xml:lang="en-US">dataset</Keyword>
+   <Keyword xml:lang="en-US">sequencing data</Keyword>
+   <Keyword xml:lang="en-US">genetic mutation</Keyword>
+   <Keyword xml:lang="en-US">bioinformatics analysis</Keyword>
+   <Keyword xml:lang="en-US">precision medicine</Keyword>
+   <DOI>s43343-165-7743-8</DOI>
 </Product>

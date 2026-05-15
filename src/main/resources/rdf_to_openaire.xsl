@@ -203,6 +203,8 @@
             <xsl:call-template name="name" />
             <xsl:call-template name="url" />
             <xsl:call-template name="description" />
+        	<xsl:call-template name="keyword" />
+        	<xsl:call-template name="doi" />
 		</Product>
 	</xsl:template>
 
