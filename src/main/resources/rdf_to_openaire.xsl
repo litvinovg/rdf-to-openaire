@@ -125,6 +125,7 @@
             </xsl:attribute>
 			<xsl:call-template name="publicationType" />
 			<xsl:call-template name="title" />
+			<xsl:call-template name="nameAbbreviation" />
 			<xsl:call-template name="volume" />
 			<xsl:call-template name="issue" />
 			<xsl:call-template name="edition" />
@@ -562,6 +563,14 @@
 			<Acronym>
 				<xsl:value-of select="." />
 			</Acronym>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="nameAbbreviation">
+		<xsl:for-each select="vivo:abbreviation">
+			<NameAbbreviation>
+				<xsl:value-of select="." />
+			</NameAbbreviation>
 		</xsl:for-each>
 	</xsl:template>
 
