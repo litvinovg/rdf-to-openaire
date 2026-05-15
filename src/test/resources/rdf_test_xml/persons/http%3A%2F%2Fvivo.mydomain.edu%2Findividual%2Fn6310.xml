@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:j.1="http://purl.obolibrary.org/obo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/2006/vcard/ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.3="http://vivoweb.org/ontology/core#"
+    xmlns:j.4="http://xmlns.com/foaf/0.1/">
+  <j.4:Person rdf:about="http://vivo.mydomain.edu/individual/n6310">
+    <j.1:ARG_2000028>
+      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n7127">
+        <j.2:hasEmail>
+          <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n6289">
+            <j.0:mostSpecificType rdf:resource="http://www.w3.org/2006/vcard/ns#Email"/>
+            <j.2:email>infowan@mail.se</j.2:email>
+            <j.0:mostSpecificType rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+          </rdf:Description>
+        </j.2:hasEmail>
+        <j.2:hasName>
+          <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n6969">
+            <j.3:middleName xml:lang="en-US">Dan</j.3:middleName>
+            <j.2:familyName xml:lang="en-US">Wang</j.2:familyName>
+            <j.2:givenName xml:lang="en-US">Brooks</j.2:givenName>
+          </rdf:Description>
+        </j.2:hasName>
+      </rdf:Description>
+    </j.1:ARG_2000028>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusProfessor"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <j.3:researcherId xml:lang="en-US">A-1782-3321</j.3:researcherId>
+    <j.3:scopusId xml:lang="en-US">22199875422</j.3:scopusId>
+    <rdfs:label xml:lang="en-US">Wang, Brooks Dan</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusFaculty"/>
+    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#EmeritusProfessor"/>
+    <j.1:RO_0000053>
+      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5562">
+        <j.3:roleContributesTo>
+          <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n6010">
+            <j.3:abbreviation xml:lang="en-US">FSI</j.3:abbreviation>
+          </rdf:Description>
+        </j.3:roleContributesTo>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#MemberRole"/>
+      </rdf:Description>
+    </j.1:RO_0000053>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:comment>CERIF Person</rdfs:comment>
+    <j.3:orcidId rdf:resource="https://orcid.org/3476-8700-6997-3423"/>
+  </j.4:Person>
+</rdf:RDF>

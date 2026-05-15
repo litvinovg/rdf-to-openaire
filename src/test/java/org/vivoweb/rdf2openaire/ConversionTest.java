@@ -1,11 +1,9 @@
 package org.vivoweb.rdf2openaire;
 
-import static java.io.File.separator;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.util.Arrays;
 import java.util.stream.Stream;
 
 import javax.xml.transform.Source;
@@ -22,11 +20,13 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.xmlunit.builder.Input;
 import org.xmlunit.matchers.CompareMatcher;
+import org.apache.commons.io.FileUtils;
 
 class ConversionTest {
 
-	private static File rdf = new File("src/test/resources/rdf");
-	private static File openaire = new File("src/test/resources/openaire");
+	private static final String OPENAIRE_TEST = "openaire_test_xml";
+	private static final String RDF_TEST = "rdf_test_xml";
+	private static File rdf = new File("src/test/resources/rdf_test_xml");
 	private static File xslt = new File("src/main/resources/rdf_to_openaire.xsl");
 	private static Transformer transformer;
 
@@ -40,7 +40,7 @@ class ConversionTest {
 	@ParameterizedTest
 	@MethodSource("requests")
 	public void person(File input) throws Exception {
-		File control = new File(openaire.toPath() + separator + input.getName());
+		File control = new File(input.toString().replace(RDF_TEST, OPENAIRE_TEST));
 		test(input, control);
 	}
 
@@ -54,7 +54,7 @@ class ConversionTest {
 	}
 
 	public static Stream<Arguments> requests() {
-		File[] files = rdf.listFiles();
-		return Arrays.stream(files).map(file -> Arguments.of(Named.of(file.getName(), file)));
+		return FileUtils.listFiles(rdf, new String[] { ".xml" }, true).stream()
+				.map(file -> Arguments.of(Named.of(file.getPath(), file)));
 	}
 }

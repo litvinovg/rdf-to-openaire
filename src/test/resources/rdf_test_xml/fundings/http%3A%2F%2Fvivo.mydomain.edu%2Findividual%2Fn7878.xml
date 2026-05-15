@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.1="http://vivoweb.org/ontology/core#"
+    xmlns:j.2="http://xmlns.com/foaf/0.1/">
+  <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n7878">
+    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Award"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Award"/>
+    <j.1:sponsoredBy>
+      <j.2:Organization rdf:about="http://vivo.mydomain.edu/individual/n1657">
+        <rdfs:label xml:lang="en-US">Biological Bonds: Foundations of Life Systems</rdfs:label>
+      </j.2:Organization>
+    </j.1:sponsoredBy>
+    <rdfs:label xml:lang="en-US">Biological Annual Award</rdfs:label>
+    <rdfs:comment>CERIF Funding</rdfs:comment>
+  </owl:Thing>
+</rdf:RDF>

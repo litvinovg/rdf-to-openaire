@@ -13,7 +13,8 @@
 	xmlns:res="http://vivoweb.org/rdf-functions"
 	xmlns:obo="http://purl.obolibrary.org/obo/"
 	xmlns:bibo="http://purl.org/ontology/bibo/"
-	xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+	xmlns="https://www.openaire.eu/cerif-profile/1.2/">
 
 	<xsl:output method="xml" indent="yes" encoding="UTF-8" />
 
@@ -88,8 +89,8 @@
 			<xsl:call-template name="product" />
 		</xsl:for-each>
 		<xsl:for-each
-			select="//*[rdfs:comment/text() = 'CERIF Grant']">
-			<xsl:call-template name="grant" />
+			select="//*[rdfs:comment/text() = 'CERIF Funding']">
+			<xsl:call-template name="funding" />
 		</xsl:for-each>
 		<xsl:for-each
 			select="//*[rdfs:comment/text() = 'CERIF Patent']">
@@ -98,12 +99,14 @@
 	</xsl:template>
 
 	<xsl:template name="person">
-		<Person xmlns="https://www.openaire.eu/cerif-profile/1.2/">
+		<Person>
 			<xsl:attribute name="id">
                      <xsl:value-of select="@rdf:about" />
                  </xsl:attribute>
 			<xsl:call-template name="personName" />
 			<xsl:call-template name="orcid" />
+			<xsl:call-template name="scopusId" />
+			<xsl:call-template name="researcherId" />
 			<xsl:call-template name="email" />
 			<xsl:call-template name="telephone" />
 			<xsl:call-template name="url" />
@@ -112,8 +115,7 @@
 	</xsl:template>
 
 	<xsl:template name="publication">
-		<Publication
-			xmlns="https://www.openaire.eu/cerif-profile/1.2/">
+		<Publication>
 			<xsl:attribute name="id">
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
@@ -131,7 +133,7 @@
 	</xsl:template>
 
 	<xsl:template name="orgUnit">
-		<OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/">
+		<OrgUnit>
 			<xsl:attribute name="id">
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
@@ -143,34 +145,38 @@
 	</xsl:template>
 
 	<xsl:template name="patent">
-		<Patent xmlns="https://www.openaire.eu/cerif-profile/1.2/">
+		<Patent>
 			<xsl:attribute name="id">
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
+            <xsl:call-template name="patentType" />
 		</Patent>
 	</xsl:template>
 
-	<xsl:template name="grant">
-		<Grant xmlns="https://www.openaire.eu/cerif-profile/1.2/">
+	<xsl:template name="funding">
+		<Funding>
 			<xsl:attribute name="id">
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
-		</Grant>
+            <xsl:call-template name="fundingType" />
+		</Funding>
 	</xsl:template>
 
 	<xsl:template name="event">
-		<Event xmlns="https://www.openaire.eu/cerif-profile/1.2/">
+		<Event>
 			<xsl:attribute name="id">
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
+            <xsl:call-template name="eventType" />
 		</Event>
 	</xsl:template>
 
 	<xsl:template name="product">
-		<Product xmlns="https://www.openaire.eu/cerif-profile/1.2/">
+		<Product>
 			<xsl:attribute name="id">
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
+            <xsl:call-template name="productType" />
 		</Product>
 	</xsl:template>
 
@@ -310,12 +316,103 @@
 				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#WorkingPaper'">
 					<xsl:text>http://purl.org/coar/resource_type/c_8042</xsl:text>
 				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Journal'">
+					<xsl:text>http://purl.org/coar/resource_type/c_0640</xsl:text>
+				</xsl:when>
+			</xsl:choose>
+		</Type>
+	</xsl:template>
+
+	<xsl:template name="fundingType">
+		<xsl:variable name="types" select="res:types(.)" /> 
+		<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">
+			<xsl:choose>
+ 				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Grant'">
+					<xsl:text>https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Award'">
+					<xsl:text>https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Award</xsl:text>
+				</xsl:when>
+			</xsl:choose>
+		</Type>
+	</xsl:template>
+
+	<xsl:template name="patentType">
+		<xsl:variable name="types" select="res:types(.)" /> 
+		<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types">
+			<xsl:text>http://purl.org/coar/resource_type/c_15cd</xsl:text>
+		</Type>
+	</xsl:template>
+
+	<xsl:template name="eventType">
+		<xsl:variable name="types" select="res:types(.)" /> 
+		<Type xmlns="https://w3id.org/cerif/vocab/EventTypes">
+			<xsl:choose>
+ 				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Conference'">
+					<xsl:text>https://w3id.org/cerif/vocab/EventTypes#Conference</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Workshop'">
+					<xsl:text>https://w3id.org/cerif/vocab/EventTypes#Workshop</xsl:text>
+				</xsl:when>
+ 				<xsl:otherwise>
+					<xsl:text>https://w3id.org/cerif/model#Event</xsl:text>
+				</xsl:otherwise>
+			</xsl:choose>
+		</Type>
+	</xsl:template>
+
+	<xsl:template name="productType">
+		<xsl:variable name="types" select="res:types(.)" /> 
+		<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
+			<xsl:choose>
+ 				<xsl:when test="$types = 'http://purl.org/ontology/bibo/AudioVisualDocument'">
+					<xsl:text>http://purl.org/coar/resource_type/c_18cc</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#Video'">
+					<xsl:text>http://purl.org/coar/resource_type/c_12ce</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#CaseStudy'">
+					<xsl:text>http://purl.org/coar/resource_type/c_e059</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#Dataset'">
+					<xsl:text>http://purl.org/coar/resource_type/c_ddb1</xsl:text>
+				</xsl:when>
+ 				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Image'">
+					<xsl:text>http://purl.org/coar/resource_type/c_c513</xsl:text>
+				</xsl:when>
+ 				<xsl:when test="$types = 'http://purl.org/ontology/bibo/Map'">
+					<xsl:text>http://purl.org/coar/resource_type/c_12cd</xsl:text>
+				</xsl:when>
+ 				<xsl:otherwise>
+					<xsl:text>https://w3id.org/cerif/model#ResultProduct</xsl:text>
+				</xsl:otherwise>
 			</xsl:choose>
 		</Type>
 	</xsl:template>
 
 	<xsl:template name="orgType">
-		<Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#HigherEducation
+		<xsl:variable name="types" select="res:types(.)" /> 
+		<Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">
+			<xsl:choose>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#University'">
+					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#University</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#ClinicalOrganization'">
+					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#NationalHealthService</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#Company'">
+					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#Company</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#GovernmentAgency'">
+					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#Government</xsl:text>
+				</xsl:when>
+				<xsl:when test="$types = 'http://vivoweb.org/ontology/core#Hospital'">
+					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#NationalHealthService</xsl:text>
+				</xsl:when>
+ 				<xsl:otherwise>
+					<xsl:text>https://w3id.org/cerif/model#OrganisationUnit</xsl:text>
+				</xsl:otherwise>
+			</xsl:choose>
 		</Type>
 	</xsl:template>
 
@@ -346,6 +443,11 @@
 						<xsl:value-of select="text()" />
 					</FirstNames>
 				</xsl:for-each>
+				<xsl:for-each select="vivo:middleName[1]">
+					<OtherNames>
+						<xsl:value-of select="text()" />
+					</OtherNames>
+				</xsl:for-each>
 			</PersonName>
 		</xsl:for-each>
 	</xsl:template>
@@ -358,6 +460,22 @@
 		</xsl:for-each>
 	</xsl:template>
 
+	<xsl:template name="scopusId">
+		<xsl:for-each select="vivo:scopusId">
+			<ScopusAuthorID>
+				<xsl:value-of select="text()" />
+			</ScopusAuthorID>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="researcherId">
+		<xsl:for-each select="vivo:researcherId">
+			<ResearcherID>
+				<xsl:value-of select="text()" />
+			</ResearcherID>
+		</xsl:for-each>
+	</xsl:template>
+
 	<xsl:template name="affiliation">
 		<xsl:for-each
 			select="res:distinct(res:get(res:get(obo:RO_0000053)/vivo:roleContributesTo))">
@@ -365,7 +483,7 @@
 				<OrgUnit>
 					<xsl:attribute name="id">
                     	<xsl:value-of
-						select="concat('OrgUnits/',@rdf:about)" />
+						select="@rdf:about" />
                  	</xsl:attribute>
 					<xsl:call-template name="acronym" />
 				</OrgUnit>

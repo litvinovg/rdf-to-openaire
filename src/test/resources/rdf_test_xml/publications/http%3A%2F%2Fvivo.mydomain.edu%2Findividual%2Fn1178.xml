@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:j.1="http://purl.obolibrary.org/obo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://purl.org/NET/c4dm/event.owl#"
+    xmlns:j.3="http://purl.org/ontology/bibo/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://vivoweb.org/ontology/core#"
+    xmlns:j.5="http://xmlns.com/foaf/0.1/">
+  <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n1178">
+    <j.4:relatedBy>
+      <j.4:Editorship rdf:about="http://vivo.mydomain.edu/individual/n4935">
+        <j.4:relates>
+          <j.5:Agent rdf:about="http://vivo.mydomain.edu/individual/n4450">
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#UndergraduateStudent"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Student"/>
+            <rdfs:label xml:lang="en-US">Chambers, Isabella Charlotta</rdfs:label>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+          </j.5:Agent>
+        </j.4:relates>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.4:relates rdf:resource="http://vivo.mydomain.edu/individual/n1178"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.4:Editorship>
+    </j.4:relatedBy>
+    <j.4:dateTimeValue>
+      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2903">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <j.4:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthDayTimePrecision"/>
+        <j.4:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2005-06-10T00:00:00</j.4:dateTime>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.4:dateTimeValue>
+    <rdfs:label xml:lang="en-US">Unlocking the Secrets to a More Productive and Fulfilling Life</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <j.4:freetextKeyword xml:lang="en-US">Productivity, fulfillment, goal-setting, time management, mindfulness</j.4:freetextKeyword>
+    <rdfs:comment>CERIF Publication</rdfs:comment>
+    <j.3:volume xml:lang="en-US">12</j.3:volume>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    <j.3:pageEnd xml:lang="en-US">16</j.3:pageEnd>
+    <j.3:issue xml:lang="en-US">5</j.3:issue>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <j.4:relatedBy>
+      <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n5385">
+        <j.4:relates>
+          <j.5:Agent rdf:about="http://vivo.mydomain.edu/individual/n4591">
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Librarian"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            <rdfs:label xml:lang="en-US">Boyle, Rowan Jan</rdfs:label>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+          </j.5:Agent>
+        </j.4:relates>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.4:relates rdf:resource="http://vivo.mydomain.edu/individual/n1178"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000001>
+    </j.4:relatedBy>
+    <j.3:status rdf:resource="http://purl.org/ontology/bibo/draft"/>
+    <j.3:abstract xml:lang="en-US">&lt;p&gt;In "Unlocking the Secrets to a More Productive and Fulfilling Life," we explore practical strategies to enhance personal productivity and overall satisfaction. This blog discusses the importance of goal-setting, time management, and mindfulness techniques. By integrating these practices into daily routines, readers can overcome obstacles, boost motivation, and cultivate a balanced lifestyle, ultimately leading to greater fulfillment and achievement in both personal and professional domains.&lt;/p&gt;</j.3:abstract>
+    <j.3:pageStart xml:lang="en-US">6</j.3:pageStart>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.1:RO_0002353>
+      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">
+        <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Workshop"/>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Workshop"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.1:RO_0002353>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <j.3:doi xml:lang="en-US">10.1332/774</j.3:doi>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <j.3:presentedAt>
+      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n1392">
+        <rdfs:label xml:lang="en-US">Advances in Biological Performance</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Performance"/>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Performance"/>
+        <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.3:presentedAt>
+    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#BlogPosting"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#BlogPosting"/>
+  </j.1:BFO_0000001>
+</rdf:RDF>

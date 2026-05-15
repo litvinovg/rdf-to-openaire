@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:j.1="http://purl.obolibrary.org/obo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://purl.org/NET/c4dm/event.owl#"
+    xmlns:j.3="http://www.w3.org/2006/vcard/ns#"
+    xmlns:j.4="http://purl.org/ontology/bibo/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.5="http://vivoweb.org/ontology/core#"
+    xmlns:j.6="http://xmlns.com/foaf/0.1/">
+  <j.1:IAO_0000030 rdf:about="http://vivo.mydomain.edu/individual/n4519">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:comment>CERIF Product</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <j.4:doi xml:lang="en-US">s43343-165-7743-8</j.4:doi>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Dataset"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:label xml:lang="en-US">Genomic Variants Dataset</rdfs:label>
+    <j.5:freetextKeyword xml:lang="en-US">Genomic variants, dataset, sequencing data, genetic mutation, bioinformatics analysis, precision medicine</j.5:freetextKeyword>
+    <j.4:presentedAt>
+      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n7702">
+        <rdfs:label xml:lang="en-US">Fundamentals of Biology</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Course"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Course"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.4:presentedAt>
+    <j.1:ARG_2000028>
+      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5968">
+        <j.3:hasURL>
+          <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n8007">
+            <j.3:url rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"
+            >https://genom.com</j.3:url>
+          </rdf:Description>
+        </j.3:hasURL>
+      </rdf:Description>
+    </j.1:ARG_2000028>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Dataset"/>
+    <j.5:hasSubjectArea rdf:resource="http://vivo.mydomain.edu/individual/n5394"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <j.5:relatedBy>
+      <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2740">
+        <j.5:relates>
+          <j.6:Agent rdf:about="http://vivo.mydomain.edu/individual/n6310">
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusProfessor"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusFaculty"/>
+            <rdfs:label xml:lang="en-US">Wang, Brooks Dan</rdfs:label>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+          </j.6:Agent>
+        </j.5:relates>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n4519"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000001>
+    </j.5:relatedBy>
+  </j.1:IAO_0000030>
+</rdf:RDF>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:j.1="http://purl.obolibrary.org/obo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://purl.org/NET/c4dm/event.owl#"
+    xmlns:j.3="http://purl.org/ontology/bibo/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://vivoweb.org/ontology/core#"
+    xmlns:j.5="http://xmlns.com/foaf/0.1/">
+  <j.1:IAO_0000030 rdf:about="http://vivo.mydomain.edu/individual/n6661">
+    <j.4:freetextKeyword xml:lang="en-US">Microbiota, human health, disease, immune function, gut microbiome</j.4:freetextKeyword>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <j.4:relatedBy>
+      <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2842">
+        <j.4:relates>
+          <j.5:Agent rdf:about="http://vivo.mydomain.edu/individual/n6310">
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusProfessor"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusFaculty"/>
+            <rdfs:label xml:lang="en-US">Wang, Brooks Dan</rdfs:label>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+          </j.5:Agent>
+        </j.4:relates>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.4:relates rdf:resource="http://vivo.mydomain.edu/individual/n6661"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000001>
+    </j.4:relatedBy>
+    <j.3:volume xml:lang="en-US">10</j.3:volume>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.4:relatedBy>
+      <j.4:Editorship rdf:about="http://vivo.mydomain.edu/individual/n1323">
+        <j.4:relates>
+          <j.5:Agent rdf:about="http://vivo.mydomain.edu/individual/n7048">
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusFaculty"/>
+            <rdfs:label xml:lang="en-US">Wise, Pearl Doroti</rdfs:label>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+          </j.5:Agent>
+        </j.4:relates>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.4:relates rdf:resource="http://vivo.mydomain.edu/individual/n6661"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.4:Editorship>
+    </j.4:relatedBy>
+    <j.3:status rdf:resource="http://purl.org/ontology/bibo/published"/>
+    <j.3:pageStart xml:lang="en-US">23</j.3:pageStart>
+    <j.1:RO_0002353>
+      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n639">
+        <rdfs:label xml:lang="en-US">Breaking Barriers in Medical Research</rdfs:label>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Meeting"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Meeting"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.1:RO_0002353>
+    <j.3:presentedAt rdf:resource="http://vivo.mydomain.edu/individual/n639"/>
+    <j.3:pageEnd xml:lang="en-US">56</j.3:pageEnd>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <j.4:dateTimeValue>
+      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n242">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <j.4:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthDayTimePrecision"/>
+        <j.4:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2001-02-15T00:00:00</j.4:dateTime>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.4:dateTimeValue>
+    <j.3:abstract xml:lang="en-US">&lt;p&gt;This article examines the crucial role of microbiota in human health and disease, highlighting its impact on immune function, metabolic processes, and neurological health. It discusses mechanisms by which gut microbes influence pathophysiology and explores the potential of microbiota-based therapies for various conditions, emphasizing the importance of maintaining a balanced microbiome for overall well-being.&lt;/p&gt;</j.3:abstract>
+    <j.3:doi xml:lang="en-US">19.1099/224</j.3:doi>
+    <j.3:issue xml:lang="en-US">2</j.3:issue>
+    <rdfs:comment>CERIF Publication</rdfs:comment>
+    <rdfs:label xml:lang="en-US">The Role of Microbiota in Human Health and Disease</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Article"/>
+  </j.1:IAO_0000030>
+</rdf:RDF>

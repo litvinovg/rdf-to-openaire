@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:j.1="http://purl.obolibrary.org/obo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://purl.org/NET/c4dm/event.owl#"
+    xmlns:j.3="http://purl.org/ontology/bibo/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.4="http://vivoweb.org/ontology/core#"
+    xmlns:j.5="http://xmlns.com/foaf/0.1/">
+  <j.3:Document rdf:about="http://vivo.mydomain.edu/individual/n2635">
+    <j.4:dateTimeValue>
+      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n7869">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <j.4:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthDayTimePrecision"/>
+        <j.4:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2021-11-10T01:00:00</j.4:dateTime>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.4:dateTimeValue>
+    <j.3:issue xml:lang="en-US">6</j.3:issue>
+    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#ConferencePaper"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ConferencePaper"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <j.4:relatedBy>
+      <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n1507">
+        <j.4:relates>
+          <j.5:Agent rdf:about="http://vivo.mydomain.edu/individual/n234">
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#NonAcademic"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            <rdfs:label xml:lang="en-US">Welch, Rivka Grana</rdfs:label>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+          </j.5:Agent>
+        </j.4:relates>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.4:relates rdf:resource="http://vivo.mydomain.edu/individual/n2635"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000001>
+    </j.4:relatedBy>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    <j.4:freetextKeyword xml:lang="en-US">Personalized medicine, patient outcomes, genetic profiling, treatment strategies, healthcare quality, data integration, therapeutic efficacy, individualized care</j.4:freetextKeyword>
+    <rdfs:label xml:lang="en-US">Innovative Strategies for Enhancing Patient Outcomes through Personalized Medicine</rdfs:label>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <j.3:pageEnd xml:lang="en-US">102</j.3:pageEnd>
+    <rdfs:comment>CERIF Publication</rdfs:comment>
+    <j.3:abstract xml:lang="en-US">This conference paper presents innovative strategies for improving patient outcomes through personalized medicine. It discusses tailored treatment approaches based on genetic, environmental, and lifestyle factors, emphasizing the importance of data integration and collaboration. By focusing on individual differences, these strategies aim to optimize therapeutic efficacy and overall healthcare quality.</j.3:abstract>
+    <j.4:relatedBy>
+      <j.4:Editorship rdf:about="http://vivo.mydomain.edu/individual/n2018">
+        <j.4:relates>
+          <j.5:Agent rdf:about="http://vivo.mydomain.edu/individual/n2358">
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            <rdfs:label xml:lang="en-US">Goodman, Philip Brandon</rdfs:label>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+          </j.5:Agent>
+        </j.4:relates>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.4:relates rdf:resource="http://vivo.mydomain.edu/individual/n2635"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.4:Editorship>
+    </j.4:relatedBy>
+    <j.1:RO_0002353>
+      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">
+        <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Workshop"/>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Workshop"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.1:RO_0002353>
+    <j.3:status rdf:resource="http://purl.org/ontology/bibo/accepted"/>
+    <j.3:pageStart xml:lang="en-US">67</j.3:pageStart>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <j.3:doi xml:lang="en-US">44.1656/822</j.3:doi>
+    <j.3:presentedAt>
+      <j.3:Conference rdf:about="http://vivo.mydomain.edu/individual/n6375">
+        <j.4:abbreviation xml:lang="en-US">CESMP</j.4:abbreviation>
+        <rdfs:label xml:lang="en-US">Cutting-Edge Solutions in Medical Practice  </rdfs:label>
+        <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Conference"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.3:Conference>
+    </j.3:presentedAt>
+    <j.3:volume xml:lang="en-US">2</j.3:volume>
+  </j.3:Document>
+</rdf:RDF>
