@@ -12,7 +12,11 @@
     xmlns:j.6="http://xmlns.com/foaf/0.1/">
   <j.1:BFO_0000002 rdf:about="http://vivo.mydomain.edu/individual/n2668">
     <j.4:doi xml:lang="en-US">s45543-129-443367</j.4:doi>
-    <j.5:hasSubjectArea rdf:resource="http://vivo.mydomain.edu/individual/n5742"/>
+    <j.5:hasSubjectArea>
+      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5742">
+        <rdfs:label xml:lang="en-US">Secrets of the Universe</rdfs:label>
+      </rdf:Description>
+    </j.5:hasSubjectArea>
     <rdfs:comment>CERIF Product</rdfs:comment>
     <j.4:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n311">
@@ -53,6 +57,8 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/AudioVisualDocument"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n2656">
         <j.3:hasURL>
@@ -63,8 +69,6 @@
         </j.3:hasURL>
       </rdf:Description>
     </j.1:ARG_2000028>
-    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <rdfs:label xml:lang="en-US">Unlocking the Secrets of the Universe</rdfs:label>
   </j.1:BFO_0000002>
 </rdf:RDF>

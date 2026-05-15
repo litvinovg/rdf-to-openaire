@@ -42,7 +42,11 @@
       </rdf:Description>
     </j.1:ARG_2000028>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Dataset"/>
-    <j.5:hasSubjectArea rdf:resource="http://vivo.mydomain.edu/individual/n5394"/>
+    <j.5:hasSubjectArea>
+      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5394">
+        <rdfs:label xml:lang="en-US">Genomic Harmony </rdfs:label>
+      </rdf:Description>
+    </j.5:hasSubjectArea>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
     <j.5:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2740">
