@@ -15,4 +15,10 @@
    <Keyword xml:lang="en-US">neurological disorders</Keyword>
    <Keyword xml:lang="en-US">adaptation</Keyword>
    <Abstract xml:lang="en-US">"Advances in Neuroscience: Understanding Brain Plasticity" delves into the mechanisms of brain plasticity, exploring how the brain adapts and reorganizes itself in response to experiences and injuries. It highlights recent breakthroughs in neuroplasticity research, offering insights into cognitive recovery, rehabilitation strategies, and the implications for treating neurological disorders, ultimately showcasing the brain's remarkable capacity for renewal and adaptation.</Abstract>
+   <PresentedAt>
+      <Event id="http://vivo.mydomain.edu/individual/n1262">
+         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Name xml:lang="en-US">Preventive Medicine Summit</Name>
+      </Event>
+   </PresentedAt>
 </Publication>

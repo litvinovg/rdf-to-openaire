@@ -12,4 +12,10 @@
    <Keyword xml:lang="en-US">quantum algorithms</Keyword>
    <Keyword xml:lang="en-US">technological advancements</Keyword>
    <Abstract xml:lang="en-US">This article explores innovative approaches in quantum computing, focusing on advancements in quantum algorithms and hardware design. It discusses the implications of these technologies on various fields, including cryptography and artificial intelligence, highlighting their potential to revolutionize computational capabilities and solve complex problems previously deemed infeasible.</Abstract>
+   <PresentedAt>
+      <Event id="http://vivo.mydomain.edu/individual/n311">
+         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Name xml:lang="en-US">The Creative Cosmos</Name>
+      </Event>
+   </PresentedAt>
 </Publication>

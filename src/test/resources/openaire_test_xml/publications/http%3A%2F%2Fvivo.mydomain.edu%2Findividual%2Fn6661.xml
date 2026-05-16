@@ -14,4 +14,10 @@
    <Keyword xml:lang="en-US">immune function</Keyword>
    <Keyword xml:lang="en-US">gut microbiome</Keyword>
    <Abstract xml:lang="en-US">&lt;p&gt;This article examines the crucial role of microbiota in human health and disease, highlighting its impact on immune function, metabolic processes, and neurological health. It discusses mechanisms by which gut microbes influence pathophysiology and explores the potential of microbiota-based therapies for various conditions, emphasizing the importance of maintaining a balanced microbiome for overall well-being.&lt;/p&gt;</Abstract>
+   <PresentedAt>
+      <Event id="http://vivo.mydomain.edu/individual/n639">
+         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Name xml:lang="en-US">Breaking Barriers in Medical Research</Name>
+      </Event>
+   </PresentedAt>
 </Publication>

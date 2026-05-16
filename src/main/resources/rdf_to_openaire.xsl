@@ -140,6 +140,7 @@
 			<xsl:call-template name="subject" />
 			<xsl:call-template name="keyword" />
 			<xsl:call-template name="abstract" />
+			<xsl:call-template name="presentedAt" />
 		</Publication>
 	</xsl:template>
 
@@ -210,6 +211,7 @@
 			<xsl:call-template name="keyword" />
 			<xsl:call-template name="doi" />
 			<xsl:call-template name="subject" />
+			<xsl:call-template name="presentedAt" />
 		</Product>
 	</xsl:template>
 
@@ -284,7 +286,7 @@
 				<xsl:attribute name="id">
 	                <xsl:value-of select="@rdf:about" />
 	            </xsl:attribute>
-				<xsl:value-of select="text()" />
+				<xsl:value-of select="rdfs:label/text()" />
 			</Subject>
 		</xsl:for-each>
 	</xsl:template>
@@ -600,6 +602,14 @@
 			<ResearcherID>
 				<xsl:value-of select="text()" />
 			</ResearcherID>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="presentedAt">
+		<xsl:for-each select="res:get(bibo:presentedAt)">
+			<PresentedAt>
+				<xsl:call-template name="event" />
+			</PresentedAt>
 		</xsl:for-each>
 	</xsl:template>
 

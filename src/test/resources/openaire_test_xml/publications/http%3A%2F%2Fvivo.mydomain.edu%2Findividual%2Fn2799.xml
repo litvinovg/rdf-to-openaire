@@ -12,4 +12,10 @@
    <Keyword xml:lang="en-US">treatment</Keyword>
    <Keyword xml:lang="en-US">healthcare advancements</Keyword>
    <Abstract xml:lang="en-US">This article explores innovative approaches in medicine that enhance patient care. It discusses the integration of advanced technologies, personalized treatment plans, and collaborative healthcare models. By highlighting successful case studies, the article emphasizes the transformative potential of these strategies in improving patient outcomes and overall healthcare quality.</Abstract>
+   <PresentedAt>
+      <Event id="http://vivo.mydomain.edu/individual/n2512">
+         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Workshop</Type>
+         <Name xml:lang="en-US">Exploring Life: A Biological Workshop</Name>
+      </Event>
+   </PresentedAt>
 </Publication>

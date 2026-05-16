@@ -11,4 +11,10 @@
    <Keyword xml:lang="en-US">therapeutic effectiveness</Keyword>
    <Keyword xml:lang="en-US">health outcomes</Keyword>
    <Abstract xml:lang="en-US">This article presents a thorough evaluation of patient responses to treatment, emphasizing the importance of clinical assessments and feedback. It highlights methodologies for measuring therapeutic effectiveness, aiming to enhance personalized care and improve overall health outcomes in diverse patient populations.</Abstract>
+   <PresentedAt>
+      <Event id="http://vivo.mydomain.edu/individual/n615">
+         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Name xml:lang="en-US">Fundamentals of Chemistry: Hands-On Laboratory Techniques</Name>
+      </Event>
+   </PresentedAt>
 </Publication>
