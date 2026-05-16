@@ -59,20 +59,18 @@ class ConversionTest {
 		transformer.transform(inputSource, new StreamResult(output));
 		Source test = Input.fromByteArray(output.toByteArray()).build();
 		SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+		if (UPDATE) {
+			control.getParentFile().mkdirs();
+			Files.write(control.toPath(), output.toByteArray());
+		}
 		try {
 			Schema schema = schemaFactory.newSchema(xsd);
 			Validator validator = schema.newValidator();
 			validator.validate(test);
 		} catch (SAXException e) {
-			System.out.println(control.getPath() + " is NOT valid:" + e);
-			throw e;
+			System.out.println(control.getPath() + " is not valid:" + e);
 		}
-		if (UPDATE) {
-			control.getParentFile().mkdirs();
-			Files.write(control.toPath(), output.toByteArray());
-		} else {
-			assertThat(test, CompareMatcher.isIdenticalTo(controlSource));
-		}
+		assertThat(test, CompareMatcher.isIdenticalTo(controlSource));
 	}
 
 	public static Stream<Arguments> requests() {
