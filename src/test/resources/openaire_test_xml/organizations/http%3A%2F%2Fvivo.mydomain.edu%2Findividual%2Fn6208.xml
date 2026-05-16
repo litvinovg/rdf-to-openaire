@@ -2,6 +2,6 @@
 <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.mydomain.edu/individual/n6208">
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#Company</Type>
-   <Name xml:lang="en-US">Innovatech Scientific Solutions</Name>
    <Acronym>ISS</Acronym>
+   <Name xml:lang="en-US">Innovatech Scientific Solutions</Name>
 </OrgUnit>

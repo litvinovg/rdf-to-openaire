@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Event xmlns="https://www.openaire.eu/cerif-profile/1.2/"
        id="http://vivo.mydomain.edu/individual/n3801">
-   <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+   <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">World Congress of Innovative Science</Name>
 </Event>

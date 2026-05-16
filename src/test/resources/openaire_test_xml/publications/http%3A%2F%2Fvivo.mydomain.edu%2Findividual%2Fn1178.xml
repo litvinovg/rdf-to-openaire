@@ -16,7 +16,7 @@
    <Abstract xml:lang="en-US">&lt;p&gt;In "Unlocking the Secrets to a More Productive and Fulfilling Life," we explore practical strategies to enhance personal productivity and overall satisfaction. This blog discusses the importance of goal-setting, time management, and mindfulness techniques. By integrating these practices into daily routines, readers can overcome obstacles, boost motivation, and cultivate a balanced lifestyle, ultimately leading to greater fulfillment and achievement in both personal and professional domains.&lt;/p&gt;</Abstract>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n1392">
-         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">Advances in Biological Performance</Name>
       </Event>
    </PresentedAt>

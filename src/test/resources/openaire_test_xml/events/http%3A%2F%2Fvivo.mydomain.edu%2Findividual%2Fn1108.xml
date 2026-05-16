@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Event xmlns="https://www.openaire.eu/cerif-profile/1.2/"
        id="http://vivo.mydomain.edu/individual/n1108">
-   <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+   <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Expert Insights: The Future of Healthcare</Name>
-   <CountryCode>BR</CountryCode>
+   <Country>BR</Country>
 </Event>

@@ -2,6 +2,6 @@
 <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.mydomain.edu/individual/n3094">
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#Government</Type>
-   <Name xml:lang="en-US">Agency for Community Development</Name>
    <Acronym>ACD</Acronym>
+   <Name xml:lang="en-US">Agency for Community Development</Name>
 </OrgUnit>

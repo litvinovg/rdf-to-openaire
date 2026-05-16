@@ -2,7 +2,7 @@
 <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.mydomain.edu/individual/n5670">
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
-   <Name xml:lang="en-US">Department of Environmental Studies</Name>
    <Acronym>DES</Acronym>
+   <Name xml:lang="en-US">Department of Environmental Studies</Name>
    <ElectronicAddress>https://envstudies.edu</ElectronicAddress>
 </OrgUnit>

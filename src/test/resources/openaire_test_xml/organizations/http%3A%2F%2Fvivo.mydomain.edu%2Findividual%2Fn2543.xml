@@ -2,6 +2,6 @@
 <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.mydomain.edu/individual/n2543">
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
-   <Name xml:lang="en-US">Unlocking Nature's Secrets</Name>
    <Acronym>UNS</Acronym>
+   <Name xml:lang="en-US">Unlocking Nature's Secrets</Name>
 </OrgUnit>

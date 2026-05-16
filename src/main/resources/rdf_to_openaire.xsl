@@ -112,8 +112,8 @@
                  </xsl:attribute>
 			<xsl:call-template name="personName" />
 			<xsl:call-template name="orcid" />
-			<xsl:call-template name="scopusId" />
 			<xsl:call-template name="researcherId" />
+			<xsl:call-template name="scopusId" />
 			<xsl:call-template name="email" />
 			<xsl:call-template name="telephone" />
 			<xsl:call-template name="electronicAddressUrl" />
@@ -150,8 +150,8 @@
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
 			<xsl:call-template name="orgType" />
-			<xsl:call-template name="name" />
 			<xsl:call-template name="acronym" />
+			<xsl:call-template name="name" />
 			<xsl:call-template name="electronicAddressUrl" />
 		</OrgUnit>
 	</xsl:template>
@@ -184,9 +184,9 @@
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
 			<xsl:call-template name="eventType" />
-			<xsl:call-template name="name" />
 			<xsl:call-template name="acronym" />
-			<xsl:call-template name="countryCode" />
+			<xsl:call-template name="name" />
+			<xsl:call-template name="country" />
 		</Event>
 	</xsl:template>
 
@@ -206,10 +206,10 @@
             </xsl:attribute>
 			<xsl:call-template name="productType" />
 			<xsl:call-template name="name" />
+			<xsl:call-template name="doi" />
 			<xsl:call-template name="url" />
 			<xsl:call-template name="description" />
 			<xsl:call-template name="keyword" />
-			<xsl:call-template name="doi" />
 			<xsl:call-template name="subject" />
 			<xsl:call-template name="presentedAt" />
 		</Product>
@@ -439,7 +439,7 @@
 
 	<xsl:template name="eventType">
 		<xsl:variable name="types" select="res:types(.)" />
-		<Type xmlns="https://w3id.org/cerif/vocab/EventTypes">
+		<Type scheme="https://w3id.org/cerif/vocab/EventTypes">
 			<xsl:choose>
 				<xsl:when
 					test="$types = 'http://purl.org/ontology/bibo/Conference'">
@@ -580,12 +580,12 @@
 		</xsl:for-each>
 	</xsl:template>
 
-	<xsl:template name="countryCode">
+	<xsl:template name="country">
 		<xsl:for-each
 			select="res:get(obo:RO_0001025)/geo:codeISO2">
-			<CountryCode>
+			<Country>
 				<xsl:value-of select="text()" />
-			</CountryCode>
+			</Country>
 		</xsl:for-each>
 	</xsl:template>
 
