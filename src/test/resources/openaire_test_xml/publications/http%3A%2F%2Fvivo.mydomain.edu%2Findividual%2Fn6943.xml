@@ -7,6 +7,18 @@
    <Edition>4</Edition>
    <DOI>s43553-660-2043-2</DOI>
    <ISBN> 728-3-77-114435-7</ISBN>
+   <Authors>
+      <Author>
+         <DisplayName>Hardin, Alicia Mary</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n1502"/>
+      </Author>
+   </Authors>
+   <Editors>
+      <Editor>
+         <DisplayName>Wang, Brooks Dan</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n6310"/>
+      </Editor>
+   </Editors>
    <Keyword xml:lang="en-US">Innovative solutions</Keyword>
    <Keyword xml:lang="en-US">modern challenges</Keyword>
    <Keyword xml:lang="en-US">interdisciplinary collaboration</Keyword>
@@ -15,9 +27,9 @@
    <Abstract xml:lang="en-US">This article examines innovative solutions designed to address modern challenges across various sectors, including healthcare, technology, and environmental sustainability. It highlights case studies that demonstrate the effectiveness of novel approaches and interdisciplinary collaboration. By analyzing emerging trends and their practical applications, the article aims to inspire creativity and resilience in facing today's pressing issues, fostering a proactive mindset for future advancements.</Abstract>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n6375">
-         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Conference</Type>
-         <Name xml:lang="en-US">Cutting-Edge Solutions in Medical Practice  </Name>
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Conference</Type>
          <Acronym>CESMP</Acronym>
+         <Name xml:lang="en-US">Cutting-Edge Solutions in Medical Practice  </Name>
       </Event>
    </PresentedAt>
 </Publication>

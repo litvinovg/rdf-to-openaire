@@ -8,6 +8,18 @@
    <StartPage>2</StartPage>
    <EndPage>45</EndPage>
    <DOI>s41112-199-2443-4</DOI>
+   <Authors>
+      <Author>
+         <DisplayName>Welch, Rivka Grana</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n234"/>
+      </Author>
+   </Authors>
+   <Editors>
+      <Editor>
+         <DisplayName>Hardin, Alicia Mary</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n1502"/>
+      </Editor>
+   </Editors>
    <Keyword xml:lang="en-US">Regenerative medicine</Keyword>
    <Keyword xml:lang="en-US">healing innovations</Keyword>
    <Keyword xml:lang="en-US">stem cells</Keyword>
@@ -17,7 +29,7 @@
    <Abstract xml:lang="en-US">This article explores groundbreaking innovations in regenerative medicine that aim to revitalize healing processes. It discusses advances in stem cell therapy, tissue engineering, and genetic manipulation, highlighting their potential to restore function and promote recovery in damaged tissues. By examining current methodologies and future prospects, the article emphasizes the transformative impact of regenerative medicine on healthcare and patient outcomes.</Abstract>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n7702">
-         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">Fundamentals of Biology</Name>
       </Event>
    </PresentedAt>

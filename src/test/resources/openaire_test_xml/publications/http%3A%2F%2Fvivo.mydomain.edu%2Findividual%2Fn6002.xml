@@ -8,6 +8,18 @@
    <StartPage>11</StartPage>
    <EndPage>34</EndPage>
    <DOI>33.3219/994</DOI>
+   <Authors>
+      <Author>
+         <DisplayName>Chambers, Isabella Charlotta</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n4450"/>
+      </Author>
+   </Authors>
+   <Editors>
+      <Editor>
+         <DisplayName>Goodman, Philip Brandon</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n2358"/>
+      </Editor>
+   </Editors>
    <Keyword xml:lang="en-US">Scientific research</Keyword>
    <Keyword xml:lang="en-US">innovations</Keyword>
    <Keyword xml:lang="en-US">technology</Keyword>
@@ -16,7 +28,7 @@
    <Abstract xml:lang="en-US">This review examines key innovations in scientific research across various fields, highlighting advancements in technology, methodology, and interdisciplinary collaboration. It explores cutting-edge tools such as AI and big data analytics, which revolutionize research efficiency and accuracy. By identifying emerging trends and their potential impacts, this article aims to inspire future exploration and foster transformative discoveries in science.</Abstract>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n3801">
-         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">World Congress of Innovative Science</Name>
       </Event>
    </PresentedAt>

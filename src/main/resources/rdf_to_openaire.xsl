@@ -137,11 +137,45 @@
 			<xsl:call-template name="doi" />
 			<xsl:call-template name="issn" />
 			<xsl:call-template name="isbn" />
+			<xsl:call-template name="authors" />
+			<xsl:call-template name="editors" />
 			<xsl:call-template name="subject" />
 			<xsl:call-template name="keyword" />
 			<xsl:call-template name="abstract" />
 			<xsl:call-template name="presentedAt" />
 		</Publication>
+	</xsl:template>
+
+	<xsl:template name="authors">
+		<xsl:variable name="authors" select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
+		<xsl:if test="$authors">
+			<Authors>
+				<xsl:for-each select="$authors">
+					<Author>
+						<DisplayName>
+							<xsl:value-of select="rdfs:label/text()" />
+						</DisplayName>
+						<xsl:call-template name="person" />
+					</Author>
+				</xsl:for-each>
+			</Authors>
+		</xsl:if>
+	</xsl:template>
+
+	<xsl:template name="editors">
+		<xsl:variable name="editors" select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
+		<xsl:if test="$editors">
+			<Editors>
+				<xsl:for-each select="$editors">
+					<Editor>
+						<DisplayName>
+							<xsl:value-of select="rdfs:label/text()" />
+						</DisplayName>
+						<xsl:call-template name="person" />
+					</Editor>
+				</xsl:for-each>
+			</Editors>
+		</xsl:if>
 	</xsl:template>
 
 	<xsl:template name="orgUnit">
@@ -422,7 +456,7 @@
 					<xsl:text>https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant</xsl:text>
 				</xsl:when>
 				<xsl:when
-					test="$types = 'http://purl.org/ontology/bibo/Award'">
+					test="$types = 'http://vivoweb.org/ontology/core#Award'">
 					<xsl:text>https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Award</xsl:text>
 				</xsl:when>
 			</xsl:choose>

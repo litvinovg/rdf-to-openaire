@@ -8,6 +8,18 @@
    <StartPage>67</StartPage>
    <EndPage>102</EndPage>
    <DOI>44.1656/822</DOI>
+   <Authors>
+      <Author>
+         <DisplayName>Welch, Rivka Grana</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n234"/>
+      </Author>
+   </Authors>
+   <Editors>
+      <Editor>
+         <DisplayName>Goodman, Philip Brandon</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n2358"/>
+      </Editor>
+   </Editors>
    <Keyword xml:lang="en-US">Personalized medicine</Keyword>
    <Keyword xml:lang="en-US">patient outcomes</Keyword>
    <Keyword xml:lang="en-US">genetic profiling</Keyword>
@@ -19,9 +31,9 @@
    <Abstract xml:lang="en-US">This conference paper presents innovative strategies for improving patient outcomes through personalized medicine. It discusses tailored treatment approaches based on genetic, environmental, and lifestyle factors, emphasizing the importance of data integration and collaboration. By focusing on individual differences, these strategies aim to optimize therapeutic efficacy and overall healthcare quality.</Abstract>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n6375">
-         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Conference</Type>
-         <Name xml:lang="en-US">Cutting-Edge Solutions in Medical Practice  </Name>
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Conference</Type>
          <Acronym>CESMP</Acronym>
+         <Name xml:lang="en-US">Cutting-Edge Solutions in Medical Practice  </Name>
       </Event>
    </PresentedAt>
 </Publication>

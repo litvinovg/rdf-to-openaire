@@ -8,6 +8,22 @@
    <StartPage>2</StartPage>
    <EndPage>26</EndPage>
    <DOI>10.2345/995</DOI>
+   <Authors>
+      <Author>
+         <DisplayName>Murillo, Josue Huaco</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n2981"/>
+      </Author>
+      <Author>
+         <DisplayName>Welch, Rivka Grana</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n234"/>
+      </Author>
+   </Authors>
+   <Editors>
+      <Editor>
+         <DisplayName>Cano, Logan Brand</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n4398"/>
+      </Editor>
+   </Editors>
    <Keyword xml:lang="en-US">Innovative biology</Keyword>
    <Keyword xml:lang="en-US">research breakthroughs</Keyword>
    <Keyword xml:lang="en-US">biotechnology</Keyword>

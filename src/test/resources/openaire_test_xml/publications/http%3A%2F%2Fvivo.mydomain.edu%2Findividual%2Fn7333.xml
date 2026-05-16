@@ -5,6 +5,18 @@
    <Title xml:lang="en-US">Innovative Approaches in Quantum Computing</Title>
    <Volume>2</Volume>
    <DOI>s87683-155-2554-4</DOI>
+   <Authors>
+      <Author>
+         <DisplayName>Wang, Brooks Dan</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n6310"/>
+      </Author>
+   </Authors>
+   <Editors>
+      <Editor>
+         <DisplayName>Hardin, Alicia Mary</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n1502"/>
+      </Editor>
+   </Editors>
    <Keyword xml:lang="en-US">Quantum computing</Keyword>
    <Keyword xml:lang="en-US">innovative approaches</Keyword>
    <Keyword xml:lang="en-US">computational power</Keyword>
@@ -14,7 +26,7 @@
    <Abstract xml:lang="en-US">This article explores innovative approaches in quantum computing, focusing on advancements in quantum algorithms and hardware design. It discusses the implications of these technologies on various fields, including cryptography and artificial intelligence, highlighting their potential to revolutionize computational capabilities and solve complex problems previously deemed infeasible.</Abstract>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n311">
-         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">The Creative Cosmos</Name>
       </Event>
    </PresentedAt>

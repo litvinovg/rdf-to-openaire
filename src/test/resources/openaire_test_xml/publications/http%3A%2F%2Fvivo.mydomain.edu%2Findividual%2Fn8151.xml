@@ -8,6 +8,18 @@
    <StartPage>11</StartPage>
    <EndPage>34</EndPage>
    <DOI>10.2249/774</DOI>
+   <Authors>
+      <Author>
+         <DisplayName>Boyle, Rowan Jan</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n4591"/>
+      </Author>
+   </Authors>
+   <Editors>
+      <Editor>
+         <DisplayName>Murillo, Josue Huaco</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n2981"/>
+      </Editor>
+   </Editors>
    <Keyword xml:lang="en-US">Cellular biology</Keyword>
    <Keyword xml:lang="en-US">molecular biology</Keyword>
    <Keyword xml:lang="en-US">cell structure</Keyword>

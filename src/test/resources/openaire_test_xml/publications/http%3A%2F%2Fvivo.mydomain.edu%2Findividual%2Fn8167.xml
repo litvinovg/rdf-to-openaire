@@ -6,6 +6,18 @@
    <NameAbbreviation>ICRM</NameAbbreviation>
    <DOI>10.1022/182</DOI>
    <ISSN>1224-5332</ISSN>
+   <Authors>
+      <Author>
+         <DisplayName>Hardin, Alicia Mary</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n1502"/>
+      </Author>
+   </Authors>
+   <Editors>
+      <Editor>
+         <DisplayName>Welch, Rivka Grana</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n234"/>
+      </Editor>
+   </Editors>
    <Keyword xml:lang="en-US">Cellular</Keyword>
    <Keyword xml:lang="en-US">regeneration</Keyword>
    <Keyword xml:lang="en-US">Stem cells</Keyword>

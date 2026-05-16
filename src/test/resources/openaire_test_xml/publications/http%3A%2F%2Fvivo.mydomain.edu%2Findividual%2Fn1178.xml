@@ -8,6 +8,18 @@
    <StartPage>6</StartPage>
    <EndPage>16</EndPage>
    <DOI>10.1332/774</DOI>
+   <Authors>
+      <Author>
+         <DisplayName>Boyle, Rowan Jan</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n4591"/>
+      </Author>
+   </Authors>
+   <Editors>
+      <Editor>
+         <DisplayName>Chambers, Isabella Charlotta</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n4450"/>
+      </Editor>
+   </Editors>
    <Keyword xml:lang="en-US">Productivity</Keyword>
    <Keyword xml:lang="en-US">fulfillment</Keyword>
    <Keyword xml:lang="en-US">goal-setting</Keyword>

@@ -3,6 +3,7 @@
          id="http://vivo.mydomain.edu/individual/n4519">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">http://purl.org/coar/resource_type/c_ddb1</Type>
    <Name xml:lang="en-US">Genomic Variants Dataset</Name>
+   <DOI>s43343-165-7743-8</DOI>
    <URL>https://genom.com</URL>
    <Keyword xml:lang="en-US">Genomic variants</Keyword>
    <Keyword xml:lang="en-US">dataset</Keyword>
@@ -10,11 +11,10 @@
    <Keyword xml:lang="en-US">genetic mutation</Keyword>
    <Keyword xml:lang="en-US">bioinformatics analysis</Keyword>
    <Keyword xml:lang="en-US">precision medicine</Keyword>
-   <DOI>s43343-165-7743-8</DOI>
    <Subject id="http://vivo.mydomain.edu/individual/n5394">Genomic Harmony </Subject>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n7702">
-         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">Fundamentals of Biology</Name>
       </Event>
    </PresentedAt>

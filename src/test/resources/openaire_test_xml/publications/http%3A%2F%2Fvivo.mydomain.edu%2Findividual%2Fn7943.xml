@@ -7,6 +7,12 @@
    <Edition>3</Edition>
    <DOI>10.1659/885</DOI>
    <ISBN> 934-5-33-118665-4</ISBN>
+   <Authors>
+      <Author>
+         <DisplayName>Murillo, Josue Huaco</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n2981"/>
+      </Author>
+   </Authors>
    <Keyword xml:lang="en-US">Neuroscience</Keyword>
    <Keyword xml:lang="en-US">brain plasticity</Keyword>
    <Keyword xml:lang="en-US">neuroplasticity</Keyword>
@@ -17,7 +23,7 @@
    <Abstract xml:lang="en-US">"Advances in Neuroscience: Understanding Brain Plasticity" delves into the mechanisms of brain plasticity, exploring how the brain adapts and reorganizes itself in response to experiences and injuries. It highlights recent breakthroughs in neuroplasticity research, offering insights into cognitive recovery, rehabilitation strategies, and the implications for treating neurological disorders, ultimately showcasing the brain's remarkable capacity for renewal and adaptation.</Abstract>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n1262">
-         <Type xmlns="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">Preventive Medicine Summit</Name>
       </Event>
    </PresentedAt>
