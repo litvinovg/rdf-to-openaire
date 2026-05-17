@@ -3,8 +3,9 @@
              id="http://vivo.mydomain.edu/individual/n7333">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_0857</Type>
    <Title xml:lang="en-US">Innovative Approaches in Quantum Computing</Title>
+   <PublicationDate>2000-07-16T12:00:00</PublicationDate>
    <Volume>2</Volume>
-   <DOI>s87683-155-2554-4</DOI>
+   <DOI>10.1056/10232274.2977.1094353</DOI>
    <Authors>
       <Author>
          <DisplayName>Wang, Brooks Dan</DisplayName>

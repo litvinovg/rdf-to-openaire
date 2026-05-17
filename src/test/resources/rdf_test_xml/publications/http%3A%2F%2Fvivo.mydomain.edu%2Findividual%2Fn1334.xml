@@ -71,7 +71,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.4:relatedBy>
-    <j.3:doi xml:lang="en-US">10.2345/995</j.3:doi>
+    <j.3:doi xml:lang="en-US">10.2345/10233845.2897.1094783</j.3:doi>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <j.3:issue xml:lang="en-US">3</j.3:issue>

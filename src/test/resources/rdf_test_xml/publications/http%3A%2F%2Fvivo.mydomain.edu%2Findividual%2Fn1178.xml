@@ -48,6 +48,7 @@
     <rdfs:label xml:lang="en-US">Unlocking the Secrets to a More Productive and Fulfilling Life</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.4:freetextKeyword xml:lang="en-US">Productivity, fulfillment, goal-setting, time management, mindfulness</j.4:freetextKeyword>
+    <j.3:doi xml:lang="en-US">10.1056/10233874.2877.1094223</j.3:doi>
     <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.3:volume xml:lang="en-US">12</j.3:volume>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
@@ -91,7 +92,6 @@
       </j.1:BFO_0000003>
     </j.1:RO_0002353>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    <j.3:doi xml:lang="en-US">10.1332/774</j.3:doi>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <j.3:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n1392">

@@ -44,11 +44,11 @@
       </j.1:BFO_0000003>
     </j.1:RO_0002353>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Collection"/>
-    <j.3:doi xml:lang="en-US">10.1022/182</j.3:doi>
     <j.4:abbreviation>ICRM</j.4:abbreviation>
     <j.3:issn xml:lang="en-US">1224-5332</j.3:issn>
     <j.3:abstract xml:lang="en-US">"Insights into Cellular Regeneration Mechanisms" explores the intricate processes underlying cellular regeneration, highlighting key molecular pathways and signaling networks. It emphasizes the role of stem cells and regenerative medicine in tissue repair and disease treatment, providing a comprehensive understanding of how organisms restore and maintain cellular integrity.</j.3:abstract>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <j.3:doi xml:lang="en-US">10.1022/10235574.2977.1093223</j.3:doi>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>

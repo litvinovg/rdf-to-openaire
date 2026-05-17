@@ -4,5 +4,4 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>DES</Acronym>
    <Name xml:lang="en-US">Department of Environmental Studies</Name>
-   <ElectronicAddress>https://envstudies.edu</ElectronicAddress>
 </OrgUnit>

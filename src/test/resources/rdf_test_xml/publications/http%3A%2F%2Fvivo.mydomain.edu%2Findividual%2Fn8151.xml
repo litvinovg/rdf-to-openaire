@@ -58,7 +58,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.4:Editorship>
     </j.4:relatedBy>
-    <j.3:doi xml:lang="en-US">10.2249/774</j.3:doi>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Chapter"/>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/BookSection"/>
     <j.4:relatedBy>
@@ -100,6 +99,7 @@
     <j.3:pageStart xml:lang="en-US">11</j.3:pageStart>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.3:volume xml:lang="en-US">2</j.3:volume>
+    <j.3:doi xml:lang="en-US">10.2249/10233774.2657.1093483</j.3:doi>
     <j.4:placeOfPublication xml:lang="en-US">Maine</j.4:placeOfPublication>
   </owl:Thing>
 </rdf:RDF>

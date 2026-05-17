@@ -9,7 +9,6 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.3:EmeritusLibrarian rdf:about="http://vivo.mydomain.edu/individual/n4398">
-    <j.3:orcidId rdf:resource="https://orcid.org/0670-4401-8910-9074"/>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n6967">
         <j.2:hasEmail>
@@ -45,6 +44,7 @@
     </j.1:RO_0000053>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-5998-5977"/>
     <rdfs:label xml:lang="en-US">Cano, Logan Brand</rdfs:label>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#EmeritusLibrarian"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>

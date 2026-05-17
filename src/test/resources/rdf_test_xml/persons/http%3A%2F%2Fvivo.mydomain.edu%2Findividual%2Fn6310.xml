@@ -29,8 +29,8 @@
     </j.1:ARG_2000028>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusProfessor"/>
+    <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-5698-5476"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <j.3:researcherId xml:lang="en-US">A-1782-3321</j.3:researcherId>
     <j.3:scopusId xml:lang="en-US">22199875422</j.3:scopusId>
     <rdfs:label xml:lang="en-US">Wang, Brooks Dan</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
@@ -47,8 +47,8 @@
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#MemberRole"/>
       </rdf:Description>
     </j.1:RO_0000053>
+    <j.3:researcherId xml:lang="en-US">A-1782-1921</j.3:researcherId>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdfs:comment>CERIF Person</rdfs:comment>
-    <j.3:orcidId rdf:resource="https://orcid.org/3476-8700-6997-3423"/>
   </j.4:Person>
 </rdf:RDF>

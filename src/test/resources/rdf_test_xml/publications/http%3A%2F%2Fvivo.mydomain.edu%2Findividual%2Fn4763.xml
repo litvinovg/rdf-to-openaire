@@ -14,6 +14,7 @@
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdfs:label xml:lang="en-US">Innovative Approaches to Enhancing Patient Care and Outcomes</rdfs:label>
+    <j.2:doi xml:lang="en-US">10.3210/10876874.2977.1095543</j.2:doi>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
   </j.1:IAO_0000030>

@@ -17,6 +17,7 @@
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Video"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/AudioVisualDocument"/>
+    <j.2:doi xml:lang="en-US">10.3207/12233884.3377.1098763</j.2:doi>
     <rdfs:label xml:lang="en-US">Act Now: Climate Change in Action</rdfs:label>
   </j.2:Document>
 </rdf:RDF>

@@ -3,11 +3,12 @@
              id="http://vivo.mydomain.edu/individual/n1178">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_18cf</Type>
    <Title xml:lang="en-US">Unlocking the Secrets to a More Productive and Fulfilling Life</Title>
+   <PublicationDate>2005-06-10T00:00:00</PublicationDate>
    <Volume>12</Volume>
    <Issue>5</Issue>
    <StartPage>6</StartPage>
    <EndPage>16</EndPage>
-   <DOI>10.1332/774</DOI>
+   <DOI>10.1056/10233874.2877.1094223</DOI>
    <Authors>
       <Author>
          <DisplayName>Boyle, Rowan Jan</DisplayName>
@@ -32,4 +33,10 @@
          <Name xml:lang="en-US">Advances in Biological Performance</Name>
       </Event>
    </PresentedAt>
+   <OutputFrom>
+      <Event id="http://vivo.mydomain.edu/individual/n2512">
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Workshop</Type>
+         <Name xml:lang="en-US">Exploring Life: A Biological Workshop</Name>
+      </Event>
+   </OutputFrom>
 </Publication>

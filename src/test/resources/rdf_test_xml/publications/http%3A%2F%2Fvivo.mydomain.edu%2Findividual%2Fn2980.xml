@@ -14,6 +14,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Speech"/>
+    <j.2:doi xml:lang="en-US">10.3200/10236674.5477.1994283</j.2:doi>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Speech"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>

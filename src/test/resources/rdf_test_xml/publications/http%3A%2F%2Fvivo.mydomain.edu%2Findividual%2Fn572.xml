@@ -11,6 +11,7 @@
     xmlns:j.5="http://xmlns.com/foaf/0.1/">
   <j.1:BFO_0000002 rdf:about="http://vivo.mydomain.edu/individual/n572">
     <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    <j.3:doi xml:lang="en-US">10.1390/10288765.2037.1093345</j.3:doi>
     <j.4:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n6755">
         <j.4:relates rdf:resource="http://vivo.mydomain.edu/individual/n572"/>
@@ -55,7 +56,6 @@
     <rdfs:label xml:lang="en-US">Revitalizing Healing: Innovations in Regenerative Medicine</rdfs:label>
     <j.3:abstract xml:lang="en-US">This article explores groundbreaking innovations in regenerative medicine that aim to revitalize healing processes. It discusses advances in stem cell therapy, tissue engineering, and genetic manipulation, highlighting their potential to restore function and promote recovery in damaged tissues. By examining current methodologies and future prospects, the article emphasizes the transformative impact of regenerative medicine on healthcare and patient outcomes.</j.3:abstract>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
-    <j.3:doi xml:lang="en-US">s41112-199-2443-4</j.3:doi>
     <j.3:status rdf:resource="http://purl.org/ontology/bibo/published"/>
     <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.3:presentedAt>

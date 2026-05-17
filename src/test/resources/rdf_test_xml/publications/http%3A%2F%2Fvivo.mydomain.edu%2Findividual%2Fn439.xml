@@ -11,6 +11,7 @@
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#WorkingPaper"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#WorkingPaper"/>
+    <j.2:doi xml:lang="en-US">10.4300/14533874.6977.1029223</j.2:doi>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>

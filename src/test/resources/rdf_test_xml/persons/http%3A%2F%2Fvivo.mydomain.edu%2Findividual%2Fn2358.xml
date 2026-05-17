@@ -9,6 +9,7 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n2358">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <j.1:RO_0000053>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n797">
         <j.3:roleContributesTo>
@@ -19,7 +20,6 @@
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#MemberRole"/>
       </rdf:Description>
     </j.1:RO_0000053>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n3206">
@@ -39,13 +39,13 @@
         </j.2:hasName>
       </rdf:Description>
     </j.1:ARG_2000028>
-    <j.3:orcidId rdf:resource="https://orcid.org/3356-7709-0890-7656"/>
     <j.0:mostSpecificType rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <rdfs:label xml:lang="en-US">Goodman, Philip Brandon</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.3:scopusId xml:lang="en-US">33144456077</j.3:scopusId>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-6219-2494"/>
     <j.3:researcherId xml:lang="en-US">A-1237-2044</j.3:researcherId>
     <rdfs:comment>CERIF Person</rdfs:comment>
   </owl:Thing>

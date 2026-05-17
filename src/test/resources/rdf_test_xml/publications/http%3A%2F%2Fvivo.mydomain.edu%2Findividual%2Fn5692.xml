@@ -11,6 +11,7 @@
     xmlns:j.5="http://xmlns.com/foaf/0.1/">
   <j.1:IAO_0000030 rdf:about="http://vivo.mydomain.edu/individual/n5692">
     <j.3:volume xml:lang="en-US">6</j.3:volume>
+    <j.3:doi xml:lang="en-US">10.1080/10229585.2017.1093383</j.3:doi>
     <j.4:dateTimeValue>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n4981">
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
@@ -26,7 +27,6 @@
     </j.4:dateTimeValue>
     <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.3:issue xml:lang="en-US">4</j.3:issue>
-    <j.3:doi xml:lang="en-US">s41663-128-278-3</j.3:doi>
     <j.3:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">
         <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>

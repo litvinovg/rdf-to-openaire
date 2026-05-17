@@ -15,6 +15,7 @@
     <rdfs:label xml:lang="en-US">Efficient DNA Extraction Protocol</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <j.2:doi xml:lang="en-US">10.4497/10233855.2876.1098723</j.2:doi>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
   </j.1:BFO_0000031>
 </rdf:RDF>

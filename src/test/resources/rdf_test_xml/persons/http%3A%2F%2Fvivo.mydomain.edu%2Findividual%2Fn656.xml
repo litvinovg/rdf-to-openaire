@@ -26,7 +26,6 @@
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <j.3:scopusId xml:lang="en-US">54166360066</j.3:scopusId>
-    <j.3:orcidId rdf:resource="https://orcid.org/0656-6700-8908-9784"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n1360">
@@ -46,9 +45,10 @@
         </j.2:hasName>
       </rdf:Description>
     </j.1:ARG_2000028>
-    <j.3:researcherId xml:lang="en-US">C-1443-2665</j.3:researcherId>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-5687-5478"/>
+    <j.3:researcherId xml:lang="en-US">C-1443-2065</j.3:researcherId>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Postdoc"/>
   </j.3:NonFacultyAcademic>
 </rdf:RDF>

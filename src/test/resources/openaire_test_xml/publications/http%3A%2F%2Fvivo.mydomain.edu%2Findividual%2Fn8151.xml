@@ -3,11 +3,12 @@
              id="http://vivo.mydomain.edu/individual/n8151">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_3248</Type>
    <Title xml:lang="en-US">Fundamentals of Cellular and Molecular Biology</Title>
+   <PublicationDate>2022-12-03T00:00:00</PublicationDate>
    <Volume>2</Volume>
    <Edition>5</Edition>
    <StartPage>11</StartPage>
    <EndPage>34</EndPage>
-   <DOI>10.2249/774</DOI>
+   <DOI>10.2249/10233774.2657.1093483</DOI>
    <Authors>
       <Author>
          <DisplayName>Boyle, Rowan Jan</DisplayName>
@@ -20,6 +21,14 @@
          <Person id="http://vivo.mydomain.edu/individual/n2981"/>
       </Editor>
    </Editors>
+   <Publishers>
+      <Publisher>
+         <OrgUnit id="http://vivo.mydomain.edu/individual/n4849">
+            <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
+            <Name xml:lang="en-US">Innovative Publishing Solutions</Name>
+         </OrgUnit>
+      </Publisher>
+   </Publishers>
    <Keyword xml:lang="en-US">Cellular biology</Keyword>
    <Keyword xml:lang="en-US">molecular biology</Keyword>
    <Keyword xml:lang="en-US">cell structure</Keyword>

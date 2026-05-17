@@ -3,10 +3,11 @@
              id="http://vivo.mydomain.edu/individual/n6943">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_2f33</Type>
    <Title xml:lang="en-US">Innovative Solutions for Modern Challenges</Title>
+   <PublicationDate>2012-06-11T14:00:00</PublicationDate>
    <Volume>5</Volume>
    <Edition>4</Edition>
-   <DOI>s43553-660-2043-2</DOI>
-   <ISBN> 728-3-77-114435-7</ISBN>
+   <DOI>10.4356/17633874.5677.1774223</DOI>
+   <ISBN> 978-3-77-114435-7</ISBN>
    <Authors>
       <Author>
          <DisplayName>Hardin, Alicia Mary</DisplayName>
@@ -19,6 +20,14 @@
          <Person id="http://vivo.mydomain.edu/individual/n6310"/>
       </Editor>
    </Editors>
+   <Publishers>
+      <Publisher>
+         <OrgUnit id="http://vivo.mydomain.edu/individual/n5482">
+            <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
+            <Name xml:lang="en-US">Department of Biological Sciences</Name>
+         </OrgUnit>
+      </Publisher>
+   </Publishers>
    <Keyword xml:lang="en-US">Innovative solutions</Keyword>
    <Keyword xml:lang="en-US">modern challenges</Keyword>
    <Keyword xml:lang="en-US">interdisciplinary collaboration</Keyword>

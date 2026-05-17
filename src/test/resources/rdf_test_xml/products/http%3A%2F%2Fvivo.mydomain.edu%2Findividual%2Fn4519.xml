@@ -14,7 +14,7 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdfs:comment>CERIF Product</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-    <j.4:doi xml:lang="en-US">s43343-165-7743-8</j.4:doi>
+    <j.4:doi xml:lang="en-US">10.6674/10236674.2117.1075223</j.4:doi>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Dataset"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>

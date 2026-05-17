@@ -88,12 +88,12 @@
       </j.1:BFO_0000003>
     </j.4:dateTimeValue>
     <j.3:abstract xml:lang="en-US">&lt;p&gt;This article examines the crucial role of microbiota in human health and disease, highlighting its impact on immune function, metabolic processes, and neurological health. It discusses mechanisms by which gut microbes influence pathophysiology and explores the potential of microbiota-based therapies for various conditions, emphasizing the importance of maintaining a balanced microbiome for overall well-being.&lt;/p&gt;</j.3:abstract>
-    <j.3:doi xml:lang="en-US">19.1099/224</j.3:doi>
-    <j.3:issue xml:lang="en-US">2</j.3:issue>
     <rdfs:comment>CERIF Publication</rdfs:comment>
+    <j.3:issue xml:lang="en-US">2</j.3:issue>
     <rdfs:label xml:lang="en-US">The Role of Microbiota in Human Health and Disease</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
     <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    <j.3:doi xml:lang="en-US">10.1099/10226664.2227.1094433</j.3:doi>
   </j.1:IAO_0000030>
 </rdf:RDF>

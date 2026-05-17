@@ -87,11 +87,11 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000003>
     </j.1:RO_0002353>
+    <j.3:doi xml:lang="en-US">10.1034/10233544.2987.1094323</j.3:doi>
     <j.3:status rdf:resource="http://purl.org/ontology/bibo/accepted"/>
     <j.3:pageStart xml:lang="en-US">67</j.3:pageStart>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    <j.3:doi xml:lang="en-US">44.1656/822</j.3:doi>
     <j.3:presentedAt>
       <j.3:Conference rdf:about="http://vivo.mydomain.edu/individual/n6375">
         <j.4:abbreviation xml:lang="en-US">CESMP</j.4:abbreviation>

@@ -25,6 +25,7 @@
       </j.1:BFO_0000003>
     </j.4:dateTimeValue>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/PersonalCommunicationDocument"/>
+    <j.3:doi xml:lang="en-US">10.1056/10232274.2977.1094353</j.3:doi>
     <j.3:abstract xml:lang="en-US">This article explores innovative approaches in quantum computing, focusing on advancements in quantum algorithms and hardware design. It discusses the implications of these technologies on various fields, including cryptography and artificial intelligence, highlighting their potential to revolutionize computational capabilities and solve complex problems previously deemed infeasible.</j.3:abstract>
     <j.3:status rdf:resource="http://purl.org/ontology/bibo/accepted"/>
     <j.4:relatedBy>
@@ -64,7 +65,6 @@
       </j.1:BFO_0000003>
     </j.3:presentedAt>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    <j.3:doi xml:lang="en-US">s87683-155-2554-4</j.3:doi>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.4:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2260">

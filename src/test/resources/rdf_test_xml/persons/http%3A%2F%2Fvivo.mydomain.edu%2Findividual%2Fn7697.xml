@@ -9,12 +9,12 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.1:BFO_0000004 rdf:about="http://vivo.mydomain.edu/individual/n7697">
-    <j.3:researcherId xml:lang="en-US">A-1134-2331</j.3:researcherId>
     <rdfs:label xml:lang="en-US">Raymond, Frederick Clode</rdfs:label>
     <j.3:scopusId xml:lang="en-US">22180066544</j.3:scopusId>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#GraduateStudent"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Student"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-5667-3346"/>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n2771">
         <j.2:hasEmail>
@@ -43,10 +43,10 @@
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#MemberRole"/>
       </rdf:Description>
     </j.1:RO_0000053>
-    <j.3:orcidId rdf:resource="https://orcid.org/5576-8009-6987-3464"/>
     <rdfs:comment>CERIF Person</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GraduateStudent"/>
+    <j.3:researcherId xml:lang="en-US">A-1134-2031</j.3:researcherId>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>

@@ -62,7 +62,6 @@
     </j.4:relatedBy>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-    <j.3:doi xml:lang="en-US">s43553-660-2043-2</j.3:doi>
     <j.4:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n1934">
         <j.4:relates rdf:resource="http://vivo.mydomain.edu/individual/n6943"/>
@@ -99,7 +98,8 @@
     <j.4:placeOfPublication xml:lang="en-US">London</j.4:placeOfPublication>
     <j.4:freetextKeyword xml:lang="en-US">Innovative solutions, modern challenges, interdisciplinary collaboration, healthcare advancements, sustainable technology</j.4:freetextKeyword>
     <rdfs:label xml:lang="en-US">Innovative Solutions for Modern Challenges</rdfs:label>
-    <j.3:isbn13 xml:lang="en-US"> 728-3-77-114435-7</j.3:isbn13>
+    <j.3:isbn13 xml:lang="en-US"> 978-3-77-114435-7</j.3:isbn13>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <j.3:doi xml:lang="en-US">10.4356/17633874.5677.1774223</j.3:doi>
   </j.3:Proceedings>
 </rdf:RDF>

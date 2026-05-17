@@ -36,6 +36,7 @@
     <j.3:status rdf:resource="http://purl.org/ontology/bibo/published"/>
     <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.3:volume xml:lang="en-US">7</j.3:volume>
+    <j.3:doi xml:lang="en-US">10.3675/10287874.2897.1094543</j.3:doi>
     <j.3:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n615">
         <rdfs:label xml:lang="en-US">Fundamentals of Chemistry: Hands-On Laboratory Techniques</rdfs:label>
@@ -65,7 +66,6 @@
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
     <j.3:abstract xml:lang="en-US">This article presents a thorough evaluation of patient responses to treatment, emphasizing the importance of clinical assessments and feedback. It highlights methodologies for measuring therapeutic effectiveness, aiming to enhance personalized care and improve overall health outcomes in diverse patient populations.</j.3:abstract>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-    <j.3:doi xml:lang="en-US">s41280-440-2554-8</j.3:doi>
     <j.5:relatedBy>
       <j.5:Editorship rdf:about="http://vivo.mydomain.edu/individual/n5131">
         <j.5:relates>

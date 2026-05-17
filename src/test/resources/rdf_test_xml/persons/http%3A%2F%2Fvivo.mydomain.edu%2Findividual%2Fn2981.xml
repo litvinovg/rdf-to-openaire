@@ -44,9 +44,9 @@
     <rdfs:comment>CERIF Person</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#NonFacultyAcademic"/>
+    <j.3:researcherId xml:lang="en-US">S-1122-1945</j.3:researcherId>
+    <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-5568-6345"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-    <j.3:orcidId rdf:resource="https://orcid.org/2356-8098-6900-7234"/>
-    <j.3:researcherId xml:lang="en-US">S-1122-3345</j.3:researcherId>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
   </owl:Thing>

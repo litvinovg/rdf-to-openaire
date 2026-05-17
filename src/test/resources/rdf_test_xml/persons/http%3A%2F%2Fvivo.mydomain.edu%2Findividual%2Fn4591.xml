@@ -30,7 +30,6 @@
       </rdf:Description>
     </j.1:ARG_2000028>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Librarian"/>
-    <j.3:researcherId xml:lang="en-US">B-3454-7767 </j.3:researcherId>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdfs:comment>CERIF Person</rdfs:comment>
     <j.1:RO_0000053>
@@ -45,6 +44,7 @@
     </j.1:RO_0000053>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <j.3:researcherId xml:lang="en-US">A-1124-1967</j.3:researcherId>
     <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-5410-5674"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Librarian"/>

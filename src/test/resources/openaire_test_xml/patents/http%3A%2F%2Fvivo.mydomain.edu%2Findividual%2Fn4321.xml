@@ -3,6 +3,7 @@
         id="http://vivo.mydomain.edu/individual/n4321">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types">http://purl.org/coar/resource_type/c_15cd</Type>
    <Title xml:lang="en-US">Innovative Compound for Enhanced Therapeutic Efficacy</Title>
+   <URL>https://thereff.com</URL>
    <Abstract xml:lang="en-US">This patent presents an innovative compound designed to enhance therapeutic efficacy for targeted medical treatments. By optimizing chemical properties and mechanisms of action, the compound demonstrates improved bioavailability and efficacy in treating specific conditions. This advancement offers a promising solution for addressing unmet medical needs and improving patient outcomes.</Abstract>
    <Keyword xml:lang="en-US">Innovative compound</Keyword>
    <Keyword xml:lang="en-US">therapeutic efficacy</Keyword>
@@ -10,5 +11,4 @@
    <Keyword xml:lang="en-US">pharmaceutical formulation</Keyword>
    <Keyword xml:lang="en-US">medical treatment</Keyword>
    <Keyword xml:lang="en-US">chemical synthesis</Keyword>
-   <URL>https://thereff.com</URL>
 </Patent>

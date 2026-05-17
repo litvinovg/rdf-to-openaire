@@ -3,16 +3,25 @@
              id="http://vivo.mydomain.edu/individual/n7943">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_2f33</Type>
    <Title xml:lang="en-US">Advances in Neuroscience: Understanding Brain Plasticity</Title>
+   <PublicationDate>1999-10-12T04:00:00</PublicationDate>
    <Volume>5</Volume>
    <Edition>3</Edition>
-   <DOI>10.1659/885</DOI>
-   <ISBN> 934-5-33-118665-4</ISBN>
+   <DOI>10.1659/10234574.5877.1094543</DOI>
+   <ISBN>0-19-873423-1</ISBN>
    <Authors>
       <Author>
          <DisplayName>Murillo, Josue Huaco</DisplayName>
          <Person id="http://vivo.mydomain.edu/individual/n2981"/>
       </Author>
    </Authors>
+   <Publishers>
+      <Publisher>
+         <OrgUnit id="http://vivo.mydomain.edu/individual/n7006">
+            <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
+            <Name xml:lang="en-US">InnovateScience</Name>
+         </OrgUnit>
+      </Publisher>
+   </Publishers>
    <Keyword xml:lang="en-US">Neuroscience</Keyword>
    <Keyword xml:lang="en-US">brain plasticity</Keyword>
    <Keyword xml:lang="en-US">neuroplasticity</Keyword>

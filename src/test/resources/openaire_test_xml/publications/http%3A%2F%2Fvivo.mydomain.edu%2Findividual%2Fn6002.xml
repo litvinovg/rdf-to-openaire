@@ -3,11 +3,12 @@
              id="http://vivo.mydomain.edu/individual/n6002">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_18cf</Type>
    <Title xml:lang="en-US">Innovations in Scientific Research</Title>
+   <PublicationDate>2024-10-17T14:10:00</PublicationDate>
    <Volume>8</Volume>
    <Issue>4</Issue>
    <StartPage>11</StartPage>
    <EndPage>34</EndPage>
-   <DOI>33.3219/994</DOI>
+   <DOI>10.1070/10224565.2017.1093383</DOI>
    <Authors>
       <Author>
          <DisplayName>Chambers, Isabella Charlotta</DisplayName>
@@ -32,4 +33,10 @@
          <Name xml:lang="en-US">World Congress of Innovative Science</Name>
       </Event>
    </PresentedAt>
+   <OutputFrom>
+      <Event id="http://vivo.mydomain.edu/individual/n1108">
+         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
+         <Name xml:lang="en-US">Expert Insights: The Future of Healthcare</Name>
+      </Event>
+   </OutputFrom>
 </Publication>

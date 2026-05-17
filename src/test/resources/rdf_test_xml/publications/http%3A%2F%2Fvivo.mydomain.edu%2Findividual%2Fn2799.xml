@@ -65,6 +65,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.4:relatedBy>
+    <j.3:doi xml:lang="en-US">10.8745</j.3:doi>
     <j.3:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">
         <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>
@@ -76,7 +77,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000003>
     </j.3:presentedAt>
-    <j.3:doi xml:lang="en-US">776583-880-4433-8</j.3:doi>
     <j.4:dateTimeValue>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n784">
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>

@@ -11,7 +11,6 @@
     xmlns:j.5="http://vivoweb.org/ontology/core#"
     xmlns:j.6="http://xmlns.com/foaf/0.1/">
   <j.1:BFO_0000002 rdf:about="http://vivo.mydomain.edu/individual/n2668">
-    <j.4:doi xml:lang="en-US">s45543-129-443367</j.4:doi>
     <j.5:hasSubjectArea>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5742">
         <rdfs:label xml:lang="en-US">Secrets of the Universe</rdfs:label>
@@ -70,5 +69,6 @@
       </rdf:Description>
     </j.1:ARG_2000028>
     <rdfs:label xml:lang="en-US">Unlocking the Secrets of the Universe</rdfs:label>
+    <j.4:doi xml:lang="en-US">10.3347/10236374.2847.1094987</j.4:doi>
   </j.1:BFO_0000002>
 </rdf:RDF>

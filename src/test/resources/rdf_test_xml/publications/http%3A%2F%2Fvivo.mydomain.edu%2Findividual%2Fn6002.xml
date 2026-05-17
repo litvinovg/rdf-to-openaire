@@ -83,6 +83,7 @@
       </j.1:BFO_0000003>
     </j.1:RO_0002353>
     <j.4:freetextKeyword xml:lang="en-US">Scientific research, innovations, technology, interdisciplinary collaboration, big data</j.4:freetextKeyword>
+    <j.3:doi xml:lang="en-US">10.1070/10224565.2017.1093383</j.3:doi>
     <j.3:pageStart xml:lang="en-US">11</j.3:pageStart>
     <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.3:issue xml:lang="en-US">4</j.3:issue>
@@ -100,7 +101,6 @@
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Review"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Review"/>
-    <j.3:doi xml:lang="en-US">33.3219/994</j.3:doi>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.3:status rdf:resource="http://purl.org/ontology/bibo/published"/>
