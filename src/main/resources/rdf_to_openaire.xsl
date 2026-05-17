@@ -307,6 +307,7 @@
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
 			<xsl:call-template name="fundingType" />
+			<xsl:call-template name="partOf" />
 		</Funding>
 	</xsl:template>
 
@@ -413,6 +414,13 @@
 		</xsl:for-each>
 	</xsl:template>
 
+	<xsl:template name="partOf">
+		<xsl:for-each select="res:get(obo:BFO_0000050)[res:types(.) = 'http://vivoweb.org/ontology/core#Grant']">
+			<PartOf>
+				<xsl:call-template name="funding" />
+			</PartOf>
+		</xsl:for-each>
+	</xsl:template>
 
 	<xsl:template name="subject">
 		<!-- <xsl:for-each select="res:get(vivo:hasSubjectArea)"> <Subject> <xsl:value-of 
