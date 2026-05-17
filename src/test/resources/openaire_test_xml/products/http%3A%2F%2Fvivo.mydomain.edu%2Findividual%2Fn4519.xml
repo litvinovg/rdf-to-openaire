@@ -5,6 +5,12 @@
    <Name xml:lang="en-US">Genomic Variants Dataset</Name>
    <DOI>10.6674/10236674.2117.1075223</DOI>
    <URL>https://genom.com</URL>
+   <Creators>
+      <Creator>
+         <DisplayName>Wang, Brooks Dan</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n6310"/>
+      </Creator>
+   </Creators>
    <Keyword xml:lang="en-US">Genomic variants</Keyword>
    <Keyword xml:lang="en-US">dataset</Keyword>
    <Keyword xml:lang="en-US">sequencing data</Keyword>

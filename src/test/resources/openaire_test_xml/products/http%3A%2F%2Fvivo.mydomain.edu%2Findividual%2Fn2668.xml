@@ -5,6 +5,12 @@
    <Name xml:lang="en-US">Unlocking the Secrets of the Universe</Name>
    <DOI>10.3347/10236374.2847.1094987</DOI>
    <URL>https://universe.com</URL>
+   <Creators>
+      <Creator>
+         <DisplayName>Murillo, Josue Huaco</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n2981"/>
+      </Creator>
+   </Creators>
    <Keyword xml:lang="en-US">Universe</Keyword>
    <Keyword xml:lang="en-US">secrets</Keyword>
    <Keyword xml:lang="en-US">cosmic exploration</Keyword>

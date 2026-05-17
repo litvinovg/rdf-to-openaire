@@ -149,12 +149,29 @@
 		</Publication>
 	</xsl:template>
 
-	<xsl:template name="inventors">
-		<xsl:variable name="authors"
+	<xsl:template name="creators">
+		<xsl:variable name="creators"
 			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
-		<xsl:if test="$authors">
+		<xsl:if test="$creators">
+			<Creators>
+				<xsl:for-each select="$creators">
+					<Creator>
+						<DisplayName>
+							<xsl:value-of select="rdfs:label/text()" />
+						</DisplayName>
+						<xsl:call-template name="person" />
+					</Creator>
+				</xsl:for-each>
+			</Creators>
+		</xsl:if>
+	</xsl:template>
+
+	<xsl:template name="inventors">
+		<xsl:variable name="inventors"
+			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
+		<xsl:if test="$inventors">
 			<Inventors>
-				<xsl:for-each select="$authors">
+				<xsl:for-each select="$inventors">
 					<Inventor>
 						<DisplayName>
 							<xsl:value-of select="rdfs:label/text()" />
@@ -363,6 +380,7 @@
 			<xsl:call-template name="name" />
 			<xsl:call-template name="doi" />
 			<xsl:call-template name="url" />
+			<xsl:call-template name="creators" />
 			<xsl:call-template name="description" />
 			<xsl:call-template name="subject" />
 			<xsl:call-template name="keyword" />
