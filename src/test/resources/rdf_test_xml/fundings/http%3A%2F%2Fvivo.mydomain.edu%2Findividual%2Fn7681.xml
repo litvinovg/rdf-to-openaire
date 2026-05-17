@@ -52,8 +52,8 @@
             <rdfs:label xml:lang="en-US">Foundations of Scientific Innovation</rdfs:label>
           </j.3:Organization>
         </j.2:assignedBy>
-        <rdfs:comment>CERIF Funding</rdfs:comment>
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Grant"/>
+        <rdfs:comment>OpenAIRE Funding</rdfs:comment>
       </j.1:BFO_0000001>
     </j.1:BFO_0000050>
   </rdf:Description>

@@ -16,7 +16,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       </owl:Thing>
     </j.4:hasSubjectArea>
-    <rdfs:comment>CERIF Event</rdfs:comment>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <j.1:RO_0001025>
       <j.4:GeographicLocation rdf:about="http://dbpedia.org/resource/California">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>

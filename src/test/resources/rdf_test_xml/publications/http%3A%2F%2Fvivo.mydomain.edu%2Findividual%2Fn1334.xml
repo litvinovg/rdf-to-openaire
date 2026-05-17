@@ -14,7 +14,6 @@
     <j.4:freetextKeyword xml:lang="en-US">Innovative biology, research breakthroughs, biotechnology, gene editing, ecological impact</j.4:freetextKeyword>
     <j.3:volume xml:lang="en-US">7</j.3:volume>
     <rdfs:label xml:lang="en-US">Innovative Insights in Modern Biology</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
     <j.3:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n1262">
         <rdfs:label xml:lang="en-US">Preventive Medicine Summit</rdfs:label>
@@ -25,8 +24,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000003>
     </j.3:presentedAt>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.3:pageStart xml:lang="en-US">2</j.3:pageStart>
     <j.4:relatedBy>
       <j.4:Editorship rdf:about="http://vivo.mydomain.edu/individual/n2299">
@@ -49,7 +48,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.4:Editorship>
     </j.4:relatedBy>
-    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#EditorialArticle"/>
     <j.4:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2315">
         <j.4:relates>
@@ -71,6 +69,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.4:relatedBy>
+    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#EditorialArticle"/>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.3:doi xml:lang="en-US">10.2345/10233845.2897.1094783</j.3:doi>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>

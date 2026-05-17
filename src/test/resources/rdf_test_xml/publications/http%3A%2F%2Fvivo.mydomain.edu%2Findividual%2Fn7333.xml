@@ -65,6 +65,7 @@
       </j.1:BFO_0000003>
     </j.3:presentedAt>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.4:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2260">
@@ -90,7 +91,6 @@
     </j.4:relatedBy>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Letter"/>
   </j.1:BFO_0000001>
 </rdf:RDF>

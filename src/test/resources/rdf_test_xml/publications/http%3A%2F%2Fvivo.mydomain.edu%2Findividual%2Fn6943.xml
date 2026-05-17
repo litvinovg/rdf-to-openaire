@@ -14,7 +14,6 @@
     <j.3:edition xml:lang="en-US">4</j.3:edition>
     <j.3:status rdf:resource="http://purl.org/ontology/bibo/accepted"/>
     <j.3:abstract xml:lang="en-US">This article examines innovative solutions designed to address modern challenges across various sectors, including healthcare, technology, and environmental sustainability. It highlights case studies that demonstrate the effectiveness of novel approaches and interdisciplinary collaboration. By analyzing emerging trends and their practical applications, the article aims to inspire creativity and resilience in facing today's pressing issues, fostering a proactive mindset for future advancements.</j.3:abstract>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
     <j.3:isbn13 xml:lang="en-US">978-0-17-414435-3</j.3:isbn13>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
@@ -32,9 +31,15 @@
       </j.1:BFO_0000003>
     </j.4:dateTimeValue>
     <j.4:publisher>
-      <j.5:Organization rdf:about="http://vivo.mydomain.edu/individual/n5482">
+      <j.5:Agent rdf:about="http://vivo.mydomain.edu/individual/n5482">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:label xml:lang="en-US">Department of Biological Sciences</rdfs:label>
-      </j.5:Organization>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.5:Agent>
     </j.4:publisher>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
@@ -96,8 +101,9 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.3:Conference>
     </j.3:presentedAt>
-    <j.4:placeOfPublication xml:lang="en-US">London</j.4:placeOfPublication>
     <j.4:freetextKeyword xml:lang="en-US">Innovative solutions, modern challenges, interdisciplinary collaboration, healthcare advancements, sustainable technology</j.4:freetextKeyword>
+    <j.4:placeOfPublication xml:lang="en-US">London</j.4:placeOfPublication>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <rdfs:label xml:lang="en-US">Innovative Solutions for Modern Challenges</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.3:doi xml:lang="en-US">10.4356/17633874.5677.1774223</j.3:doi>

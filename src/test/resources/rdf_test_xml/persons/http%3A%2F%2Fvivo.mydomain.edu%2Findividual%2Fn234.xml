@@ -9,10 +9,10 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.4:Person rdf:about="http://vivo.mydomain.edu/individual/n234">
+    <rdfs:comment>OpenAIRE Person</rdfs:comment>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#NonAcademic"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#NonAcademic"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:comment>CERIF Person</rdfs:comment>
     <j.1:RO_0000053>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n1889">
         <j.3:roleContributesTo>

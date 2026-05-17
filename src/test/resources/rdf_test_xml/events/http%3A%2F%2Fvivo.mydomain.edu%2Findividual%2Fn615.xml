@@ -12,6 +12,7 @@
   <j.1:BFO_0000015 rdf:about="http://vivo.mydomain.edu/individual/n615">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <j.5:description xml:lang="en-US">www.chemlab.org</j.5:description>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <j.5:dateTimeInterval>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n4006">
         <j.5:start>
@@ -31,7 +32,6 @@
       </rdf:Description>
     </j.5:dateTimeInterval>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <rdfs:label xml:lang="en-US">Fundamentals of Chemistry: Hands-On Laboratory Techniques</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
     <j.5:hasSubjectArea>

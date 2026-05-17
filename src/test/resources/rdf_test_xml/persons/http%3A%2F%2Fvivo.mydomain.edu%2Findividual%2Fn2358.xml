@@ -46,7 +46,7 @@
     <j.3:scopusId xml:lang="en-US">33144456077</j.3:scopusId>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-6219-2494"/>
+    <rdfs:comment>OpenAIRE Person</rdfs:comment>
     <j.3:researcherId xml:lang="en-US">A-1237-2044</j.3:researcherId>
-    <rdfs:comment>CERIF Person</rdfs:comment>
   </owl:Thing>
 </rdf:RDF>

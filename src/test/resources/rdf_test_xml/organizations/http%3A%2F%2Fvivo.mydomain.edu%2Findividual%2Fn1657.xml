@@ -9,9 +9,9 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.1:BFO_0000004 rdf:about="http://vivo.mydomain.edu/individual/n1657">
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Association"/>
     <rdfs:label xml:lang="en-US">Biological Bonds: Foundations of Life Systems</rdfs:label>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <j.1:ARG_2000028>

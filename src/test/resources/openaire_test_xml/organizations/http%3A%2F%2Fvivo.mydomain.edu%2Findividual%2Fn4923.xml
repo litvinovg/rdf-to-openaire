@@ -4,11 +4,13 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#NationalHealthService</Type>
    <Acronym>THS</Acronym>
    <Name xml:lang="en-US">Transforming Healthcare Systems</Name>
+   <ElectronicAddress>mailto:thscontact@mail.su</ElectronicAddress>
    <PartOf>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n655">
          <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#NationalHealthService</Type>
          <Acronym>CHH</Acronym>
          <Name xml:lang="en-US">Caring Hands Hospital</Name>
+         <ElectronicAddress>mailto:chhinfo@mail.com</ElectronicAddress>
       </OrgUnit>
    </PartOf>
 </OrgUnit>

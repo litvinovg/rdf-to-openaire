@@ -28,7 +28,6 @@
       </rdf:Description>
     </j.4:dateTimeInterval>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Presentation"/>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <j.1:RO_0001025>
       <j.1:BFO_0000004 rdf:about="http://vivo.mydomain.edu/individual/n24">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
@@ -46,6 +45,7 @@
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Presentation"/>
     <j.4:description xml:lang="en-US">www.cellbiology.com</j.4:description>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdfs:label xml:lang="en-US">The Wonders of Cell Biology</rdfs:label>

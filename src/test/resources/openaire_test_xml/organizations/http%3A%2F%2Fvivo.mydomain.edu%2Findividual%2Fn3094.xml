@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#Government</Type>
    <Acronym>ACD</Acronym>
    <Name xml:lang="en-US">Agency for Community Development</Name>
+   <ElectronicAddress>mailto:depinfo@mail.com</ElectronicAddress>
 </OrgUnit>

@@ -50,7 +50,6 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <j.3:doi xml:lang="en-US">10.1022/10235574.2977.1093223</j.3:doi>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <j.4:freetextKeyword xml:lang="en-US">Cellular, regeneration, Stem cells, Tissue repair</j.4:freetextKeyword>
@@ -69,12 +68,18 @@
     </j.4:dateTimeValue>
     <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Journal"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.4:publisher>
-      <j.5:Organization rdf:about="http://vivo.mydomain.edu/individual/n4849">
+      <j.5:Agent rdf:about="http://vivo.mydomain.edu/individual/n4849">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Publisher"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:label xml:lang="en-US">Innovative Publishing Solutions</rdfs:label>
-      </j.5:Organization>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.5:Agent>
     </j.4:publisher>
-    <rdfs:label xml:lang="en-US">Insights into Cellular Regeneration Mechanisms</rdfs:label>
     <j.4:relatedBy>
       <j.4:Editorship rdf:about="http://vivo.mydomain.edu/individual/n6888">
         <j.4:relates>
@@ -96,5 +101,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.4:Editorship>
     </j.4:relatedBy>
+    <rdfs:label xml:lang="en-US">Insights into Cellular Regeneration Mechanisms</rdfs:label>
   </j.3:Periodical>
 </rdf:RDF>

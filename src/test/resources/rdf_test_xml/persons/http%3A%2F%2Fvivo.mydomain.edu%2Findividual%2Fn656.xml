@@ -9,7 +9,6 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.3:NonFacultyAcademic rdf:about="http://vivo.mydomain.edu/individual/n656">
-    <rdfs:comment>CERIF Person</rdfs:comment>
     <j.1:RO_0000053>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5420">
         <j.3:roleContributesTo>
@@ -23,6 +22,7 @@
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Postdoc"/>
     <rdfs:label xml:lang="en-US">Cervantes, Yousef Noel</rdfs:label>
+    <rdfs:comment>OpenAIRE Person</rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <j.3:scopusId xml:lang="en-US">54166360066</j.3:scopusId>

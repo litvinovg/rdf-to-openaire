@@ -4,11 +4,13 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>AKTC</Acronym>
    <Name xml:lang="en-US">Advancing Knowledge Through Science</Name>
+   <ElectronicAddress>mailto:adscience@info.us</ElectronicAddress>
    <PartOf>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n3094">
          <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#Government</Type>
          <Acronym>ACD</Acronym>
          <Name xml:lang="en-US">Agency for Community Development</Name>
+         <ElectronicAddress>mailto:depinfo@mail.com</ElectronicAddress>
       </OrgUnit>
    </PartOf>
    <PartOf>
@@ -16,6 +18,7 @@
          <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
          <Acronym>DES</Acronym>
          <Name xml:lang="en-US">Department of Environmental Studies</Name>
+         <ElectronicAddress>mailto:envdepcontact@info.re</ElectronicAddress>
       </OrgUnit>
    </PartOf>
 </OrgUnit>

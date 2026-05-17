@@ -9,10 +9,10 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.1:BFO_0000004 rdf:about="http://vivo.mydomain.edu/individual/n900">
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Museum"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Museum"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n3839">
         <j.2:hasEmail>

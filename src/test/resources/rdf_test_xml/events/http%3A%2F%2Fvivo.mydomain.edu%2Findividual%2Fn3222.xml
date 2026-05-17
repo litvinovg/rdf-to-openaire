@@ -30,6 +30,7 @@
       </rdf:Description>
     </j.6:dateTimeInterval>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.1:RO_0001025>
@@ -57,7 +58,6 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
     <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Workshop"/>
     <j.6:description xml:lang="en-US">www.clnicalworkshop.com</j.6:description>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <j.6:hasSubjectArea>
       <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n5495">
         <rdfs:label xml:lang="en-US">Future of Medicine</rdfs:label>

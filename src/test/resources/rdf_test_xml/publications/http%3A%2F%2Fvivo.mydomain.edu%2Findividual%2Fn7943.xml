@@ -24,7 +24,6 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <j.4:freetextKeyword xml:lang="en-US">Neuroscience, brain plasticity, neuroplasticity, cognitive recovery, rehabilitation, neurological disorders, adaptation</j.4:freetextKeyword>
     <j.3:abstract xml:lang="en-US">"Advances in Neuroscience: Understanding Brain Plasticity" delves into the mechanisms of brain plasticity, exploring how the brain adapts and reorganizes itself in response to experiences and injuries. It highlights recent breakthroughs in neuroplasticity research, offering insights into cognitive recovery, rehabilitation strategies, and the implications for treating neurological disorders, ultimately showcasing the brain's remarkable capacity for renewal and adaptation.</j.3:abstract>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.4:dateTimeValue>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n3565">
@@ -92,16 +91,22 @@
       </j.1:BFO_0000001>
     </j.4:relatedBy>
     <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Book"/>
-    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    <j.4:placeOfPublication xml:lang="en-US">Maine</j.4:placeOfPublication>
-    <j.4:publisher>
-      <j.5:Organization rdf:about="http://vivo.mydomain.edu/individual/n7006">
-        <rdfs:label xml:lang="en-US">InnovateScience</rdfs:label>
-      </j.5:Organization>
-    </j.4:publisher>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <j.4:publisher>
+      <j.5:Agent rdf:about="http://vivo.mydomain.edu/individual/n7006">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label xml:lang="en-US">InnovateScience</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.5:Agent>
+    </j.4:publisher>
+    <j.4:placeOfPublication xml:lang="en-US">Maine</j.4:placeOfPublication>
     <rdfs:label xml:lang="en-US">Advances in Neuroscience: Understanding Brain Plasticity</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.3:volume xml:lang="en-US">5</j.3:volume>
     <j.3:isbn10 xml:lang="en-US">0-19-873423-1</j.3:isbn10>
     <j.3:edition xml:lang="en-US">3</j.3:edition>

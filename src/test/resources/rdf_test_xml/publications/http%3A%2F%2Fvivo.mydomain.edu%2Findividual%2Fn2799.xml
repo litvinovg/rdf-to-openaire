@@ -10,6 +10,7 @@
     xmlns:j.4="http://vivoweb.org/ontology/core#"
     xmlns:j.5="http://xmlns.com/foaf/0.1/">
   <j.1:BFO_0000031 rdf:about="http://vivo.mydomain.edu/individual/n2799">
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.3:volume xml:lang="en-US">6</j.3:volume>
     <rdfs:label xml:lang="en-US">Innovative Approaches in Medicine: Advancing Patient Care</rdfs:label>
     <j.4:freetextKeyword xml:lang="en-US">Innovative approaches, medicine, patient care, technology, treatment, healthcare advancements</j.4:freetextKeyword>
@@ -40,9 +41,19 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#ConferencePoster"/>
+    <j.3:presentedAt>
+      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">
+        <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Workshop"/>
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Workshop"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.3:presentedAt>
     <j.4:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n5021">
         <j.4:relates>
@@ -65,17 +76,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.4:relatedBy>
-    <j.3:presentedAt>
-      <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">
-        <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Workshop"/>
-        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Workshop"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-      </j.1:BFO_0000003>
-    </j.3:presentedAt>
     <j.4:dateTimeValue>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n784">
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>

@@ -9,11 +9,11 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#">
   <j.2:Document rdf:about="http://vivo.mydomain.edu/individual/n7005">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdfs:comment>OpenAIRE Product</rdfs:comment>
     <j.2:doi xml:lang="en-US">10.8876/10233654.2347.1214223</j.2:doi>
     <j.2:volume xml:lang="en-US">4</j.2:volume>
     <j.3:freetextKeyword xml:lang="en-US">Black holes, astrophysics, general relativity, gravitational waves, cosmic phenomena</j.3:freetextKeyword>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#CaseStudy"/>
-    <rdfs:comment>CERIF Product</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>

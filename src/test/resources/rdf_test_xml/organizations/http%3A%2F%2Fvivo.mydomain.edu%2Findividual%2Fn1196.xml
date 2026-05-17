@@ -19,7 +19,6 @@
         </j.2:hasEmail>
       </rdf:Description>
     </j.1:ARG_2000028>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Laboratory"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#CoreLaboratory"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#CoreLaboratory"/>
@@ -28,6 +27,7 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ServiceProvidingLaboratory"/>
     <rdfs:label xml:lang="en-US">Advancing Research at Science Core Lab</rdfs:label>
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>

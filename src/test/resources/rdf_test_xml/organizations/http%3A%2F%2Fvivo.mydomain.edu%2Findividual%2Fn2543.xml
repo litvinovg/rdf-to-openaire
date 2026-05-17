@@ -9,12 +9,12 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.4:Agent rdf:about="http://vivo.mydomain.edu/individual/n2543">
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <rdfs:label xml:lang="en-US">Unlocking Nature's Secrets</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ExtensionUnit"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#ExtensionUnit"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n4674">
         <j.2:hasEmail>
@@ -25,7 +25,7 @@
         </j.2:hasEmail>
       </rdf:Description>
     </j.1:ARG_2000028>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
     <j.3:abbreviation xml:lang="en-US">UNS</j.3:abbreviation>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>

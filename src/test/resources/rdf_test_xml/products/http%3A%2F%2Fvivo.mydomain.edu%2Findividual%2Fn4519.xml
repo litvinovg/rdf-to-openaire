@@ -12,7 +12,6 @@
     xmlns:j.6="http://xmlns.com/foaf/0.1/">
   <j.1:IAO_0000030 rdf:about="http://vivo.mydomain.edu/individual/n4519">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-    <rdfs:comment>CERIF Product</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <j.4:doi xml:lang="en-US">10.6674/10236674.2117.1075223</j.4:doi>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
@@ -48,6 +47,7 @@
       </rdf:Description>
     </j.5:hasSubjectArea>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <rdfs:comment>OpenAIRE Product</rdfs:comment>
     <j.5:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2740">
         <j.5:relates>

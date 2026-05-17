@@ -10,6 +10,7 @@
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.4:Agent rdf:about="http://vivo.mydomain.edu/individual/n4591">
     <j.3:scopusId xml:lang="en-US">55449000442</j.3:scopusId>
+    <rdfs:comment>OpenAIRE Person</rdfs:comment>
     <rdfs:label xml:lang="en-US">Boyle, Rowan Jan</rdfs:label>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5584">
@@ -31,7 +32,6 @@
     </j.1:ARG_2000028>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Librarian"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-    <rdfs:comment>CERIF Person</rdfs:comment>
     <j.1:RO_0000053>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n8714">
         <j.3:roleContributesTo>

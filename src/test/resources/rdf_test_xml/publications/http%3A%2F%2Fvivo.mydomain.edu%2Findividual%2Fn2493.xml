@@ -7,10 +7,10 @@
     xmlns:j.2="http://purl.org/ontology/bibo/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n2493">
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <j.2:doi xml:lang="en-US">10.2376/10236574.8877.1894223</j.2:doi>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Report"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <rdfs:label xml:lang="en-US">Effective Strategies for Managing Chronic Pain</rdfs:label>

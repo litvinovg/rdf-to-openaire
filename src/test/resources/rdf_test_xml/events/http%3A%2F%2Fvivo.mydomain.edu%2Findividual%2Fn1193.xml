@@ -42,7 +42,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       </owl:Thing>
     </j.6:hasSubjectArea>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
     <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
@@ -67,6 +66,7 @@
     </j.6:dateTimeInterval>
     <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Hearing"/>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Hearing"/>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <j.6:description xml:lang="en-US">www.biologyquestions.com</j.6:description>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
   </owl:Thing>

@@ -7,11 +7,11 @@
     xmlns:j.2="http://purl.org/ontology/bibo/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <j.1:BFO_0000031 rdf:about="http://vivo.mydomain.edu/individual/n3288">
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.0:mostSpecificType rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdfs:label xml:lang="en-US">Efficient DNA Extraction Protocol</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>

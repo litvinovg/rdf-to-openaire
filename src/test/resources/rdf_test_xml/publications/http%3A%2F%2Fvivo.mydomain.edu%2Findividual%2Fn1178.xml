@@ -49,7 +49,7 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.4:freetextKeyword xml:lang="en-US">Productivity, fulfillment, goal-setting, time management, mindfulness</j.4:freetextKeyword>
     <j.3:doi xml:lang="en-US">10.1056/10233874.2877.1094223</j.3:doi>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.3:volume xml:lang="en-US">12</j.3:volume>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
     <j.3:pageEnd xml:lang="en-US">16</j.3:pageEnd>
@@ -79,7 +79,6 @@
     <j.3:status rdf:resource="http://purl.org/ontology/bibo/draft"/>
     <j.3:abstract xml:lang="en-US">&lt;p&gt;In "Unlocking the Secrets to a More Productive and Fulfilling Life," we explore practical strategies to enhance personal productivity and overall satisfaction. This blog discusses the importance of goal-setting, time management, and mindfulness techniques. By integrating these practices into daily routines, readers can overcome obstacles, boost motivation, and cultivate a balanced lifestyle, ultimately leading to greater fulfillment and achievement in both personal and professional domains.&lt;/p&gt;</j.3:abstract>
     <j.3:pageStart xml:lang="en-US">6</j.3:pageStart>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.1:RO_0002353>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">
         <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>
@@ -91,6 +90,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000003>
     </j.1:RO_0002353>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <j.3:presentedAt>

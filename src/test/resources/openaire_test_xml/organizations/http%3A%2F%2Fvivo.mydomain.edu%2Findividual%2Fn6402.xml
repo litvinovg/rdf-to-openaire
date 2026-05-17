@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#University</Type>
    <Acronym>GRUNI</Acronym>
    <Name xml:lang="en-US">Greenfield University</Name>
+   <ElectronicAddress>mailto:gruniinfo@mail.us</ElectronicAddress>
 </OrgUnit>

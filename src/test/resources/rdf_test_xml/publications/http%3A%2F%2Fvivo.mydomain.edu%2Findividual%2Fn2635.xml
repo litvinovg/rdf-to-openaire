@@ -54,8 +54,7 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <j.3:pageEnd xml:lang="en-US">102</j.3:pageEnd>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
-    <j.3:abstract xml:lang="en-US">This conference paper presents innovative strategies for improving patient outcomes through personalized medicine. It discusses tailored treatment approaches based on genetic, environmental, and lifestyle factors, emphasizing the importance of data integration and collaboration. By focusing on individual differences, these strategies aim to optimize therapeutic efficacy and overall healthcare quality.</j.3:abstract>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.4:relatedBy>
       <j.4:Editorship rdf:about="http://vivo.mydomain.edu/individual/n2018">
         <j.4:relates>
@@ -76,6 +75,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.4:Editorship>
     </j.4:relatedBy>
+    <j.3:abstract xml:lang="en-US">This conference paper presents innovative strategies for improving patient outcomes through personalized medicine. It discusses tailored treatment approaches based on genetic, environmental, and lifestyle factors, emphasizing the importance of data integration and collaboration. By focusing on individual differences, these strategies aim to optimize therapeutic efficacy and overall healthcare quality.</j.3:abstract>
     <j.1:RO_0002353>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">
         <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>

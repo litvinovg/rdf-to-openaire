@@ -34,6 +34,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.4:relatedBy>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.3:volume xml:lang="en-US">10</j.3:volume>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
@@ -88,7 +89,6 @@
       </j.1:BFO_0000003>
     </j.4:dateTimeValue>
     <j.3:abstract xml:lang="en-US">&lt;p&gt;This article examines the crucial role of microbiota in human health and disease, highlighting its impact on immune function, metabolic processes, and neurological health. It discusses mechanisms by which gut microbes influence pathophysiology and explores the potential of microbiota-based therapies for various conditions, emphasizing the importance of maintaining a balanced microbiome for overall well-being.&lt;/p&gt;</j.3:abstract>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.3:issue xml:lang="en-US">2</j.3:issue>
     <rdfs:label xml:lang="en-US">The Role of Microbiota in Human Health and Disease</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>

@@ -11,7 +11,6 @@
   <j.1:BFO_0000002 rdf:about="http://vivo.mydomain.edu/individual/n6208">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <j.3:abbreviation xml:lang="en-US">ISS</j.3:abbreviation>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
@@ -27,6 +26,7 @@
         </j.2:hasEmail>
       </rdf:Description>
     </j.1:ARG_2000028>
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
     <rdfs:label xml:lang="en-US">Innovatech Scientific Solutions</rdfs:label>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Company"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#PrivateCompany"/>

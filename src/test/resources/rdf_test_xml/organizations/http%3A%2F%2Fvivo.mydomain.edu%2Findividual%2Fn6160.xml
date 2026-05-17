@@ -4,18 +4,29 @@
     xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
     xmlns:j.1="http://purl.obolibrary.org/obo/"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/2006/vcard/ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:j.2="http://vivoweb.org/ontology/core#"
-    xmlns:j.3="http://xmlns.com/foaf/0.1/">
+    xmlns:j.3="http://vivoweb.org/ontology/core#"
+    xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n7681">
     <j.1:BFO_0000050>
       <j.1:BFO_0000004 rdf:about="http://vivo.mydomain.edu/individual/n6160">
-        <j.2:abbreviation xml:lang="en-US">IRI</j.2:abbreviation>
+        <j.3:abbreviation xml:lang="en-US">IRI</j.3:abbreviation>
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
-        <rdfs:comment>CERIF OrgUnit</rdfs:comment>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.1:ARG_2000028>
+          <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n7540">
+            <j.2:hasEmail>
+              <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n1591">
+                <j.2:email>mailto@info.de</j.2:email>
+                <j.0:mostSpecificType rdf:resource="http://www.w3.org/2006/vcard/ns#Email"/>
+              </rdf:Description>
+            </j.2:hasEmail>
+          </rdf:Description>
+        </j.1:ARG_2000028>
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
+        <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdfs:label xml:lang="en-US">Innovative Research Institute</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>

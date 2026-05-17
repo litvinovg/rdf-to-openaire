@@ -4,11 +4,13 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>HVC</Acronym>
    <Name xml:lang="en-US">Horizon Valley College</Name>
+   <ElectronicAddress>mailto:infohvc@mail.com</ElectronicAddress>
    <PartOf>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n6402">
          <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#University</Type>
          <Acronym>GRUNI</Acronym>
          <Name xml:lang="en-US">Greenfield University</Name>
+         <ElectronicAddress>mailto:gruniinfo@mail.us</ElectronicAddress>
       </OrgUnit>
    </PartOf>
 </OrgUnit>

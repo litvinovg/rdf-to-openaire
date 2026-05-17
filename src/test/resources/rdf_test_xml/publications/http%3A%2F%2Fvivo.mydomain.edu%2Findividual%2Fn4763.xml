@@ -9,8 +9,8 @@
   <j.1:IAO_0000030 rdf:about="http://vivo.mydomain.edu/individual/n4763">
     <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Thesis"/>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Thesis"/>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdfs:label xml:lang="en-US">Innovative Approaches to Enhancing Patient Care and Outcomes</rdfs:label>

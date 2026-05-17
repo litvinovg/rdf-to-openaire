@@ -15,6 +15,6 @@
       </j.2:Organization>
     </j.1:sponsoredBy>
     <rdfs:label xml:lang="en-US">Biological Annual Award</rdfs:label>
-    <rdfs:comment>CERIF Funding</rdfs:comment>
+    <rdfs:comment>OpenAIRE Funding</rdfs:comment>
   </owl:Thing>
 </rdf:RDF>

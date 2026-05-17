@@ -35,8 +35,8 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
       </j.5:Location>
     </j.1:RO_0001025>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
     <j.5:hasSubjectArea>
       <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n7185">

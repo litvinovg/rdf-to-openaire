@@ -57,7 +57,6 @@
     <j.3:abstract xml:lang="en-US">This article explores groundbreaking innovations in regenerative medicine that aim to revitalize healing processes. It discusses advances in stem cell therapy, tissue engineering, and genetic manipulation, highlighting their potential to restore function and promote recovery in damaged tissues. By examining current methodologies and future prospects, the article emphasizes the transformative impact of regenerative medicine on healthcare and patient outcomes.</j.3:abstract>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
     <j.3:status rdf:resource="http://purl.org/ontology/bibo/published"/>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.3:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n7702">
         <rdfs:label xml:lang="en-US">Fundamentals of Biology</rdfs:label>
@@ -93,5 +92,6 @@
     </j.4:relatedBy>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
   </j.1:BFO_0000002>
 </rdf:RDF>

@@ -46,7 +46,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       </owl:Thing>
     </j.5:hasSubjectArea>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Presentation"/>
     <j.5:dateTimeInterval>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n3035">
@@ -67,6 +66,7 @@
       </rdf:Description>
     </j.5:dateTimeInterval>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#InvitedTalk"/>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
     <j.5:description xml:lang="en-US">www.invitedtalk.org</j.5:description>

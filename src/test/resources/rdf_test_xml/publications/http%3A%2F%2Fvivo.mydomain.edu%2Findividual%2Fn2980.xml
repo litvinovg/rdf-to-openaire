@@ -9,8 +9,8 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#">
   <j.1:BFO_0000031 rdf:about="http://vivo.mydomain.edu/individual/n2980">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdfs:label xml:lang="en-US">Innovations in Modern Medicine</rdfs:label>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Speech"/>

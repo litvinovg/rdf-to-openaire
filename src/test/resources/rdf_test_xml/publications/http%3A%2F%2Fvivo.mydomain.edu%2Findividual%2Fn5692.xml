@@ -25,7 +25,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000003>
     </j.4:dateTimeValue>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.3:issue xml:lang="en-US">4</j.3:issue>
     <j.3:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">

@@ -9,6 +9,7 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.3:FacultyMember rdf:about="http://vivo.mydomain.edu/individual/n1502">
+    <rdfs:comment>OpenAIRE Person</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-5577-6987"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
@@ -32,7 +33,6 @@
         </j.2:hasName>
       </rdf:Description>
     </j.1:ARG_2000028>
-    <rdfs:comment>CERIF Person</rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.3:scopusId xml:lang="en-US">55180076540</j.3:scopusId>

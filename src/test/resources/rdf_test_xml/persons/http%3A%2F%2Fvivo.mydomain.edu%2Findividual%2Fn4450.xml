@@ -12,6 +12,7 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdfs:label xml:lang="en-US">Chambers, Isabella Charlotta</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:comment>OpenAIRE Person</rdfs:comment>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n89">
         <j.2:hasTelephone>
@@ -61,6 +62,5 @@
     <j.3:scopusId xml:lang="en-US">29849334411</j.3:scopusId>
     <j.3:researcherId xml:lang="en-US">A-2212-1943</j.3:researcherId>
     <j.3:orcidId rdf:resource="https://orcid.org/0000-0001-6549-2117"/>
-    <rdfs:comment>CERIF Person</rdfs:comment>
   </j.4:Person>
 </rdf:RDF>

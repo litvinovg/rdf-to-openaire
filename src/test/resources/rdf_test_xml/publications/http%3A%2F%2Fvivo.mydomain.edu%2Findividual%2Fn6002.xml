@@ -71,6 +71,7 @@
     </j.4:relatedBy>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Article"/>
     <j.3:pageEnd xml:lang="en-US">34</j.3:pageEnd>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.1:RO_0002353>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n1108">
         <rdfs:label xml:lang="en-US">Expert Insights: The Future of Healthcare</rdfs:label>
@@ -83,9 +84,8 @@
       </j.1:BFO_0000003>
     </j.1:RO_0002353>
     <j.4:freetextKeyword xml:lang="en-US">Scientific research, innovations, technology, interdisciplinary collaboration, big data</j.4:freetextKeyword>
-    <j.3:doi xml:lang="en-US">10.1070/10224565.2017.1093383</j.3:doi>
     <j.3:pageStart xml:lang="en-US">11</j.3:pageStart>
-    <rdfs:comment>CERIF Publication</rdfs:comment>
+    <j.3:doi xml:lang="en-US">10.1070/10224565.2017.1093383</j.3:doi>
     <j.3:issue xml:lang="en-US">4</j.3:issue>
     <j.3:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n3801">

@@ -10,6 +10,7 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.5="http://vivoweb.org/ontology/core#">
   <j.1:BFO_0000015 rdf:about="http://vivo.mydomain.edu/individual/n6375">
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <j.5:dateTimeInterval>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n4870">
         <j.5:start>
@@ -53,7 +54,6 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
       </j.5:GeographicLocation>
     </j.1:RO_0001025>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>

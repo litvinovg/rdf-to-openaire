@@ -11,7 +11,6 @@
     xmlns:j.5="http://vivoweb.org/ontology/core#">
   <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n2527">
     <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <j.5:dateTimeInterval>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n7613">
         <j.5:start>
@@ -65,6 +64,7 @@
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Country"/>
       </j.2:territory>
     </j.1:RO_0001025>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <j.5:description xml:lang="en-US">www.genprof.com</j.5:description>
   </owl:Thing>
 </rdf:RDF>

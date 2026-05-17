@@ -64,9 +64,9 @@
     </j.5:dateTimeInterval>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
     <rdfs:label xml:lang="en-US">Breaking Barriers in Medical Research</rdfs:label>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Meeting"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Meeting"/>
-    <rdfs:comment>CERIF Event</rdfs:comment>
   </j.3:Event>
 </rdf:RDF>

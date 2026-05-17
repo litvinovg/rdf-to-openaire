@@ -11,6 +11,7 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.6="http://vivoweb.org/ontology/core#">
   <j.1:BFO_0000015 rdf:about="http://vivo.mydomain.edu/individual/n2512">
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <j.1:RO_0001025>
       <j.6:GeographicLocation rdf:about="http://aims.fao.org/aos/geopolitical.owl#Germany">
         <rdfs:label>Germany</rdfs:label>
@@ -68,6 +69,5 @@
     <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
     <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>
-    <rdfs:comment>CERIF Event</rdfs:comment>
   </j.1:BFO_0000015>
 </rdf:RDF>

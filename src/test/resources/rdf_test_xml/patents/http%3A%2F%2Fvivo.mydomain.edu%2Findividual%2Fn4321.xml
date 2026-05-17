@@ -43,12 +43,12 @@
       <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n4321">
         <j.4:relatedBy rdf:resource="http://vivo.mydomain.edu/individual/n5044"/>
         <j.4:patentNumber xml:lang="en-US">US-12234/988876-1</j.4:patentNumber>
-        <rdfs:comment>CERIF Patent</rdfs:comment>
         <rdf:type rdf:resource="http://purl.org/ontology/bibo/Patent"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:comment>OpenAIRE Patent</rdfs:comment>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <j.4:dateIssued>
           <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n7481">

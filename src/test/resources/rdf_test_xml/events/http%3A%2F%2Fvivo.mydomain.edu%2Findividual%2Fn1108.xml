@@ -58,7 +58,6 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
       </j.1:BFO_0000002>
     </j.1:RO_0001025>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
     <j.6:hasSubjectArea>
       <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n5273">
@@ -68,6 +67,7 @@
       </owl:Thing>
     </j.6:hasSubjectArea>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <j.6:description xml:lang="en-US">www.speechseries.com</j.6:description>
   </owl:Thing>
 </rdf:RDF>

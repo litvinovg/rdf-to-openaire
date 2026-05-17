@@ -14,6 +14,6 @@
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Equipment"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Equipment"/>
     <rdfs:label xml:lang="en-US">Electrocardiogram (ECG or EKG) Machine</rdfs:label>
-    <rdfs:comment>CERIF Equipment</rdfs:comment>
+    <rdfs:comment>OpenAIRE Equipment</rdfs:comment>
   </j.1:BFO_0000001>
 </rdf:RDF>

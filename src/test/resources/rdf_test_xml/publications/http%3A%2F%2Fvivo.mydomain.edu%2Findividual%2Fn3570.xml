@@ -8,8 +8,8 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.3="http://vivoweb.org/ontology/core#">
   <j.1:BFO_0000031 rdf:about="http://vivo.mydomain.edu/individual/n3570">
-    <rdfs:comment>CERIF Publication</rdfs:comment>
     <j.2:doi xml:lang="en-US">10.6532/13323874.2777.1033983</j.2:doi>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#ResearchProposal"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>

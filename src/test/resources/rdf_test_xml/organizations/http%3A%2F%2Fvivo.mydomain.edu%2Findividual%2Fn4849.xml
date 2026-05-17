@@ -10,8 +10,8 @@
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.4:Organization rdf:about="http://vivo.mydomain.edu/individual/n4849">
     <rdfs:label xml:lang="en-US">Innovative Publishing Solutions</rdfs:label>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Publisher"/>
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n2627">
         <j.2:hasEmail>

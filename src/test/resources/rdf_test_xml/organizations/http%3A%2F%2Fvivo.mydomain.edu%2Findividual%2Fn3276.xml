@@ -9,7 +9,7 @@
     xmlns:j.3="http://vivoweb.org/ontology/core#"
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.3:Consortium rdf:about="http://vivo.mydomain.edu/individual/n3276">
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Consortium"/>
     <j.3:abbreviation xml:lang="en-US">SSI</j.3:abbreviation>
     <j.1:ARG_2000028>

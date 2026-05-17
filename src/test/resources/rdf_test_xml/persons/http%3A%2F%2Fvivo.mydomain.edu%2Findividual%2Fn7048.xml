@@ -10,11 +10,11 @@
     xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.1:BFO_0000002 rdf:about="http://vivo.mydomain.edu/individual/n7048">
     <j.3:scopusId xml:lang="en-US">52280009932</j.3:scopusId>
-    <rdfs:comment>CERIF Person</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <j.3:researcherId xml:lang="en-US">A-1224-1934</j.3:researcherId>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    <rdfs:comment>OpenAIRE Person</rdfs:comment>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n3345">
         <j.2:hasEmail>

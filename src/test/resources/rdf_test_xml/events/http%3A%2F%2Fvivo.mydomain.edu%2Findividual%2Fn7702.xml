@@ -63,8 +63,8 @@
         </j.5:end>
       </rdf:Description>
     </j.5:dateTimeInterval>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
     <j.5:description xml:lang="en-US">www.biofundamentals.org</j.5:description>
-    <rdfs:comment>CERIF Event</rdfs:comment>
   </j.3:Event>
 </rdf:RDF>

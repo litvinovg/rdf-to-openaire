@@ -12,11 +12,11 @@
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#FundingOrganization"/>
     <j.3:abbreviation xml:lang="en-US">SIFG</j.3:abbreviation>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <rdfs:label xml:lang="en-US">Supporting Innovation, Fueling Growth</rdfs:label>
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#FundingOrganization"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <j.1:ARG_2000028>

@@ -27,6 +27,7 @@
         </j.2:end>
       </rdf:Description>
     </j.2:dateTimeInterval>
+    <rdfs:comment>OpenAIRE Funding</rdfs:comment>
     <j.1:BFO_0000050>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n7681">
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Grant"/>
@@ -74,7 +75,6 @@
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Grant"/>
       </j.1:BFO_0000001>
     </j.1:BFO_0000050>
-    <rdfs:comment>CERIF Funding</rdfs:comment>
     <j.2:assignedBy rdf:resource="http://vivo.mydomain.edu/individual/n6010"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.2:totalAwardAmount xml:lang="en-US">10000</j.2:totalAwardAmount>

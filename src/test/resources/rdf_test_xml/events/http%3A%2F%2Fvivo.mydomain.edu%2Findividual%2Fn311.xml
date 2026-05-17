@@ -12,6 +12,7 @@
   <j.1:BFO_0000015 rdf:about="http://vivo.mydomain.edu/individual/n311">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.5:hasSubjectArea>
       <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n2540">
@@ -39,7 +40,6 @@
         </j.5:end>
       </rdf:Description>
     </j.5:dateTimeInterval>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Exhibit"/>
     <j.5:description xml:lang="en-US">www.cosmos.re</j.5:description>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>

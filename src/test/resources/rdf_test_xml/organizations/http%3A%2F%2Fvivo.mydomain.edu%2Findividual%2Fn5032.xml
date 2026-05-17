@@ -12,11 +12,11 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Company"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Company"/>
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.3:abbreviation xml:lang="en-US">FTL</j.3:abbreviation>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n2834">

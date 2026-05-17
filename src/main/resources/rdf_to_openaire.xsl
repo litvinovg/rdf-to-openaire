@@ -72,35 +72,35 @@
 
 	<xsl:template match="/">
 		<xsl:for-each
-			select="//*[rdfs:comment/text() = 'CERIF Person']">
+			select="//*[rdfs:comment/text() = 'OpenAIRE Person']">
 			<xsl:call-template name="person" />
 		</xsl:for-each>
 		<xsl:for-each
-			select="//*[rdfs:comment/text() = 'CERIF OrgUnit']">
+			select="//*[rdfs:comment/text() = 'OpenAIRE OrgUnit']">
 			<xsl:call-template name="orgUnit" />
 		</xsl:for-each>
 		<xsl:for-each
-			select="//*[rdfs:comment/text() = 'CERIF Publication']">
+			select="//*[rdfs:comment/text() = 'OpenAIRE Publication']">
 			<xsl:call-template name="publication" />
 		</xsl:for-each>
 		<xsl:for-each
-			select="//*[rdfs:comment/text() = 'CERIF Event']">
+			select="//*[rdfs:comment/text() = 'OpenAIRE Event']">
 			<xsl:call-template name="event" />
 		</xsl:for-each>
 		<xsl:for-each
-			select="//*[rdfs:comment/text() = 'CERIF Product']">
+			select="//*[rdfs:comment/text() = 'OpenAIRE Product']">
 			<xsl:call-template name="product" />
 		</xsl:for-each>
 		<xsl:for-each
-			select="//*[rdfs:comment/text() = 'CERIF Funding']">
+			select="//*[rdfs:comment/text() = 'OpenAIRE Funding']">
 			<xsl:call-template name="funding" />
 		</xsl:for-each>
 		<xsl:for-each
-			select="//*[rdfs:comment/text() = 'CERIF Patent']">
+			select="//*[rdfs:comment/text() = 'OpenAIRE Patent']">
 			<xsl:call-template name="patent" />
 		</xsl:for-each>
 		<xsl:for-each
-			select="//*[rdfs:comment/text() = 'CERIF Equipment']">
+			select="//*[rdfs:comment/text() = 'OpenAIRE Equipment']">
 			<xsl:call-template name="equipment" />
 		</xsl:for-each>
 	</xsl:template>

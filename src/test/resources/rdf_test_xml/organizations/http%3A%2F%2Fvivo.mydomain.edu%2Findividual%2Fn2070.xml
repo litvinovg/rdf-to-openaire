@@ -11,7 +11,6 @@
   <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2070">
     <j.3:abbreviation xml:lang="en-US">CSBH</j.3:abbreviation>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Center"/>
     <j.1:ARG_2000028>
@@ -29,5 +28,6 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Center"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
   </j.1:BFO_0000001>
 </rdf:RDF>

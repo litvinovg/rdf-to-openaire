@@ -18,8 +18,8 @@
       </owl:Thing>
     </j.5:hasSubjectArea>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment>OpenAIRE Event</rdfs:comment>
     <rdfs:label xml:lang="en-US">Preventive Medicine Summit</rdfs:label>
-    <rdfs:comment>CERIF Event</rdfs:comment>
     <j.5:dateTimeInterval>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n1132">
         <j.5:start>

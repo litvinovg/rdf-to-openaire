@@ -8,9 +8,9 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.3="http://vivoweb.org/ontology/core#">
   <j.2:Document rdf:about="http://vivo.mydomain.edu/individual/n5141">
-    <rdfs:comment>CERIF Product</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:comment>OpenAIRE Product</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Video"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
