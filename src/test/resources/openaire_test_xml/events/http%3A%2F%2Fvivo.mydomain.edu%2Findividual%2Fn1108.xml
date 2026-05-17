@@ -7,4 +7,5 @@
    <StartDate>2014-09-04</StartDate>
    <EndDate>2014-09-05</EndDate>
    <Description xml:lang="en-US">www.speechseries.com</Description>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5273</Subject>
 </Event>

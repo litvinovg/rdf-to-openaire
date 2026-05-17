@@ -21,6 +21,7 @@
          <Person id="http://vivo.mydomain.edu/individual/n656"/>
       </Editor>
    </Editors>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n2547</Subject>
    <Keyword xml:lang="en-US">Biomaterials</Keyword>
    <Keyword xml:lang="en-US">tissue engineering</Keyword>
    <Keyword xml:lang="en-US">biocompatibility</Keyword>

@@ -27,6 +27,7 @@
          </OrgUnit>
       </Publisher>
    </Publishers>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n6516</Subject>
    <Keyword xml:lang="en-US">Cellular</Keyword>
    <Keyword xml:lang="en-US">regeneration</Keyword>
    <Keyword xml:lang="en-US">Stem cells</Keyword>

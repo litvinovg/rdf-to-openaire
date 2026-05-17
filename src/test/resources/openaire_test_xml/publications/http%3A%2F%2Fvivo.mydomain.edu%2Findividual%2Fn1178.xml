@@ -21,6 +21,7 @@
          <Person id="http://vivo.mydomain.edu/individual/n4450"/>
       </Editor>
    </Editors>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5273</Subject>
    <Keyword xml:lang="en-US">Productivity</Keyword>
    <Keyword xml:lang="en-US">fulfillment</Keyword>
    <Keyword xml:lang="en-US">goal-setting</Keyword>

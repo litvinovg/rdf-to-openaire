@@ -18,6 +18,7 @@
          <Person id="http://vivo.mydomain.edu/individual/n6310"/>
       </Editor>
    </Editors>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5009</Subject>
    <Keyword xml:lang="en-US">Innovative approaches</Keyword>
    <Keyword xml:lang="en-US">medicine</Keyword>
    <Keyword xml:lang="en-US">patient care</Keyword>

@@ -7,4 +7,5 @@
    <StartDate>2005-02-17</StartDate>
    <EndDate>2005-02-18</EndDate>
    <Description xml:lang="en-US">www.clnicalworkshop.com</Description>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5495</Subject>
 </Event>

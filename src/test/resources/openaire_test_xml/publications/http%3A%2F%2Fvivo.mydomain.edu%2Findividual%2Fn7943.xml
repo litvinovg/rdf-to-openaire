@@ -22,6 +22,7 @@
          </OrgUnit>
       </Publisher>
    </Publishers>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n1020</Subject>
    <Keyword xml:lang="en-US">Neuroscience</Keyword>
    <Keyword xml:lang="en-US">brain plasticity</Keyword>
    <Keyword xml:lang="en-US">neuroplasticity</Keyword>

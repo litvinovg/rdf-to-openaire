@@ -237,17 +237,19 @@
 			</PublicationDate>
 		</xsl:for-each>
 	</xsl:template>
-	
+
 	<xsl:template name="startDate">
-		<xsl:for-each select="res:get(res:get(vivo:dateTimeInterval)/vivo:start)[1]">
+		<xsl:for-each
+			select="res:get(res:get(vivo:dateTimeInterval)/vivo:start)[1]">
 			<StartDate>
 				<xsl:call-template name="date" />
 			</StartDate>
 		</xsl:for-each>
 	</xsl:template>
-	
+
 	<xsl:template name="endDate">
-		<xsl:for-each select="res:get(res:get(vivo:dateTimeInterval)/vivo:end)[1]">
+		<xsl:for-each
+			select="res:get(res:get(vivo:dateTimeInterval)/vivo:end)[1]">
 			<EndDate>
 				<xsl:call-template name="date" />
 			</EndDate>
@@ -269,7 +271,7 @@
 			</PublicationDate>
 		</xsl:for-each>
 	</xsl:template>
-	
+
 	<xsl:template name="date">
 		<xsl:choose>
 			<xsl:when
@@ -337,6 +339,7 @@
 			<xsl:call-template name="url" />
 			<xsl:call-template name="inventors" />
 			<xsl:call-template name="abstract" />
+			<xsl:call-template name="subject" />
 			<xsl:call-template name="keyword" />
 		</Patent>
 	</xsl:template>
@@ -368,6 +371,7 @@
 			<xsl:call-template name="startDate" />
 			<xsl:call-template name="endDate" />
 			<xsl:call-template name="eventDescription" />
+			<xsl:call-template name="subject" />
 		</Event>
 	</xsl:template>
 
@@ -399,12 +403,12 @@
 
 	<xsl:template name="amount">
 		<xsl:if test="vivo:totalAwardAmount">
-			<xsl:variable name="amount" select="vivo:totalAwardAmount[1]/text()" />
+			<xsl:variable name="amount"
+				select="vivo:totalAwardAmount[1]/text()" />
 			<Amount>
 				<xsl:attribute name="currency">
 				<xsl:choose>
-					<xsl:when
-						test="contains($amount,'$')">
+					<xsl:when test="contains($amount,'$')">
 						<xsl:text>USD</xsl:text>
 					</xsl:when>
 					<xsl:otherwise>
@@ -499,7 +503,8 @@
 	</xsl:template>
 
 	<xsl:template name="partOfFunding">
-		<xsl:for-each select="res:get(obo:BFO_0000050)[res:types(.) = 'http://vivoweb.org/ontology/core#Grant']">
+		<xsl:for-each
+			select="res:get(obo:BFO_0000050)[res:types(.) = 'http://vivoweb.org/ontology/core#Grant']">
 			<PartOf>
 				<xsl:call-template name="funding" />
 			</PartOf>
@@ -507,15 +512,17 @@
 	</xsl:template>
 
 	<xsl:template name="partOfOrg">
-		<xsl:for-each select="res:get(obo:BFO_0000050)[res:types(.) = 'http://xmlns.com/foaf/0.1/Organization']">
+		<xsl:for-each
+			select="res:get(obo:BFO_0000050)[res:types(.) = 'http://xmlns.com/foaf/0.1/Organization']">
 			<PartOf>
 				<xsl:call-template name="orgUnit" />
 			</PartOf>
 		</xsl:for-each>
 	</xsl:template>
-	
+
 	<xsl:template name="funder">
-		<xsl:for-each select="res:get(vivo:assignedBy|vivo:sponsoredBy)[res:types(.) = 'http://xmlns.com/foaf/0.1/Organization']">
+		<xsl:for-each
+			select="res:get(vivo:assignedBy|vivo:sponsoredBy)[res:types(.) = 'http://xmlns.com/foaf/0.1/Organization']">
 			<Funder>
 				<xsl:call-template name="orgUnit" />
 			</Funder>
@@ -523,8 +530,11 @@
 	</xsl:template>
 
 	<xsl:template name="subject">
-		<!-- <xsl:for-each select="res:get(vivo:hasSubjectArea)"> <Subject> <xsl:value-of 
-			select="@rdf:about" /> </Subject> </xsl:for-each> -->
+		<xsl:for-each select="res:id(vivo:hasSubjectArea)">
+			<Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">
+				<xsl:value-of select="." />
+			</Subject>
+		</xsl:for-each>
 	</xsl:template>
 
 	<xsl:template name="keyword">

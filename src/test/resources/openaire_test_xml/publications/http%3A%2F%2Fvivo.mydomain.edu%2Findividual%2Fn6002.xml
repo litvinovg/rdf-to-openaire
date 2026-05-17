@@ -21,6 +21,7 @@
          <Person id="http://vivo.mydomain.edu/individual/n2358"/>
       </Editor>
    </Editors>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n7940</Subject>
    <Keyword xml:lang="en-US">Scientific research</Keyword>
    <Keyword xml:lang="en-US">innovations</Keyword>
    <Keyword xml:lang="en-US">technology</Keyword>

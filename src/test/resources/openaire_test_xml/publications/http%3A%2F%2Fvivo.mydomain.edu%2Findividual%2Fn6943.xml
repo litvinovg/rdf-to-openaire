@@ -28,6 +28,7 @@
          </OrgUnit>
       </Publisher>
    </Publishers>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n7028</Subject>
    <Keyword xml:lang="en-US">Innovative solutions</Keyword>
    <Keyword xml:lang="en-US">modern challenges</Keyword>
    <Keyword xml:lang="en-US">interdisciplinary collaboration</Keyword>

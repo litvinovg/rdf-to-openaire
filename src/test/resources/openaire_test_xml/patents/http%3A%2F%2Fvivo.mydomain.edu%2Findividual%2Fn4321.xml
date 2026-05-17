@@ -14,6 +14,7 @@
       </Inventor>
    </Inventors>
    <Abstract xml:lang="en-US">This patent presents an innovative compound designed to enhance therapeutic efficacy for targeted medical treatments. By optimizing chemical properties and mechanisms of action, the compound demonstrates improved bioavailability and efficacy in treating specific conditions. This advancement offers a promising solution for addressing unmet medical needs and improving patient outcomes.</Abstract>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5495</Subject>
    <Keyword xml:lang="en-US">Innovative compound</Keyword>
    <Keyword xml:lang="en-US">therapeutic efficacy</Keyword>
    <Keyword xml:lang="en-US">drug development</Keyword>

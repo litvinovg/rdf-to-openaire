@@ -7,4 +7,5 @@
    <StartDate>2001-10-17</StartDate>
    <EndDate>2001-12-22</EndDate>
    <Description xml:lang="en-US">www.cosmos.re</Description>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n2540</Subject>
 </Event>

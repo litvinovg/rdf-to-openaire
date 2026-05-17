@@ -7,4 +7,5 @@
    <StartDate>2006-06-06</StartDate>
    <EndDate>2007-06-11</EndDate>
    <Description xml:lang="en-US">www.chemlab.org</Description>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n3682</Subject>
 </Event>

@@ -7,4 +7,5 @@
    <StartDate>2025-10-16</StartDate>
    <EndDate>2025-10-16</EndDate>
    <Description xml:lang="en-US">www.genprof.com</Description>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5394</Subject>
 </Event>

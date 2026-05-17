@@ -12,6 +12,7 @@
       </Creator>
    </Creators>
    <Description xml:lang="en-US">The Genomic Variants Dataset provides a curated collection of genetic variations across diverse populations, enabling researchers to study the associations between these variants and various diseases. This resource facilitates genome-wide association studies, enhancing understanding of genetic influences on health and disease, and supports advancements in precision medicine and therapeutic interventions.</Description>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5394</Subject>
    <Keyword xml:lang="en-US">Genomic variants</Keyword>
    <Keyword xml:lang="en-US">dataset</Keyword>
    <Keyword xml:lang="en-US">sequencing data</Keyword>

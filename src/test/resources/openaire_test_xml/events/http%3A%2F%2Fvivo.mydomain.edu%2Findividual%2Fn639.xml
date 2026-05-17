@@ -7,4 +7,5 @@
    <StartDate>2021-10-22</StartDate>
    <EndDate>2021-10-22</EndDate>
    <Description xml:lang="en-US">www.medinforesearch.com</Description>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n4048</Subject>
 </Event>

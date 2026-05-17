@@ -18,6 +18,7 @@
          <Person id="http://vivo.mydomain.edu/individual/n7048"/>
       </Editor>
    </Editors>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n6516</Subject>
    <Keyword xml:lang="en-US">Patient evaluation</Keyword>
    <Keyword xml:lang="en-US">treatment response</Keyword>
    <Keyword xml:lang="en-US">clinical assessment</Keyword>

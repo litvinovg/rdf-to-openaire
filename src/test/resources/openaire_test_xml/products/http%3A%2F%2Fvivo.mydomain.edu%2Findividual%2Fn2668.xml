@@ -11,6 +11,7 @@
          <Person id="http://vivo.mydomain.edu/individual/n2981"/>
       </Creator>
    </Creators>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5742</Subject>
    <Keyword xml:lang="en-US">Universe</Keyword>
    <Keyword xml:lang="en-US">secrets</Keyword>
    <Keyword xml:lang="en-US">cosmic exploration</Keyword>

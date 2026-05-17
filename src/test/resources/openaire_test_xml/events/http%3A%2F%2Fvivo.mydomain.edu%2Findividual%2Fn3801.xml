@@ -6,4 +6,5 @@
    <StartDate>2024-03-05</StartDate>
    <EndDate>2024-03-10</EndDate>
    <Description xml:lang="en-US">www.worldcongress.com</Description>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n7940</Subject>
 </Event>
