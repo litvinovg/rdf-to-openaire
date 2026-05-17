@@ -69,6 +69,7 @@ class ConversionTest {
 			validator.validate(test);
 		} catch (SAXException e) {
 			System.out.println(control.getPath() + " is not valid:" + e);
+			throw e;
 		}
 		assertThat(test, CompareMatcher.isIdenticalTo(controlSource));
 	}
