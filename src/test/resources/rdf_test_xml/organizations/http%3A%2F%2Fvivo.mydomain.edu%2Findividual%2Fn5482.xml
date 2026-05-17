@@ -12,9 +12,17 @@
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <j.1:BFO_0000050>
-      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n203">
+      <j.3:Agent rdf:about="http://vivo.mydomain.edu/individual/n203">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Laboratory"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:label xml:lang="en-US">Chemistry Lab Adventures</rdfs:label>
-      </rdf:Description>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Laboratory"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <j.2:abbreviation xml:lang="en-US">CLA</j.2:abbreviation>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.3:Agent>
     </j.1:BFO_0000050>
     <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <j.2:abbreviation xml:lang="en-US">BSDep</j.2:abbreviation>
@@ -24,4 +32,7 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Department"/>
   </j.3:Agent>
+  <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n6186">
+    <j.1:BFO_0000050 rdf:resource="http://vivo.mydomain.edu/individual/n203"/>
+  </rdf:Description>
 </rdf:RDF>

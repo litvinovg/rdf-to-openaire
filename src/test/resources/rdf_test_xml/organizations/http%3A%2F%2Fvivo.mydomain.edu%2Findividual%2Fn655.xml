@@ -7,16 +7,20 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.2="http://vivoweb.org/ontology/core#"
     xmlns:j.3="http://xmlns.com/foaf/0.1/">
-  <j.2:Hospital rdf:about="http://vivo.mydomain.edu/individual/n655">
-    <j.2:abbreviation xml:lang="en-US">CHH</j.2:abbreviation>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-    <rdfs:label xml:lang="en-US">Caring Hands Hospital</rdfs:label>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Hospital"/>
-  </j.2:Hospital>
+  <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n4923">
+    <j.1:BFO_0000050>
+      <j.2:Hospital rdf:about="http://vivo.mydomain.edu/individual/n655">
+        <j.2:abbreviation xml:lang="en-US">CHH</j.2:abbreviation>
+        <rdfs:comment>CERIF OrgUnit</rdfs:comment>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label xml:lang="en-US">Caring Hands Hospital</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Hospital"/>
+      </j.2:Hospital>
+    </j.1:BFO_0000050>
+  </rdf:Description>
 </rdf:RDF>

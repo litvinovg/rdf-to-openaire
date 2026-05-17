@@ -12,9 +12,17 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <j.1:BFO_0000050>
-      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n655">
+      <j.2:Hospital rdf:about="http://vivo.mydomain.edu/individual/n655">
+        <j.2:abbreviation xml:lang="en-US">CHH</j.2:abbreviation>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:label xml:lang="en-US">Caring Hands Hospital</rdfs:label>
-      </rdf:Description>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Hospital"/>
+      </j.2:Hospital>
     </j.1:BFO_0000050>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#ClinicalOrganization"/>

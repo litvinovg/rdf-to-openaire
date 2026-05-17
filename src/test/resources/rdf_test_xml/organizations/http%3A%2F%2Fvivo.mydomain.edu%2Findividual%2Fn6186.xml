@@ -7,6 +7,21 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.2="http://vivoweb.org/ontology/core#"
     xmlns:j.3="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5482">
+    <j.1:BFO_0000050>
+      <j.3:Agent rdf:about="http://vivo.mydomain.edu/individual/n203">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Laboratory"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:label xml:lang="en-US">Chemistry Lab Adventures</rdfs:label>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Laboratory"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <j.2:abbreviation xml:lang="en-US">CLA</j.2:abbreviation>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.3:Agent>
+    </j.1:BFO_0000050>
+  </rdf:Description>
   <j.3:Organization rdf:about="http://vivo.mydomain.edu/individual/n6186">
     <j.2:abbreviation xml:lang="en-US">ILS</j.2:abbreviation>
     <rdfs:comment>CERIF OrgUnit</rdfs:comment>
@@ -15,11 +30,7 @@
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#ServiceProvidingLaboratory"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ServiceProvidingLaboratory"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-    <j.1:BFO_0000050>
-      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n203">
-        <rdfs:label xml:lang="en-US">Chemistry Lab Adventures</rdfs:label>
-      </rdf:Description>
-    </j.1:BFO_0000050>
+    <j.1:BFO_0000050 rdf:resource="http://vivo.mydomain.edu/individual/n203"/>
     <rdfs:label xml:lang="en-US">Innovative Lab Solutions</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>

@@ -4,4 +4,11 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>ILS</Acronym>
    <Name xml:lang="en-US">Innovative Lab Solutions</Name>
+   <PartOf>
+      <OrgUnit id="http://vivo.mydomain.edu/individual/n203">
+         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
+         <Acronym>CLA</Acronym>
+         <Name xml:lang="en-US">Chemistry Lab Adventures</Name>
+      </OrgUnit>
+   </PartOf>
 </OrgUnit>

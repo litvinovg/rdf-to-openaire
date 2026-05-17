@@ -13,9 +13,17 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.1:BFO_0000050>
-      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n3094">
+      <j.3:Organization rdf:about="http://vivo.mydomain.edu/individual/n3094">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <rdfs:label xml:lang="en-US">Agency for Community Development</rdfs:label>
-      </rdf:Description>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <j.2:abbreviation xml:lang="en-US">ACD</j.2:abbreviation>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+      </j.3:Organization>
     </j.1:BFO_0000050>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Division"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
@@ -24,9 +32,18 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     <rdfs:label xml:lang="en-US">Advancing Knowledge Through Science</rdfs:label>
     <j.1:BFO_0000050>
-      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5670">
+      <j.1:BFO_0000004 rdf:about="http://vivo.mydomain.edu/individual/n5670">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#AcademicDepartment"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:label xml:lang="en-US">Department of Environmental Studies</rdfs:label>
-      </rdf:Description>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <j.2:abbreviation xml:lang="en-US">DES</j.2:abbreviation>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      </j.1:BFO_0000004>
     </j.1:BFO_0000050>
   </j.2:Division>
 </rdf:RDF>

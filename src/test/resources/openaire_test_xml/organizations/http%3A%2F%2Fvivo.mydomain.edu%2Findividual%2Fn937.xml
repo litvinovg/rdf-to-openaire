@@ -4,4 +4,11 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>BQS</Acronym>
    <Name xml:lang="en-US">BioQuest School</Name>
+   <PartOf>
+      <OrgUnit id="http://vivo.mydomain.edu/individual/n6402">
+         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#University</Type>
+         <Acronym>GRUNI</Acronym>
+         <Name xml:lang="en-US">Greenfield University</Name>
+      </OrgUnit>
+   </PartOf>
 </OrgUnit>

@@ -7,16 +7,20 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.2="http://vivoweb.org/ontology/core#"
     xmlns:j.3="http://xmlns.com/foaf/0.1/">
-  <j.3:Organization rdf:about="http://vivo.mydomain.edu/individual/n3094">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdfs:label xml:lang="en-US">Agency for Community Development</rdfs:label>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
-    <rdfs:comment>CERIF OrgUnit</rdfs:comment>
-    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-    <j.2:abbreviation xml:lang="en-US">ACD</j.2:abbreviation>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-  </j.3:Organization>
+  <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5410">
+    <j.1:BFO_0000050>
+      <j.3:Organization rdf:about="http://vivo.mydomain.edu/individual/n3094">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:label xml:lang="en-US">Agency for Community Development</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+        <rdfs:comment>CERIF OrgUnit</rdfs:comment>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#GovernmentAgency"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <j.2:abbreviation xml:lang="en-US">ACD</j.2:abbreviation>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+      </j.3:Organization>
+    </j.1:BFO_0000050>
+  </rdf:Description>
 </rdf:RDF>

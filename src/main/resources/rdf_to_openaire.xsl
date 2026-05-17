@@ -317,6 +317,7 @@
 			<xsl:call-template name="acronym" />
 			<xsl:call-template name="name" />
 			<xsl:call-template name="electronicAddressUrl" />
+			<xsl:call-template name="partOfOrg" />
 		</OrgUnit>
 	</xsl:template>
 
@@ -344,7 +345,7 @@
             </xsl:attribute>
 			<xsl:call-template name="fundingType" />
 			<xsl:call-template name="name" />
-			<xsl:call-template name="partOf" />
+			<xsl:call-template name="partOfFunding" />
 		</Funding>
 	</xsl:template>
 
@@ -460,10 +461,18 @@
 		</xsl:for-each>
 	</xsl:template>
 
-	<xsl:template name="partOf">
+	<xsl:template name="partOfFunding">
 		<xsl:for-each select="res:get(obo:BFO_0000050)[res:types(.) = 'http://vivoweb.org/ontology/core#Grant']">
 			<PartOf>
 				<xsl:call-template name="funding" />
+			</PartOf>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="partOfOrg">
+		<xsl:for-each select="res:get(obo:BFO_0000050)[res:types(.) = 'http://xmlns.com/foaf/0.1/Organization']">
+			<PartOf>
+				<xsl:call-template name="orgUnit" />
 			</PartOf>
 		</xsl:for-each>
 	</xsl:template>

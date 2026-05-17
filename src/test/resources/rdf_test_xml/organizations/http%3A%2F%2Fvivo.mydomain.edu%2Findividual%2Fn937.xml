@@ -7,6 +7,21 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.2="http://vivoweb.org/ontology/core#"
     xmlns:j.3="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n2990">
+    <j.1:BFO_0000050>
+      <j.1:BFO_0000002 rdf:about="http://vivo.mydomain.edu/individual/n6402">
+        <rdfs:label xml:lang="en-US">Greenfield University</rdfs:label>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#University"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#University"/>
+        <j.2:abbreviation xml:lang="en-US">GRUNI</j.2:abbreviation>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+      </j.1:BFO_0000002>
+    </j.1:BFO_0000050>
+  </rdf:Description>
   <j.3:Agent rdf:about="http://vivo.mydomain.edu/individual/n937">
     <rdfs:label xml:lang="en-US">BioQuest School</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
@@ -14,11 +29,7 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdfs:comment>CERIF OrgUnit</rdfs:comment>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#School"/>
-    <j.1:BFO_0000050>
-      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n6402">
-        <rdfs:label xml:lang="en-US">Greenfield University</rdfs:label>
-      </rdf:Description>
-    </j.1:BFO_0000050>
+    <j.1:BFO_0000050 rdf:resource="http://vivo.mydomain.edu/individual/n6402"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#School"/>
