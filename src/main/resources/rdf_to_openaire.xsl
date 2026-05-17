@@ -312,6 +312,7 @@
 			<xsl:call-template name="title" />
 			<xsl:call-template name="registrationDate" />
 			<xsl:call-template name="filedDate" />
+			<xsl:call-template name="patentNumber" />
 			<xsl:call-template name="url" />
 			<xsl:call-template name="inventors" />
 			<xsl:call-template name="abstract" />
@@ -367,6 +368,14 @@
 			<xsl:call-template name="keyword" />
 			<xsl:call-template name="presentedAt" />
 		</Product>
+	</xsl:template>
+
+	<xsl:template name="patentNumber">
+		<xsl:if test="vivo:patentNumber">
+			<PatentNumber>
+				<xsl:value-of select="vivo:patentNumber[1]/text()" />
+			</PatentNumber>
+		</xsl:if>
 	</xsl:template>
 
 	<xsl:template name="volume">
