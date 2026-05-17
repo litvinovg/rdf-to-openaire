@@ -35,6 +35,7 @@
    <Keyword xml:lang="en-US">genetic processes</Keyword>
    <Keyword xml:lang="en-US">biochemical pathways</Keyword>
    <Abstract xml:lang="en-US">This chapter of "Fundamentals of Cellular and Molecular Biology" provides a comprehensive overview of key concepts, including cell structure, function, and genetic mechanisms. It explores the foundational principles of molecular interactions, biochemical pathways, and cellular processes. By elucidating these core topics, the chapter aims to enhance understanding of how cells operate and communicate, forming the basis of life's biological complexity.</Abstract>
+   <Status scheme="http://purl.org/ontology/bibo/DocumentStatus">http://purl.org/ontology/bibo/accepted</Status>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n639">
          <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>

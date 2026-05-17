@@ -31,6 +31,7 @@
    <Keyword xml:lang="en-US">gene editing</Keyword>
    <Keyword xml:lang="en-US">ecological impact</Keyword>
    <Abstract xml:lang="en-US">This editorial article explores groundbreaking advancements in modern biology, focusing on innovations in biotechnology, gene editing, and ecological research. It highlights the transformative potential of these discoveries in addressing global challenges, enhancing our understanding of life sciences, and shaping future medical and environmental solutions for a sustainable world.</Abstract>
+   <Status scheme="http://purl.org/ontology/bibo/DocumentStatus">http://purl.org/ontology/bibo/published</Status>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n1262">
          <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>

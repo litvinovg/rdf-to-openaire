@@ -144,6 +144,7 @@
 			<xsl:call-template name="subject" />
 			<xsl:call-template name="keyword" />
 			<xsl:call-template name="abstract" />
+			<xsl:call-template name="status" />
 			<xsl:call-template name="presentedAt" />
 			<xsl:call-template name="outputFrom" />
 		</Publication>
@@ -421,6 +422,15 @@
 			<PatentNumber>
 				<xsl:value-of select="vivo:patentNumber[1]/text()" />
 			</PatentNumber>
+		</xsl:if>
+	</xsl:template>
+
+
+	<xsl:template name="status">
+		<xsl:if test="bibo:status">
+			<Status scheme="http://purl.org/ontology/bibo/DocumentStatus">
+				<xsl:value-of select="res:id(bibo:status)[1]" />
+			</Status>
 		</xsl:if>
 	</xsl:template>
 

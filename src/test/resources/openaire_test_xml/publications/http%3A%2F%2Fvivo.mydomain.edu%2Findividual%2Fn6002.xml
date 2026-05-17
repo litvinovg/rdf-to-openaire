@@ -27,6 +27,7 @@
    <Keyword xml:lang="en-US">interdisciplinary collaboration</Keyword>
    <Keyword xml:lang="en-US">big data</Keyword>
    <Abstract xml:lang="en-US">This review examines key innovations in scientific research across various fields, highlighting advancements in technology, methodology, and interdisciplinary collaboration. It explores cutting-edge tools such as AI and big data analytics, which revolutionize research efficiency and accuracy. By identifying emerging trends and their potential impacts, this article aims to inspire future exploration and foster transformative discoveries in science.</Abstract>
+   <Status scheme="http://purl.org/ontology/bibo/DocumentStatus">http://purl.org/ontology/bibo/published</Status>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n3801">
          <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
