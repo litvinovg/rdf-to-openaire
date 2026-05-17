@@ -129,6 +129,7 @@
 			<xsl:call-template name="publicationType" />
 			<xsl:call-template name="title" />
 			<xsl:call-template name="nameAbbreviation" />
+			<xsl:call-template name="publicationDate" />
 			<xsl:call-template name="volume" />
 			<xsl:call-template name="issue" />
 			<xsl:call-template name="edition" />
@@ -139,15 +140,18 @@
 			<xsl:call-template name="isbn" />
 			<xsl:call-template name="authors" />
 			<xsl:call-template name="editors" />
+			<xsl:call-template name="publishers" />
 			<xsl:call-template name="subject" />
 			<xsl:call-template name="keyword" />
 			<xsl:call-template name="abstract" />
 			<xsl:call-template name="presentedAt" />
+			<xsl:call-template name="outputFrom" />
 		</Publication>
 	</xsl:template>
 
 	<xsl:template name="authors">
-		<xsl:variable name="authors" select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
+		<xsl:variable name="authors"
+			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
 		<xsl:if test="$authors">
 			<Authors>
 				<xsl:for-each select="$authors">
@@ -163,7 +167,8 @@
 	</xsl:template>
 
 	<xsl:template name="editors">
-		<xsl:variable name="editors" select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
+		<xsl:variable name="editors"
+			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
 		<xsl:if test="$editors">
 			<Editors>
 				<xsl:for-each select="$editors">
@@ -175,6 +180,60 @@
 					</Editor>
 				</xsl:for-each>
 			</Editors>
+		</xsl:if>
+	</xsl:template>
+
+	<xsl:template name="outputFrom">
+		<xsl:variable name="outputFrom"
+			select="res:get(obo:RO_0002353)[res:types(.) = 'http://purl.org/NET/c4dm/event.owl#Event']" />
+		<xsl:if test="$outputFrom">
+			<OutputFrom>
+				<xsl:for-each select="$outputFrom">
+					<xsl:call-template name="event" />
+				</xsl:for-each>
+			</OutputFrom>
+		</xsl:if>
+	</xsl:template>
+
+	<xsl:template name="publicationDate">
+		<xsl:for-each select="res:get(vivo:dateTimeValue)[1]">
+			<PublicationDate>
+				<xsl:choose>
+					<xsl:when
+						test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayTimePrecision'">
+						<xsl:value-of select="vivo:dateTime/text()" />
+					</xsl:when>
+					<xsl:when
+						test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayPrecision'">
+						<xsl:value-of
+							select="substring(vivo:dateTime/text(),1,10)" />
+					</xsl:when>
+					<xsl:when
+						test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthPrecision'">
+						<xsl:value-of
+							select="substring(vivo:dateTime/text(),1,7)" />
+					</xsl:when>
+					<xsl:when
+						test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearPrecision'">
+						<xsl:value-of
+							select="substring(vivo:dateTime/text(),1,4)" />
+					</xsl:when>
+				</xsl:choose>
+			</PublicationDate>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="publishers">
+		<xsl:variable name="publishers"
+			select="res:get(vivo:publisher)[res:types(.) = 'http://xmlns.com/foaf/0.1/Organization']" />
+		<xsl:if test="$publishers">
+			<Publishers>
+				<xsl:for-each select="$publishers">
+					<Publisher>
+						<xsl:call-template name="orgUnit" />
+					</Publisher>
+				</xsl:for-each>
+			</Publishers>
 		</xsl:if>
 	</xsl:template>
 
@@ -197,9 +256,9 @@
             </xsl:attribute>
 			<xsl:call-template name="patentType" />
 			<xsl:call-template name="title" />
+			<xsl:call-template name="url" />
 			<xsl:call-template name="abstract" />
 			<xsl:call-template name="keyword" />
-			<xsl:call-template name="url" />
 		</Patent>
 	</xsl:template>
 
@@ -243,8 +302,8 @@
 			<xsl:call-template name="doi" />
 			<xsl:call-template name="url" />
 			<xsl:call-template name="description" />
-			<xsl:call-template name="keyword" />
 			<xsl:call-template name="subject" />
+			<xsl:call-template name="keyword" />
 			<xsl:call-template name="presentedAt" />
 		</Product>
 	</xsl:template>
@@ -315,14 +374,13 @@
 
 
 	<xsl:template name="subject">
+		<!-- 
 		<xsl:for-each select="res:get(vivo:hasSubjectArea)">
 			<Subject>
-				<xsl:attribute name="id">
-	                <xsl:value-of select="@rdf:about" />
-	            </xsl:attribute>
-				<xsl:value-of select="rdfs:label/text()" />
+				<xsl:value-of select="@rdf:about" />
 			</Subject>
 		</xsl:for-each>
+		 -->
 	</xsl:template>
 
 	<xsl:template name="keyword">
@@ -452,7 +510,7 @@
 			xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">
 			<xsl:choose>
 				<xsl:when
-					test="$types = 'http://purl.org/ontology/bibo/Grant'">
+					test="$types = 'http://vivoweb.org/ontology/core#Grant'">
 					<xsl:text>https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant</xsl:text>
 				</xsl:when>
 				<xsl:when
