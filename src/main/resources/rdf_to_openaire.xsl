@@ -198,29 +198,50 @@
 	<xsl:template name="publicationDate">
 		<xsl:for-each select="res:get(vivo:dateTimeValue)[1]">
 			<PublicationDate>
-				<xsl:choose>
-					<xsl:when
-						test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayTimePrecision'">
-						<xsl:value-of select="vivo:dateTime/text()" />
-					</xsl:when>
-					<xsl:when
-						test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayPrecision'">
-						<xsl:value-of
-							select="substring(vivo:dateTime/text(),1,10)" />
-					</xsl:when>
-					<xsl:when
-						test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthPrecision'">
-						<xsl:value-of
-							select="substring(vivo:dateTime/text(),1,7)" />
-					</xsl:when>
-					<xsl:when
-						test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearPrecision'">
-						<xsl:value-of
-							select="substring(vivo:dateTime/text(),1,4)" />
-					</xsl:when>
-				</xsl:choose>
+				<xsl:call-template name="date" />
 			</PublicationDate>
 		</xsl:for-each>
+	</xsl:template>
+	
+	<xsl:template name="startDate">
+		<xsl:for-each select="res:get(res:get(vivo:dateTimeInterval)/vivo:start)[1]">
+			<StartDate>
+				<xsl:call-template name="date" />
+			</StartDate>
+		</xsl:for-each>
+	</xsl:template>
+	
+	<xsl:template name="endDate">
+		<xsl:for-each select="res:get(res:get(vivo:dateTimeInterval)/vivo:end)[1]">
+			<EndDate>
+				<xsl:call-template name="date" />
+			</EndDate>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="date">
+		<xsl:choose>
+			<xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayTimePrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,10)" />
+			</xsl:when>
+			<xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayPrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,10)" />
+			</xsl:when>
+			<xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthPrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,7)" />
+			</xsl:when>
+			<xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearPrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,4)" />
+			</xsl:when>
+		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template name="publishers">
@@ -280,6 +301,8 @@
 			<xsl:call-template name="acronym" />
 			<xsl:call-template name="name" />
 			<xsl:call-template name="country" />
+			<xsl:call-template name="startDate" />
+			<xsl:call-template name="endDate" />
 		</Event>
 	</xsl:template>
 
@@ -374,13 +397,8 @@
 
 
 	<xsl:template name="subject">
-		<!-- 
-		<xsl:for-each select="res:get(vivo:hasSubjectArea)">
-			<Subject>
-				<xsl:value-of select="@rdf:about" />
-			</Subject>
-		</xsl:for-each>
-		 -->
+		<!-- <xsl:for-each select="res:get(vivo:hasSubjectArea)"> <Subject> <xsl:value-of 
+			select="@rdf:about" /> </Subject> </xsl:for-each> -->
 	</xsl:template>
 
 	<xsl:template name="keyword">

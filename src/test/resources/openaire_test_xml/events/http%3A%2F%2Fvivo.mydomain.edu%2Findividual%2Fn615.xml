@@ -4,4 +4,6 @@
    <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Fundamentals of Chemistry: Hands-On Laboratory Techniques</Name>
    <Country>GB</Country>
+   <StartDate>2006-06-06</StartDate>
+   <EndDate>2007-06-11</EndDate>
 </Event>

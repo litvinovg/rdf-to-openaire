@@ -4,4 +4,6 @@
    <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Fundamentals of Biology</Name>
    <Country>US</Country>
+   <StartDate>2024-03-02</StartDate>
+   <EndDate>2025-04-05</EndDate>
 </Event>

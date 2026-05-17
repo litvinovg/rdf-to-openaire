@@ -4,4 +4,6 @@
    <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Workshop</Type>
    <Name xml:lang="en-US">Advanced Clinical Techniques Workshop</Name>
    <Country>US</Country>
+   <StartDate>2005-02-17</StartDate>
+   <EndDate>2005-02-18</EndDate>
 </Event>

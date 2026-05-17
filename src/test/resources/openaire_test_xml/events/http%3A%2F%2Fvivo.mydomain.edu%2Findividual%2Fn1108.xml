@@ -4,4 +4,6 @@
    <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Expert Insights: The Future of Healthcare</Name>
    <Country>BR</Country>
+   <StartDate>2014-09-04</StartDate>
+   <EndDate>2014-09-05</EndDate>
 </Event>

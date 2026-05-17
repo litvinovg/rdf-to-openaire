@@ -4,4 +4,6 @@
    <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/vocab/EventTypes#Workshop</Type>
    <Name xml:lang="en-US">Exploring Life: A Biological Workshop</Name>
    <Country>DE</Country>
+   <StartDate>2022-09-03</StartDate>
+   <EndDate>2022-09-03</EndDate>
 </Event>

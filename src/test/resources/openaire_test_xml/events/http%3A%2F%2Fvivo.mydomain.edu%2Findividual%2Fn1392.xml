@@ -4,4 +4,6 @@
    <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Advances in Biological Performance</Name>
    <Country>US</Country>
+   <StartDate>2021-09-10</StartDate>
+   <EndDate>2021-09-10</EndDate>
 </Event>
