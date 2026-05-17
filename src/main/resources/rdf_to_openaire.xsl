@@ -317,6 +317,8 @@
 			<xsl:call-template name="acronym" />
 			<xsl:call-template name="name" />
 			<xsl:call-template name="electronicAddressUrl" />
+			<xsl:call-template name="email" />
+			<xsl:call-template name="telephone" />
 			<xsl:call-template name="partOfOrg" />
 		</OrgUnit>
 	</xsl:template>

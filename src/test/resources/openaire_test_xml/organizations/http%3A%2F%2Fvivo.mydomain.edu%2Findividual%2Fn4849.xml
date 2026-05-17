@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>IPS</Acronym>
    <Name xml:lang="en-US">Innovative Publishing Solutions</Name>
+   <ElectronicAddress>mailto:moreinfo@mail.org</ElectronicAddress>
 </OrgUnit>

@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>SSI</Acronym>
    <Name xml:lang="en-US">Synergy in Scientific Innovation</Name>
+   <ElectronicAddress>mailto:ssimail@gmail.com</ElectronicAddress>
 </OrgUnit>

@@ -4,4 +4,6 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>SIFG</Acronym>
    <Name xml:lang="en-US">Supporting Innovation, Fueling Growth</Name>
+   <ElectronicAddress>mailto:infofund@mail.con</ElectronicAddress>
+   <ElectronicAddress>tel:+49 (435) 0098 4456</ElectronicAddress>
 </OrgUnit>

@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#Company</Type>
    <Acronym>ISS</Acronym>
    <Name xml:lang="en-US">Innovatech Scientific Solutions</Name>
+   <ElectronicAddress>mailto:iss@gmail.com</ElectronicAddress>
 </OrgUnit>

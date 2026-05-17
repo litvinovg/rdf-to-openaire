@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>FSI</Acronym>
    <Name xml:lang="en-US">Foundations of Scientific Innovation</Name>
+   <ElectronicAddress>mailto:emu@info.com</ElectronicAddress>
 </OrgUnit>

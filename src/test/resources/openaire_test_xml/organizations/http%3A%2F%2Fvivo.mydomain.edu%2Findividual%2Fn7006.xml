@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>IS</Acronym>
    <Name xml:lang="en-US">InnovateScience</Name>
+   <ElectronicAddress>mailto:aboutis@mail.com</ElectronicAddress>
 </OrgUnit>

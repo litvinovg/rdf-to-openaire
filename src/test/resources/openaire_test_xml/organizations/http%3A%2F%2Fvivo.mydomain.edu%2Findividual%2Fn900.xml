@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>FIC</Acronym>
    <Name xml:lang="en-US">Future Innovators Center</Name>
+   <ElectronicAddress>mailto:ficforyou@info.com</ElectronicAddress>
 </OrgUnit>

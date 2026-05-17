@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>UNS</Acronym>
    <Name xml:lang="en-US">Unlocking Nature's Secrets</Name>
+   <ElectronicAddress>mailto:uns@info.fe</ElectronicAddress>
 </OrgUnit>

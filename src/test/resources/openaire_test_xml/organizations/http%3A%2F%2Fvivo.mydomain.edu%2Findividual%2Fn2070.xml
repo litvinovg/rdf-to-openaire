@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>CSBH</Acronym>
    <Name xml:lang="en-US">Compassionate Solutions for Better Health</Name>
+   <ElectronicAddress>mailto:contact-service@mail.com</ElectronicAddress>
 </OrgUnit>

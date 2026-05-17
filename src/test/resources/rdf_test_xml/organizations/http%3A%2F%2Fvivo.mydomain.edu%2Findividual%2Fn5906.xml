@@ -4,15 +4,26 @@
     xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
     xmlns:j.1="http://purl.obolibrary.org/obo/"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://www.w3.org/2006/vcard/ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:j.2="http://vivoweb.org/ontology/core#"
-    xmlns:j.3="http://xmlns.com/foaf/0.1/">
+    xmlns:j.3="http://vivoweb.org/ontology/core#"
+    xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n5906">
     <rdfs:comment>CERIF OrgUnit</rdfs:comment>
+    <j.1:ARG_2000028>
+      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n3910">
+        <j.2:hasEmail>
+          <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n6686">
+            <j.2:email>wfsinfo@mail.te</j.2:email>
+            <j.0:mostSpecificType rdf:resource="http://www.w3.org/2006/vcard/ns#Email"/>
+          </rdf:Description>
+        </j.2:hasEmail>
+      </rdf:Description>
+    </j.1:ARG_2000028>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdfs:label xml:lang="en-US">Wonders of Science</rdfs:label>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-    <j.2:abbreviation xml:lang="en-US">WFS</j.2:abbreviation>
+    <j.3:abbreviation xml:lang="en-US">WFS</j.3:abbreviation>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Program"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>

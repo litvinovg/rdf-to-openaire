@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>ARSCL</Acronym>
    <Name xml:lang="en-US">Advancing Research at Science Core Lab</Name>
+   <ElectronicAddress>mailto:labinfo@gmail.com</ElectronicAddress>
 </OrgUnit>

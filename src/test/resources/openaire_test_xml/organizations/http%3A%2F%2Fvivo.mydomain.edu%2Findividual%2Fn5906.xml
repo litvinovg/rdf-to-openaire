@@ -4,4 +4,5 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>WFS</Acronym>
    <Name xml:lang="en-US">Wonders of Science</Name>
+   <ElectronicAddress>mailto:wfsinfo@mail.te</ElectronicAddress>
 </OrgUnit>
