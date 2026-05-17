@@ -365,7 +365,7 @@
 			<xsl:call-template name="country" />
 			<xsl:call-template name="startDate" />
 			<xsl:call-template name="endDate" />
-			<xsl:call-template name="description" />
+			<xsl:call-template name="eventDescription" />
 		</Event>
 	</xsl:template>
 
@@ -538,6 +538,17 @@
 	            </xsl:attribute>
 				<xsl:value-of select="text()" />
 			</Abstract>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="eventDescription">
+		<xsl:for-each select="vivo:description[1]">
+			<Description>
+				<xsl:attribute name="xml:lang">
+	                <xsl:value-of select="@xml:lang" />
+	            </xsl:attribute>
+				<xsl:value-of select="text()" />
+			</Description>
 		</xsl:for-each>
 	</xsl:template>
 

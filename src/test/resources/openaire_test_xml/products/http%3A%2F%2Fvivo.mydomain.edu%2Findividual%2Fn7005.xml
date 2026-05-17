@@ -4,6 +4,13 @@
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">http://purl.org/coar/resource_type/c_e059</Type>
    <Name xml:lang="en-US">The Physics of Black Holes</Name>
    <DOI>10.8876/10233654.2347.1214223</DOI>
+   <Creators>
+      <Creator>
+         <DisplayName>Wang, Brooks Dan</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n6310"/>
+      </Creator>
+   </Creators>
+   <Description xml:lang="en-US">"The Physics of Black Holes" explores the fundamental principles governing black holes, including general relativity and quantum mechanics. This article examines their formation, properties, and the effects on surrounding space-time. By analyzing recent discoveries and theories, it aims to deepen our understanding of these enigmatic cosmic phenomena and their implications for astrophysics.</Description>
    <Keyword xml:lang="en-US">Black holes</Keyword>
    <Keyword xml:lang="en-US">astrophysics</Keyword>
    <Keyword xml:lang="en-US">general relativity</Keyword>

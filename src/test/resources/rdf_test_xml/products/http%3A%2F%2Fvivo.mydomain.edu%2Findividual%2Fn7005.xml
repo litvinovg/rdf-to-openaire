@@ -6,16 +6,40 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:j.2="http://purl.org/ontology/bibo/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:j.3="http://vivoweb.org/ontology/core#">
+    xmlns:j.3="http://vivoweb.org/ontology/core#"
+    xmlns:j.4="http://xmlns.com/foaf/0.1/">
   <j.2:Document rdf:about="http://vivo.mydomain.edu/individual/n7005">
+    <j.2:abstract xml:lang="en-US">"The Physics of Black Holes" explores the fundamental principles governing black holes, including general relativity and quantum mechanics. This article examines their formation, properties, and the effects on surrounding space-time. By analyzing recent discoveries and theories, it aims to deepen our understanding of these enigmatic cosmic phenomena and their implications for astrophysics.</j.2:abstract>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <rdfs:comment>OpenAIRE Product</rdfs:comment>
     <j.2:doi xml:lang="en-US">10.8876/10233654.2347.1214223</j.2:doi>
     <j.2:volume xml:lang="en-US">4</j.2:volume>
     <j.3:freetextKeyword xml:lang="en-US">Black holes, astrophysics, general relativity, gravitational waves, cosmic phenomena</j.3:freetextKeyword>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#CaseStudy"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <j.3:relatedBy>
+      <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n4598">
+        <j.3:relates>
+          <j.4:Agent rdf:about="http://vivo.mydomain.edu/individual/n6310">
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusProfessor"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusFaculty"/>
+            <rdfs:label xml:lang="en-US">Wang, Brooks Dan</rdfs:label>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+          </j.4:Agent>
+        </j.3:relates>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.3:relates rdf:resource="http://vivo.mydomain.edu/individual/n7005"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000001>
+    </j.3:relatedBy>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#CaseStudy"/>

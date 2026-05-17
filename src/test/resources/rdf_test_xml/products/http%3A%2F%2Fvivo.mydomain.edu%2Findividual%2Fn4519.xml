@@ -30,6 +30,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000003>
     </j.4:presentedAt>
+    <j.4:abstract xml:lang="en-US">The Genomic Variants Dataset provides a curated collection of genetic variations across diverse populations, enabling researchers to study the associations between these variants and various diseases. This resource facilitates genome-wide association studies, enhancing understanding of genetic influences on health and disease, and supports advancements in precision medicine and therapeutic interventions.</j.4:abstract>
     <j.1:ARG_2000028>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5968">
         <j.3:hasURL>
