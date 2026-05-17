@@ -6,6 +6,12 @@
    <RegistrationDate>2000-08-16</RegistrationDate>
    <PublicationDate>1999-02-09</PublicationDate>
    <URL>https://thereff.com</URL>
+   <Inventors>
+      <Inventor>
+         <DisplayName>Goodman, Philip Brandon</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n2358"/>
+      </Inventor>
+   </Inventors>
    <Abstract xml:lang="en-US">This patent presents an innovative compound designed to enhance therapeutic efficacy for targeted medical treatments. By optimizing chemical properties and mechanisms of action, the compound demonstrates improved bioavailability and efficacy in treating specific conditions. This advancement offers a promising solution for addressing unmet medical needs and improving patient outcomes.</Abstract>
    <Keyword xml:lang="en-US">Innovative compound</Keyword>
    <Keyword xml:lang="en-US">therapeutic efficacy</Keyword>

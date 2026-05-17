@@ -149,6 +149,23 @@
 		</Publication>
 	</xsl:template>
 
+	<xsl:template name="inventors">
+		<xsl:variable name="authors"
+			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
+		<xsl:if test="$authors">
+			<Inventors>
+				<xsl:for-each select="$authors">
+					<Inventor>
+						<DisplayName>
+							<xsl:value-of select="rdfs:label/text()" />
+						</DisplayName>
+						<xsl:call-template name="person" />
+					</Inventor>
+				</xsl:for-each>
+			</Inventors>
+		</xsl:if>
+	</xsl:template>
+
 	<xsl:template name="authors">
 		<xsl:variable name="authors"
 			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
@@ -296,6 +313,7 @@
 			<xsl:call-template name="registrationDate" />
 			<xsl:call-template name="filedDate" />
 			<xsl:call-template name="url" />
+			<xsl:call-template name="inventors" />
 			<xsl:call-template name="abstract" />
 			<xsl:call-template name="keyword" />
 		</Patent>
