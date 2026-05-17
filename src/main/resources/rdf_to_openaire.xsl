@@ -219,6 +219,22 @@
 		</xsl:for-each>
 	</xsl:template>
 
+	<xsl:template name="registrationDate">
+		<xsl:for-each select="res:get(vivo:dateIssued)[1]">
+			<RegistrationDate>
+				<xsl:call-template name="date" />
+			</RegistrationDate>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="filedDate">
+		<xsl:for-each select="res:get(vivo:dateFiled)[1]">
+			<PublicationDate>
+				<xsl:call-template name="date" />
+			</PublicationDate>
+		</xsl:for-each>
+	</xsl:template>
+	
 	<xsl:template name="date">
 		<xsl:choose>
 			<xsl:when
@@ -277,6 +293,8 @@
             </xsl:attribute>
 			<xsl:call-template name="patentType" />
 			<xsl:call-template name="title" />
+			<xsl:call-template name="registrationDate" />
+			<xsl:call-template name="filedDate" />
 			<xsl:call-template name="url" />
 			<xsl:call-template name="abstract" />
 			<xsl:call-template name="keyword" />
