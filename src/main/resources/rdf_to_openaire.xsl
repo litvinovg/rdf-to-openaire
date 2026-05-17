@@ -347,6 +347,8 @@
             </xsl:attribute>
 			<xsl:call-template name="fundingType" />
 			<xsl:call-template name="name" />
+			<xsl:call-template name="amount" />
+			<xsl:call-template name="description" />
 			<xsl:call-template name="funder" />
 			<xsl:call-template name="partOfFunding" />
 		</Funding>
@@ -363,6 +365,7 @@
 			<xsl:call-template name="country" />
 			<xsl:call-template name="startDate" />
 			<xsl:call-template name="endDate" />
+			<xsl:call-template name="description" />
 		</Event>
 	</xsl:template>
 
@@ -390,6 +393,26 @@
 			<xsl:call-template name="keyword" />
 			<xsl:call-template name="presentedAt" />
 		</Product>
+	</xsl:template>
+
+	<xsl:template name="amount">
+		<xsl:if test="vivo:totalAwardAmount">
+			<xsl:variable name="amount" select="vivo:totalAwardAmount[1]/text()" />
+			<Amount>
+				<xsl:attribute name="currency">
+				<xsl:choose>
+					<xsl:when
+						test="contains($amount,'$')">
+						<xsl:text>USD</xsl:text>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>EUR</xsl:text>
+					</xsl:otherwise>
+				</xsl:choose>
+				</xsl:attribute>
+				<xsl:value-of select="replace($amount, '[^0-9,.]', '')" />
+			</Amount>
+		</xsl:if>
 	</xsl:template>
 
 	<xsl:template name="patentNumber">
