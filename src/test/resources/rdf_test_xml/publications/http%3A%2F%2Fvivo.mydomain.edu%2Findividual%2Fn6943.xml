@@ -16,6 +16,7 @@
     <j.3:abstract xml:lang="en-US">This article examines innovative solutions designed to address modern challenges across various sectors, including healthcare, technology, and environmental sustainability. It highlights case studies that demonstrate the effectiveness of novel approaches and interdisciplinary collaboration. By analyzing emerging trends and their practical applications, the article aims to inspire creativity and resilience in facing today's pressing issues, fostering a proactive mindset for future advancements.</j.3:abstract>
     <rdfs:comment>CERIF Publication</rdfs:comment>
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+    <j.3:isbn13 xml:lang="en-US">978-0-17-414435-3</j.3:isbn13>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     <j.4:dateTimeValue>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n1967">
@@ -98,7 +99,6 @@
     <j.4:placeOfPublication xml:lang="en-US">London</j.4:placeOfPublication>
     <j.4:freetextKeyword xml:lang="en-US">Innovative solutions, modern challenges, interdisciplinary collaboration, healthcare advancements, sustainable technology</j.4:freetextKeyword>
     <rdfs:label xml:lang="en-US">Innovative Solutions for Modern Challenges</rdfs:label>
-    <j.3:isbn13 xml:lang="en-US"> 978-3-77-114435-7</j.3:isbn13>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.3:doi xml:lang="en-US">10.4356/17633874.5677.1774223</j.3:doi>
   </j.3:Proceedings>

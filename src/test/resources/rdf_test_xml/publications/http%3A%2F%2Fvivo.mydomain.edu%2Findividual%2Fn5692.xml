@@ -15,9 +15,9 @@
     <j.4:dateTimeValue>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n4981">
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
-        <j.4:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthDayTimePrecision"/>
+        <j.4:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearPrecision"/>
         <j.4:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2020-10-05T13:00:00</j.4:dateTime>
+        >2020-01-01T00:00:00</j.4:dateTime>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>

@@ -34,9 +34,9 @@
     </j.1:ARG_2000028>
     <rdfs:comment>CERIF Person</rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <j.3:researcherId xml:lang="en-US">A-1122-2037 </j.3:researcherId>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <j.3:scopusId xml:lang="en-US">55180076540</j.3:scopusId>
+    <j.3:researcherId xml:lang="en-US">A-1122-1937</j.3:researcherId>
     <j.1:RO_0000053>
       <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n1905">
         <j.3:roleContributesTo>

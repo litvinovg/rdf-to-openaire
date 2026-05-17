@@ -64,6 +64,19 @@
           </j.1:BFO_0000003>
         </j.4:dateIssued>
         <j.3:abstract xml:lang="en-US">This patent presents an innovative compound designed to enhance therapeutic efficacy for targeted medical treatments. By optimizing chemical properties and mechanisms of action, the compound demonstrates improved bioavailability and efficacy in treating specific conditions. This advancement offers a promising solution for addressing unmet medical needs and improving patient outcomes.</j.3:abstract>
+        <j.4:dateFiled>
+          <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n4776">
+            <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+            <j.4:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthDayTimePrecision"/>
+            <j.4:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >1999-02-09T14:00:00</j.4:dateTime>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+            <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+            <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+          </j.1:BFO_0000003>
+        </j.4:dateFiled>
         <j.4:freetextKeyword xml:lang="en-US">Innovative compound, therapeutic efficacy, drug development, pharmaceutical formulation, medical treatment, chemical synthesis</j.4:freetextKeyword>
         <j.1:ARG_2000028>
           <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n4180">

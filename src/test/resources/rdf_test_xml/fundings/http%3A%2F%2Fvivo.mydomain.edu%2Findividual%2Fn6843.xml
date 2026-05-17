@@ -7,7 +7,26 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:j.2="http://vivoweb.org/ontology/core#"
     xmlns:j.3="http://xmlns.com/foaf/0.1/">
-  <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n6843">
+  <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n6843">
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+    <j.2:dateTimeInterval>
+      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n6428">
+        <j.2:start>
+          <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n904">
+            <j.2:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+            <j.2:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-06-01T00:00:00</j.2:dateTime>
+          </rdf:Description>
+        </j.2:start>
+        <j.2:end>
+          <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n2725">
+            <j.2:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthPrecision"/>
+            <j.2:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2024-08-01T00:00:00</j.2:dateTime>
+          </rdf:Description>
+        </j.2:end>
+      </rdf:Description>
+    </j.2:dateTimeInterval>
     <j.1:BFO_0000050>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n7681">
         <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Grant"/>
@@ -52,9 +71,17 @@
             <rdfs:label xml:lang="en-US">Foundations of Scientific Innovation</rdfs:label>
           </j.3:Organization>
         </j.2:assignedBy>
-        <rdfs:comment>CERIF Funding</rdfs:comment>
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Grant"/>
       </j.1:BFO_0000001>
     </j.1:BFO_0000050>
-  </rdf:Description>
+    <rdfs:comment>CERIF Funding</rdfs:comment>
+    <j.2:assignedBy rdf:resource="http://vivo.mydomain.edu/individual/n6010"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <j.2:totalAwardAmount xml:lang="en-US">10000</j.2:totalAwardAmount>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Grant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    <rdfs:label xml:lang="en-US">Renewable Energy Innovations Grant</rdfs:label>
+    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Grant"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+  </owl:Thing>
 </rdf:RDF>

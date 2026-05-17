@@ -65,7 +65,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.4:relatedBy>
-    <j.3:doi xml:lang="en-US">10.8745</j.3:doi>
     <j.3:presentedAt>
       <j.1:BFO_0000003 rdf:about="http://vivo.mydomain.edu/individual/n2512">
         <rdfs:label xml:lang="en-US">Exploring Life: A Biological Workshop</rdfs:label>
@@ -92,5 +91,6 @@
     </j.4:dateTimeValue>
     <j.3:status rdf:resource="http://purl.org/ontology/bibo/accepted"/>
     <j.3:abstract xml:lang="en-US">This article explores innovative approaches in medicine that enhance patient care. It discusses the integration of advanced technologies, personalized treatment plans, and collaborative healthcare models. By highlighting successful case studies, the article emphasizes the transformative potential of these strategies in improving patient outcomes and overall healthcare quality.</j.3:abstract>
+    <j.3:doi xml:lang="en-US">10.8745/10229765.2097.1098873</j.3:doi>
   </j.1:BFO_0000031>
 </rdf:RDF>
