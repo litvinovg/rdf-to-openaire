@@ -347,6 +347,7 @@
             </xsl:attribute>
 			<xsl:call-template name="fundingType" />
 			<xsl:call-template name="name" />
+			<xsl:call-template name="funder" />
 			<xsl:call-template name="partOfFunding" />
 		</Funding>
 	</xsl:template>
@@ -476,6 +477,14 @@
 			<PartOf>
 				<xsl:call-template name="orgUnit" />
 			</PartOf>
+		</xsl:for-each>
+	</xsl:template>
+	
+	<xsl:template name="funder">
+		<xsl:for-each select="res:get(vivo:assignedBy|vivo:sponsoredBy)[res:types(.) = 'http://xmlns.com/foaf/0.1/Organization']">
+			<Funder>
+				<xsl:call-template name="orgUnit" />
+			</Funder>
 		</xsl:for-each>
 	</xsl:template>
 

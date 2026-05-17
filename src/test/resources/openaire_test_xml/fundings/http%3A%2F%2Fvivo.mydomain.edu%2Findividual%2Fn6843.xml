@@ -3,10 +3,22 @@
          id="http://vivo.mydomain.edu/individual/n6843">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant</Type>
    <Name xml:lang="en-US">Renewable Energy Innovations Grant</Name>
+   <Funder>
+      <OrgUnit id="http://vivo.mydomain.edu/individual/n6010">
+         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
+         <Name xml:lang="en-US">Foundations of Scientific Innovation</Name>
+      </OrgUnit>
+   </Funder>
    <PartOf>
       <Funding id="http://vivo.mydomain.edu/individual/n7681">
          <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant</Type>
          <Name xml:lang="en-US">Innovative Approaches to Sustainable Energy Solutions</Name>
+         <Funder>
+            <OrgUnit id="http://vivo.mydomain.edu/individual/n6010">
+               <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
+               <Name xml:lang="en-US">Foundations of Scientific Innovation</Name>
+            </OrgUnit>
+         </Funder>
       </Funding>
    </PartOf>
 </Funding>
