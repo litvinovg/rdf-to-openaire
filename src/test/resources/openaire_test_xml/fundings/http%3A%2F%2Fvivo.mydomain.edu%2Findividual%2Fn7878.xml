@@ -2,4 +2,5 @@
 <Funding xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.mydomain.edu/individual/n7878">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Award</Type>
+   <Name xml:lang="en-US">Biological Annual Award</Name>
 </Funding>

@@ -307,6 +307,7 @@
                 <xsl:value-of select="@rdf:about" />
             </xsl:attribute>
 			<xsl:call-template name="fundingType" />
+			<xsl:call-template name="name" />
 			<xsl:call-template name="partOf" />
 		</Funding>
 	</xsl:template>
