@@ -362,6 +362,7 @@
 			<xsl:call-template name="eventType" />
 			<xsl:call-template name="acronym" />
 			<xsl:call-template name="name" />
+			<xsl:call-template name="place" />
 			<xsl:call-template name="country" />
 			<xsl:call-template name="startDate" />
 			<xsl:call-template name="endDate" />
@@ -813,6 +814,15 @@
 			<ORCID>
 				<xsl:value-of select="." />
 			</ORCID>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="place">
+		<xsl:for-each
+			select="res:get(obo:RO_0001025)[res:types(.) = 'http://vivoweb.org/ontology/core#PopulatedPlace'][1]">
+			<Place>
+				<xsl:value-of select="rdfs:label/text()" />
+			</Place>
 		</xsl:for-each>
 	</xsl:template>
 
