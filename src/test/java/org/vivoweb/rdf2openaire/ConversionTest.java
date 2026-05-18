@@ -30,10 +30,10 @@ import org.apache.commons.io.FileUtils;
 
 class ConversionTest {
 
-	private static final String OPENAIRE_TEST = "openaire_test_xml";
-	private static final String RDF_TEST = "rdf_test_xml";
-	private static File rdf = new File("src/test/resources/rdf_test_xml");
-	private static File xsd = new File("src/test/resources/openaire-cerif-profile.xsd");
+	private static final String OPENAIRE_TEST = "openaire";
+	private static final String RDF_TEST = "rdf";
+	private static File rdf = new File("src/test/resources/rdf");
+	private static File xsd = new File("src/test/resources/schema/openaire-cerif-profile.xsd");
 	private static File xslt = new File("src/main/resources/rdf_to_openaire.xsl");
 	private static Transformer transformer;
 	private static boolean UPDATE = true;
