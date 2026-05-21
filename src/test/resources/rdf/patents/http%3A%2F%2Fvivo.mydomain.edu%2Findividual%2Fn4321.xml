@@ -27,20 +27,6 @@
   </rdf:Description>
   <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n5044">
     <j.5:relates>
-      <j.6:Agent rdf:about="http://vivo.mydomain.edu/individual/n2358">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:label xml:lang="en-US">Goodman, Philip Brandon</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-      </j.6:Agent>
-    </j.5:relates>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-    <j.5:relates>
       <owl:Thing rdf:about="http://vivo.mydomain.edu/individual/n4321">
         <j.5:relatedBy rdf:resource="http://vivo.mydomain.edu/individual/n5044"/>
         <j.5:patentNumber xml:lang="en-US">US-12234/988876-1</j.5:patentNumber>
@@ -99,6 +85,20 @@
         <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Patent"/>
         <rdfs:label xml:lang="en-US">Innovative Compound for Enhanced Therapeutic Efficacy</rdfs:label>
       </owl:Thing>
+    </j.5:relates>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <j.5:relates>
+      <j.6:Agent rdf:about="http://vivo.mydomain.edu/individual/n2358">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label xml:lang="en-US">Goodman, Philip Brandon</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.6:Agent>
     </j.5:relates>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </j.1:BFO_0000001>

@@ -43,6 +43,11 @@
     <rdfs:label xml:lang="en-US">Novel Biomaterials for Tissue Engineering Applications</rdfs:label>
     <j.5:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2945">
+        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n5692"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <j.5:relates>
           <j.6:Agent rdf:about="http://vivo.mydomain.edu/individual/n6310">
             <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusProfessor"/>
@@ -55,11 +60,6 @@
             <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
           </j.6:Agent>
         </j.5:relates>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n5692"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.5:relatedBy>
@@ -67,6 +67,11 @@
     <j.5:freetextKeyword xml:lang="en-US">Biomaterials, tissue engineering, biocompatibility, cell growth, regenerative medicine, material innovations</j.5:freetextKeyword>
     <j.5:relatedBy>
       <j.5:Editorship rdf:about="http://vivo.mydomain.edu/individual/n6510">
+        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n5692"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <j.5:relates>
           <j.5:Postdoc rdf:about="http://vivo.mydomain.edu/individual/n656">
             <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
@@ -79,11 +84,6 @@
             <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
           </j.5:Postdoc>
         </j.5:relates>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n5692"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.5:Editorship>
     </j.5:relatedBy>

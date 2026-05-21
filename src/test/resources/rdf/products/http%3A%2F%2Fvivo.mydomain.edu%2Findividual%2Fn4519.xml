@@ -51,6 +51,11 @@
     <rdfs:comment>OpenAIRE Product</rdfs:comment>
     <j.5:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n2740">
+        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n4519"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <j.5:relates>
           <j.6:Agent rdf:about="http://vivo.mydomain.edu/individual/n6310">
             <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusProfessor"/>
@@ -63,11 +68,6 @@
             <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
           </j.6:Agent>
         </j.5:relates>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n4519"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.5:relatedBy>

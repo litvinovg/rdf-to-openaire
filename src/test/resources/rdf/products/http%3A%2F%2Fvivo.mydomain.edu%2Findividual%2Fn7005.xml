@@ -20,6 +20,11 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <j.3:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n4598">
+        <j.3:relates rdf:resource="http://vivo.mydomain.edu/individual/n7005"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <j.3:relates>
           <j.4:Agent rdf:about="http://vivo.mydomain.edu/individual/n6310">
             <rdf:type rdf:resource="http://vivoweb.org/ontology/core#EmeritusProfessor"/>
@@ -32,11 +37,6 @@
             <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
           </j.4:Agent>
         </j.3:relates>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <j.3:relates rdf:resource="http://vivo.mydomain.edu/individual/n7005"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.3:relatedBy>

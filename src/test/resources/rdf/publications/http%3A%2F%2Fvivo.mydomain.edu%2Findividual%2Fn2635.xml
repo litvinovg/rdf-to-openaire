@@ -30,6 +30,11 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <j.5:relatedBy>
       <j.1:BFO_0000001 rdf:about="http://vivo.mydomain.edu/individual/n1507">
+        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n2635"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <j.5:relates>
           <j.6:Agent rdf:about="http://vivo.mydomain.edu/individual/n234">
             <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
@@ -41,11 +46,6 @@
             <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
           </j.6:Agent>
         </j.5:relates>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n2635"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.1:BFO_0000001>
     </j.5:relatedBy>
@@ -58,6 +58,11 @@
     <rdfs:comment>OpenAIRE Publication</rdfs:comment>
     <j.5:relatedBy>
       <j.5:Editorship rdf:about="http://vivo.mydomain.edu/individual/n2018">
+        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n2635"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <j.5:relates>
           <j.6:Agent rdf:about="http://vivo.mydomain.edu/individual/n2358">
             <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
@@ -68,11 +73,6 @@
             <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
           </j.6:Agent>
         </j.5:relates>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <j.5:relates rdf:resource="http://vivo.mydomain.edu/individual/n2635"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
       </j.5:Editorship>
     </j.5:relatedBy>
