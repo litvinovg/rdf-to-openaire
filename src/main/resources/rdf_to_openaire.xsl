@@ -103,6 +103,10 @@
 			select="//*[rdfs:comment/text() = 'OpenAIRE Equipment']">
 			<xsl:call-template name="equipment" />
 		</xsl:for-each>
+		<xsl:for-each
+			select="//*[rdfs:comment/text() = 'OpenAIRE Project']">
+			<xsl:call-template name="project" />
+		</xsl:for-each>
 	</xsl:template>
 
 	<xsl:template name="person">
@@ -149,6 +153,24 @@
 			<xsl:call-template name="outputFrom" />
 		</Publication>
 	</xsl:template>
+
+	<xsl:template name="teamMembers">
+		<xsl:variable name="members"
+			select="res:get(res:get(obo:BFO_0000055)[res:types(.) = 'http://vivoweb.org/ontology/core#ResearcherRole']/obo:RO_0000052)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
+		<xsl:if test="$members">
+			<Team>
+				<xsl:for-each select="$members">
+					<Member>
+						<DisplayName>
+							<xsl:value-of select="rdfs:label/text()" />
+						</DisplayName>
+						<xsl:call-template name="person" />
+					</Member>
+				</xsl:for-each>
+			</Team>
+		</xsl:if>
+	</xsl:template>
+
 
 	<xsl:template name="creators">
 		<xsl:variable name="creators"
@@ -382,6 +404,18 @@
             </xsl:attribute>
 			<xsl:call-template name="name" />
 		</Equipment>
+	</xsl:template>
+
+	<xsl:template name="project">
+		<Project>
+			<xsl:attribute name="id">
+                <xsl:value-of select="@rdf:about" />
+            </xsl:attribute>
+			<xsl:call-template name="title" />
+			<xsl:call-template name="startDate" />
+			<xsl:call-template name="endDate" />
+			<xsl:call-template name="teamMembers" />
+		</Project>
 	</xsl:template>
 
 	<xsl:template name="product">

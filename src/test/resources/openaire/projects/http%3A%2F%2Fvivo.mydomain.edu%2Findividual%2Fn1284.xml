@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="https://www.openaire.eu/cerif-profile/1.2/"
+         id="http://vivo.mydomain.edu/individual/n1284">
+   <Title xml:lang="en-US">Development of Novel Immunotherapies for Cancer Treatment</Title>
+   <Team>
+      <Member>
+         <DisplayName>Cervantes, Yousef Noel</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n656"/>
+      </Member>
+      <Member>
+         <DisplayName>Hardin, Alicia Mary</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n1502"/>
+      </Member>
+   </Team>
+</Project>
