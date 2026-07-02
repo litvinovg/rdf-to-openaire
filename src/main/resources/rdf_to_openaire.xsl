@@ -286,9 +286,11 @@
 
 	<xsl:template name="registrationDate">
 		<xsl:for-each select="res:get(vivo:dateIssued)[1]">
-			<RegistrationDate>
-				<xsl:call-template name="date" />
-			</RegistrationDate>
+			<xsl:if test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
+				<RegistrationDate>
+					<xsl:call-template name="date" />
+				</RegistrationDate>
+			</xsl:if>
 		</xsl:for-each>
 	</xsl:template>
 

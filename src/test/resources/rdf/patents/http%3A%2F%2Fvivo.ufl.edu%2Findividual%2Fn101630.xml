@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:j.1="http://purl.obolibrary.org/obo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://purl.org/ontology/bibo/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.3="http://vivoweb.org/ontology/core#">
+  <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n93214">
+    <j.3:dateIssued>
+      <j.1:BFO_0000003 rdf:about="http://vivo.ufl.edu/individual/n510250">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>June 7, 2005</rdfs:label>
+      </j.1:BFO_0000003>
+    </j.3:dateIssued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n24453">
+    <j.3:dateIssued>
+      <j.1:BFO_0000003 rdf:about="http://vivo.ufl.edu/individual/n22320">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>June 26, 2001</rdfs:label>
+      </j.1:BFO_0000003>
+    </j.3:dateIssued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n21406">
+    <j.3:dateIssued>
+      <j.1:BFO_0000003 rdf:about="http://vivo.ufl.edu/individual/n28482">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>licensed to Amgen 1997 and licensed to Dupont 1999</rdfs:label>
+      </j.1:BFO_0000003>
+    </j.3:dateIssued>
+  </rdf:Description>
+  <j.2:Document rdf:about="http://vivo.ufl.edu/individual/n101630">
+    <j.3:dateIssued>
+      <j.1:BFO_0000003 rdf:about="http://vivo.ufl.edu/individual/n52094">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>1997 licensed to Mayo Ventures</rdfs:label>
+      </j.1:BFO_0000003>
+    </j.3:dateIssued>
+    <rdfs:comment>OpenAIRE Patent</rdfs:comment>
+    <rdfs:label>Transgenic mice expressing human amyloid precursor proteins with mutations linked to familial Alzheimer’s Disease </rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Patent"/>
+    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#InformationResource"/>
+    <j.0:mostSpecificType rdf:resource="http://purl.org/ontology/bibo/Patent"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </j.2:Document>
+  <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n153186">
+    <j.3:dateIssued>
+      <j.1:BFO_0000003 rdf:about="http://vivo.ufl.edu/individual/n303354">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>2001</rdfs:label>
+      </j.1:BFO_0000003>
+    </j.3:dateIssued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vivo.ufl.edu/individual/n128364">
+    <j.3:dateIssued>
+      <j.1:BFO_0000003 rdf:about="http://vivo.ufl.edu/individual/n112888">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>2003 BRI Constructs and Methods of Using” US2003221204, WO03002754, AU2002315494, WO03002754</rdfs:label>
+      </j.1:BFO_0000003>
+    </j.3:dateIssued>
+  </rdf:Description>
+</rdf:RDF>
