@@ -265,18 +265,22 @@
 	<xsl:template name="startDate">
 		<xsl:for-each
 			select="res:get(res:get(vivo:dateTimeInterval)/vivo:start)[1]">
-			<StartDate>
-				<xsl:call-template name="date" />
-			</StartDate>
+			<xsl:if test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
+				<StartDate>
+					<xsl:call-template name="full-date" />
+				</StartDate>
+			</xsl:if>
 		</xsl:for-each>
 	</xsl:template>
 
 	<xsl:template name="endDate">
 		<xsl:for-each
 			select="res:get(res:get(vivo:dateTimeInterval)/vivo:end)[1]">
-			<EndDate>
-				<xsl:call-template name="date" />
-			</EndDate>
+			<xsl:if test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
+				<EndDate>
+					<xsl:call-template name="full-date" />
+				</EndDate>
+			</xsl:if>
 		</xsl:for-each>
 	</xsl:template>
 
@@ -330,6 +334,35 @@
 			</xsl:when>
 		</xsl:choose>
 	</xsl:template>
+
+	<xsl:template name="full-date">
+		<xsl:choose>
+			<xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayHourMinutePrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,10)" />
+			</xsl:when>
+		    <xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayHourPrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,10)" />
+			</xsl:when>
+			<xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayTimePrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,10)" />
+			</xsl:when>
+			<xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayPrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,10)" />
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="res:id(vivo:dateTimePrecision)" />
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
 
 	<xsl:template name="publishers">
 		<xsl:variable name="publishers"
