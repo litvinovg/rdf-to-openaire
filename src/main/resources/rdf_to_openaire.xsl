@@ -948,9 +948,11 @@
 
 	<xsl:template name="researcherId">
 		<xsl:for-each select="vivo:researcherId">
-			<ResearcherID>
-				<xsl:value-of select="text()" />
-			</ResearcherID>
+			<xsl:if test="matches(., '^[A-Z]{1,3}-[0-9]{4}-(19|20)[0-9][0-9]$')">
+				<ResearcherID>
+					<xsl:value-of select="text()" />
+				</ResearcherID>
+			</xsl:if>
 		</xsl:for-each>
 	</xsl:template>
 
