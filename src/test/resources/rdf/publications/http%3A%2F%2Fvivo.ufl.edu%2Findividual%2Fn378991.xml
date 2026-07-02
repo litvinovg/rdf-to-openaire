@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+    xmlns:j.1="http://purl.obolibrary.org/obo/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.2="http://purl.org/NET/c4dm/event.owl#"
+    xmlns:j.3="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.4="http://purl.org/ontology/bibo/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.5="http://vivoweb.org/ontology/core#">
+  <owl:Thing rdf:about="http://vivo.ufl.edu/individual/n378991">
+    <j.5:hasSubjectArea>
+      <owl:Thing rdf:about="http://vivo.ufl.edu/individual/n127958">
+        <rdfs:label>Research Discovery</rdfs:label>
+        <j.0:mostSpecificType rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      </owl:Thing>
+    </j.5:hasSubjectArea>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    <rdfs:comment>OpenAIRE Publication</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#ConferencePoster"/>
+    <rdfs:label xml:lang="en-US">VIVO: Connect, Share, Discover</rdfs:label>
+    <j.4:presentedAt>
+      <j.1:BFO_0000003 rdf:about="http://vivo.ufl.edu/individual/n495282">
+        <rdfs:label>2012 CTSA Informatics Key Function Committee Meeting</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Meeting"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Meeting"/>
+        <rdf:type rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.4:presentedAt>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    <j.5:dateTimeValue>
+      <j.1:BFO_0000003 rdf:about="http://vivo.ufl.edu/individual/n148041">
+        <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <j.5:dateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-11-07T15:00:00</j.5:dateTime>
+        <j.5:dateTimePrecision rdf:resource="http://vivoweb.org/ontology/core#yearMonthDayHourPrecision"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+      </j.1:BFO_0000003>
+    </j.5:dateTimeValue>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    <rdf:type rdf:resource="http://vivoweb.org/ontology/core#ConferencePoster"/>
+  </owl:Thing>
+</rdf:RDF>

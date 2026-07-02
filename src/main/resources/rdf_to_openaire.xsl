@@ -254,9 +254,11 @@
 
 	<xsl:template name="publicationDate">
 		<xsl:for-each select="res:get(vivo:dateTimeValue)[1]">
-			<PublicationDate>
-				<xsl:call-template name="date" />
-			</PublicationDate>
+			<xsl:if test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#') and string-length(vivo:dateTime/text()) &gt; 4">
+				<PublicationDate>
+					<xsl:call-template name="date" />
+				</PublicationDate>
+			</xsl:if>
 		</xsl:for-each>
 	</xsl:template>
 
@@ -296,6 +298,16 @@
 
 	<xsl:template name="date">
 		<xsl:choose>
+			<xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayHourMinutePrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,10)" />
+			</xsl:when>
+		    <xsl:when
+				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayHourPrecision'">
+				<xsl:value-of
+					select="substring(vivo:dateTime/text(),1,10)" />
+			</xsl:when>
 			<xsl:when
 				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayTimePrecision'">
 				<xsl:value-of
