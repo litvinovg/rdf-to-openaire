@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Publication xmlns="https://www.openaire.eu/cerif-profile/1.2/"
+             id="http://vivo.ufl.edu/individual/n49857">
+   <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_18cf</Type>
+   <Title>Estimation of Regional Building-Related C&amp;D Debris Generation and Composition: Case study for Florida, U.S.</Title>
+   <PublicationDate>2007</PublicationDate>
+   <Volume>27</Volume>
+   <Issue>7</Issue>
+   <StartPage>921</StartPage>
+   <EndPage>931</EndPage>
+</Publication>

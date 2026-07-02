@@ -558,11 +558,13 @@
 	</xsl:template>
 
 	<xsl:template name="doi">
-		<xsl:if test="bibo:doi">
-			<DOI>
-				<xsl:value-of select="bibo:doi[1]/text()" />
-			</DOI>
-		</xsl:if>
+		<xsl:for-each select="normalize-space(bibo:doi[1]/text())">
+			<xsl:if test="matches(., '^10\.\d{4,}(\.\d+)*/[^\s]+$')">
+				<DOI>
+					<xsl:value-of select="." />
+				</DOI>
+			</xsl:if>
+		</xsl:for-each>
 	</xsl:template>
 
 	<xsl:template name="isbn">
