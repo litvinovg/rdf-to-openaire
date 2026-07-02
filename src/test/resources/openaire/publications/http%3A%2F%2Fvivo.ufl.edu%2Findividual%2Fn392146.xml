@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Publication xmlns="https://www.openaire.eu/cerif-profile/1.2/"
+             id="http://vivo.ufl.edu/individual/n392146">
+   <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_2f33</Type>
+   <Title>Treatment of Dementia&#x80;&#x99;s: A New Generation of Progress</Title>
+   <Publishers>
+      <Publisher>
+         <OrgUnit id="http://vivo.ufl.edu/individual/n42998">
+            <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
+            <Name>Plenum Press</Name>
+         </OrgUnit>
+      </Publisher>
+   </Publishers>
+</Publication>

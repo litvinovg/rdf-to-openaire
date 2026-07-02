@@ -569,9 +569,11 @@
 
 	<xsl:template name="isbn">
 		<xsl:for-each select="bibo:isbn10|bibo:isbn13">
-			<ISBN>
-				<xsl:value-of select="text()" />
-			</ISBN>
+			<xsl:if test="string-length(replace(., '[^0-9]', '')) = 10 or string-length(replace(., '[^0-9]', '')) = 13">
+				<ISBN>
+					<xsl:value-of select="replace(., '[^0-9]', '')" />
+				</ISBN>
+			</xsl:if>
 		</xsl:for-each>
 	</xsl:template>
 
