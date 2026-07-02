@@ -981,7 +981,7 @@
 	</xsl:template>
 
 	<xsl:template name="acronym">
-		<xsl:for-each select="vivo:abbreviation">
+		<xsl:for-each select="vivo:abbreviation[1]">
 			<Acronym>
 				<xsl:value-of select="." />
 			</Acronym>
