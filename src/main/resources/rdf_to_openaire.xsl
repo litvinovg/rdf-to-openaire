@@ -254,7 +254,7 @@
 
 	<xsl:template name="publicationDate">
 		<xsl:for-each select="res:get(vivo:dateTimeValue)[1]">
-			<xsl:if test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#') and string-length(vivo:dateTime/text()) &gt; 4">
+			<xsl:if test="count(res:id(vivo:dateTimePrecision)) = 1 and starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#') and string-length(vivo:dateTime/text()) &gt; 4">
 				<PublicationDate>
 					<xsl:call-template name="date" />
 				</PublicationDate>

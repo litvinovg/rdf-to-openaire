@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Publication xmlns="https://www.openaire.eu/cerif-profile/1.2/"
+             id="http://vivo.ufl.edu/individual/n6328415155">
+   <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_18cf</Type>
+   <Title>Clinical event monitoring at the University of Pittsburgh.</Title>
+   <StartPage>188</StartPage>
+   <EndPage>192</EndPage>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.ufl.edu/individual/n3910144908</Subject>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.ufl.edu/individual/n480252</Subject>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.ufl.edu/individual/n8948783701</Subject>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.ufl.edu/individual/n2624257719</Subject>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.ufl.edu/individual/n9012867203</Subject>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.ufl.edu/individual/n8703931989</Subject>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.ufl.edu/individual/n8256773015</Subject>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.ufl.edu/individual/n2360154732</Subject>
+   <Abstract xml:lang="">Although the literature on event monitoring is extensive, it does not cover all issues that we encountered while developing an event monitor at our institution. We had to resolve issues related to event detection, scalability, what topics were suitable for asynchronous decision support, and overlap of efforts of other groups at the institution attempting to improve quality and lower cost of care. In this paper, we describe our experience deploying CLEM, the clinical event monitor at the University of Pittsburgh with emphasis on these topics.</Abstract>
+</Publication>
