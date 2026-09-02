@@ -14,6 +14,11 @@
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
     <j.0:mostSpecificType rdf:resource="http://vivoweb.org/ontology/core#Grant"/>
     <j.3:totalAwardAmount xml:lang="en-US">40000</j.3:totalAwardAmount>
+    <j.3:hasSubjectArea>
+      <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n5495">
+        <rdfs:label xml:lang="en-US">Future of Medicine</rdfs:label>
+      </rdf:Description>
+    </j.3:hasSubjectArea>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
     <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Grant"/>

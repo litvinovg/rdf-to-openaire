@@ -5,6 +5,7 @@
    <Name xml:lang="en-US">AdvancedResearch in Medical Therapeutics Grant</Name>
    <Amount currency="EUR">40000</Amount>
    <Description xml:lang="en-US">The "Advanced Research in Medical Therapeutics Grant" aims to support innovative studies that enhance treatment efficacy and patient outcomes. By funding cutting-edge research in pharmaceuticals, biotechnology, and therapeutic interventions, this grant seeks to foster breakthroughs that address unmet medical needs and improve healthcare solutions globally.</Description>
+   <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5495</Subject>
    <Funder>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n2262">
          <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
