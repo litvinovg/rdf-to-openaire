@@ -172,11 +172,14 @@
 	</xsl:template>
 
 	<xsl:template name="creators">
-		<xsl:if test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+		<xsl:if
+			test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 			<Creators>
-				<xsl:for-each select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
+				<xsl:for-each
+					select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
 					<xsl:sort select="vivo:rank" order="ascending" />
-					<xsl:for-each select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+					<xsl:for-each
+						select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 						<Creator>
 							<DisplayName>
 								<xsl:value-of select="rdfs:label/text()" />
@@ -188,13 +191,16 @@
 			</Creators>
 		</xsl:if>
 	</xsl:template>
-	
+
 	<xsl:template name="inventors">
-		<xsl:if test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+		<xsl:if
+			test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 			<Inventors>
-				<xsl:for-each select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
+				<xsl:for-each
+					select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
 					<xsl:sort select="vivo:rank" order="ascending" />
-					<xsl:for-each select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+					<xsl:for-each
+						select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 						<Inventor>
 							<DisplayName>
 								<xsl:value-of select="rdfs:label/text()" />
@@ -208,11 +214,14 @@
 	</xsl:template>
 
 	<xsl:template name="authors">
-		<xsl:if test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+		<xsl:if
+			test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 			<Authors>
-				<xsl:for-each select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
+				<xsl:for-each
+					select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
 					<xsl:sort select="vivo:rank" order="ascending" />
-					<xsl:for-each select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+					<xsl:for-each
+						select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 						<Author>
 							<DisplayName>
 								<xsl:value-of select="rdfs:label/text()" />
@@ -226,11 +235,14 @@
 	</xsl:template>
 
 	<xsl:template name="editors">
-		<xsl:if test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+		<xsl:if
+			test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 			<Editors>
-				<xsl:for-each select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']">
+				<xsl:for-each
+					select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']">
 					<xsl:sort select="vivo:rank" order="ascending" />
-					<xsl:for-each select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+					<xsl:for-each
+						select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 						<Editor>
 							<DisplayName>
 								<xsl:value-of select="rdfs:label/text()" />
@@ -257,7 +269,8 @@
 
 	<xsl:template name="publicationDate">
 		<xsl:for-each select="res:get(vivo:dateTimeValue)[1]">
-			<xsl:if test="count(res:id(vivo:dateTimePrecision)) = 1 and starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#') and string-length(vivo:dateTime/text()) &gt; 4">
+			<xsl:if
+				test="count(res:id(vivo:dateTimePrecision)) = 1 and starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#') and string-length(vivo:dateTime/text()) &gt;= 4">
 				<PublicationDate>
 					<xsl:call-template name="date" />
 				</PublicationDate>
@@ -268,7 +281,8 @@
 	<xsl:template name="startDate">
 		<xsl:for-each
 			select="res:get(res:get(vivo:dateTimeInterval)/vivo:start)[1]">
-			<xsl:if test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
+			<xsl:if
+				test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
 				<StartDate>
 					<xsl:call-template name="full-date" />
 				</StartDate>
@@ -279,7 +293,8 @@
 	<xsl:template name="endDate">
 		<xsl:for-each
 			select="res:get(res:get(vivo:dateTimeInterval)/vivo:end)[1]">
-			<xsl:if test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
+			<xsl:if
+				test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
 				<EndDate>
 					<xsl:call-template name="full-date" />
 				</EndDate>
@@ -289,7 +304,8 @@
 
 	<xsl:template name="approvalDate">
 		<xsl:for-each select="res:get(vivo:dateIssued)[1]">
-			<xsl:if test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
+			<xsl:if
+				test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
 				<ApprovalDate>
 					<xsl:call-template name="date" />
 				</ApprovalDate>
@@ -312,7 +328,7 @@
 				<xsl:value-of
 					select="substring(vivo:dateTime/text(),1,10)" />
 			</xsl:when>
-		    <xsl:when
+			<xsl:when
 				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayHourPrecision'">
 				<xsl:value-of
 					select="substring(vivo:dateTime/text(),1,10)" />
@@ -347,7 +363,7 @@
 				<xsl:value-of
 					select="substring(vivo:dateTime/text(),1,10)" />
 			</xsl:when>
-		    <xsl:when
+			<xsl:when
 				test="res:id(vivo:dateTimePrecision) = 'http://vivoweb.org/ontology/core#yearMonthDayHourPrecision'">
 				<xsl:value-of
 					select="substring(vivo:dateTime/text(),1,10)" />
@@ -565,7 +581,8 @@
 	</xsl:template>
 
 	<xsl:template name="doi">
-		<xsl:for-each select="normalize-space(bibo:doi[1]/text())">
+		<xsl:for-each
+			select="normalize-space(bibo:doi[1]/text())">
 			<xsl:if test="matches(., '^10\.\d{4,}(\.\d+)*/[^\s]+$')">
 				<DOI>
 					<xsl:value-of select="." />
@@ -576,7 +593,8 @@
 
 	<xsl:template name="isbn">
 		<xsl:for-each select="bibo:isbn10|bibo:isbn13">
-			<xsl:if test="string-length(replace(., '[^0-9]', '')) = 10 or string-length(replace(., '[^0-9]', '')) = 13">
+			<xsl:if
+				test="string-length(replace(., '[^0-9]', '')) = 10 or string-length(replace(., '[^0-9]', '')) = 13">
 				<ISBN>
 					<xsl:value-of select="replace(., '[^0-9]', '')" />
 				</ISBN>
@@ -963,7 +981,8 @@
 
 	<xsl:template name="researcherId">
 		<xsl:for-each select="vivo:researcherId">
-			<xsl:if test="matches(., '^[A-Z]{1,3}-[0-9]{4}-(19|20)[0-9][0-9]$')">
+			<xsl:if
+				test="matches(., '^[A-Z]{1,3}-[0-9]{4}-(19|20)[0-9][0-9]$')">
 				<ResearcherID>
 					<xsl:value-of select="text()" />
 				</ResearcherID>
@@ -1004,11 +1023,11 @@
 	<xsl:template name="nameAbbreviation">
 		<xsl:for-each select="vivo:abbreviation">
 			<NameAbbreviation>
-			    <xsl:if test="@xml:lang">
-				    <xsl:attribute name="xml:lang">
+				<xsl:if test="@xml:lang">
+					<xsl:attribute name="xml:lang">
 				    	<xsl:value-of select="@xml:lang" />
 				    </xsl:attribute>
-			    </xsl:if>
+				</xsl:if>
 				<xsl:value-of select="." />
 			</NameAbbreviation>
 		</xsl:for-each>
