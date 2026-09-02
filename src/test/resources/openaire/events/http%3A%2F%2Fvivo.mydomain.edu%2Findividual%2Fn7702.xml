@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Event xmlns="https://www.openaire.eu/cerif-profile/1.2/"
        id="http://vivo.mydomain.edu/individual/n7702">
-   <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Fundamentals of Biology</Name>
    <Country>US</Country>
    <StartDate>2024-03-02</StartDate>

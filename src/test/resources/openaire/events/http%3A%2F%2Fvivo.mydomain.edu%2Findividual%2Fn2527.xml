@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Event xmlns="https://www.openaire.eu/cerif-profile/1.2/"
        id="http://vivo.mydomain.edu/individual/n2527">
-   <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Genetics and Evolution: The Blueprint of Life</Name>
    <Country>GB</Country>
    <StartDate>2025-10-16</StartDate>

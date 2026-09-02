@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Event xmlns="https://www.openaire.eu/cerif-profile/1.2/"
        id="http://vivo.mydomain.edu/individual/n8116">
-   <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">The Future of Telehealth and Digital Care</Name>
    <Country>SI</Country>
    <StartDate>2026-10-23</StartDate>

@@ -20,7 +20,6 @@
    <Keyword xml:lang="en-US">scientific discovery</Keyword>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n311">
-         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">The Creative Cosmos</Name>
       </Event>
    </PresentedAt>

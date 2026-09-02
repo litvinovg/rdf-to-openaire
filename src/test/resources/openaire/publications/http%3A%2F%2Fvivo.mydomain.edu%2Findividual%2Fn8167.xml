@@ -35,7 +35,6 @@
    <Abstract xml:lang="en-US">"Insights into Cellular Regeneration Mechanisms" explores the intricate processes underlying cellular regeneration, highlighting key molecular pathways and signaling networks. It emphasizes the role of stem cells and regenerative medicine in tissue repair and disease treatment, providing a comprehensive understanding of how organisms restore and maintain cellular integrity.</Abstract>
    <OutputFrom>
       <Event id="http://vivo.mydomain.edu/individual/n2527">
-         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">Genetics and Evolution: The Blueprint of Life</Name>
       </Event>
    </OutputFrom>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Event xmlns="https://www.openaire.eu/cerif-profile/1.2/"
        id="http://vivo.ufl.edu/individual/n189151">
-   <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name>Determining Optimum Acceptance Sample Size:  A Second Look</Name>
 </Event>

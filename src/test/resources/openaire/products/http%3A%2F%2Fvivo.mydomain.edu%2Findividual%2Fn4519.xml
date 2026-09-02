@@ -21,7 +21,6 @@
    <Keyword xml:lang="en-US">precision medicine</Keyword>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n7702">
-         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">Fundamentals of Biology</Name>
       </Event>
    </PresentedAt>

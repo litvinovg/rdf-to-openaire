@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Event xmlns="https://www.openaire.eu/cerif-profile/1.2/"
        id="http://vivo.mydomain.edu/individual/n639">
-   <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
    <Name xml:lang="en-US">Breaking Barriers in Medical Research</Name>
    <Country>BR</Country>
    <StartDate>2021-10-22</StartDate>

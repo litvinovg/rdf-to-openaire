@@ -812,21 +812,20 @@
 
 	<xsl:template name="eventType">
 		<xsl:variable name="types" select="res:types(.)" />
-		<Type scheme="https://w3id.org/cerif/vocab/EventTypes">
-			<xsl:choose>
-				<xsl:when
-					test="$types = 'http://purl.org/ontology/bibo/Conference'">
+		<xsl:choose>
+			<xsl:when
+				test="$types = 'http://purl.org/ontology/bibo/Conference'">
+				<Type scheme="https://w3id.org/cerif/vocab/EventTypes">
 					<xsl:text>https://w3id.org/cerif/vocab/EventTypes#Conference</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://purl.org/ontology/bibo/Workshop'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://purl.org/ontology/bibo/Workshop'">
+				<Type scheme="https://w3id.org/cerif/vocab/EventTypes">
 					<xsl:text>https://w3id.org/cerif/vocab/EventTypes#Workshop</xsl:text>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:text>https://w3id.org/cerif/model#Event</xsl:text>
-				</xsl:otherwise>
-			</xsl:choose>
-		</Type>
+				</Type>
+			</xsl:when>
+		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template name="productType">

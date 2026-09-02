@@ -7,7 +7,6 @@
    <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.ufl.edu/individual/n127958</Subject>
    <PresentedAt>
       <Event id="http://vivo.ufl.edu/individual/n495282">
-         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name>2012 CTSA Informatics Key Function Committee Meeting</Name>
       </Event>
    </PresentedAt>

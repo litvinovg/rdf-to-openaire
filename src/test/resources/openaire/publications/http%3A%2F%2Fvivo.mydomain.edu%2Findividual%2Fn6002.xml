@@ -31,13 +31,11 @@
    <Status scheme="http://purl.org/ontology/bibo/DocumentStatus">http://purl.org/ontology/bibo/published</Status>
    <PresentedAt>
       <Event id="http://vivo.mydomain.edu/individual/n3801">
-         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">World Congress of Innovative Science</Name>
       </Event>
    </PresentedAt>
    <OutputFrom>
       <Event id="http://vivo.mydomain.edu/individual/n1108">
-         <Type scheme="https://w3id.org/cerif/vocab/EventTypes">https://w3id.org/cerif/model#Event</Type>
          <Name xml:lang="en-US">Expert Insights: The Future of Healthcare</Name>
       </Event>
    </OutputFrom>
