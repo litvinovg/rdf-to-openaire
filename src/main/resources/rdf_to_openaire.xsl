@@ -284,21 +284,21 @@
 		</xsl:for-each>
 	</xsl:template>
 
-	<xsl:template name="registrationDate">
+	<xsl:template name="approvalDate">
 		<xsl:for-each select="res:get(vivo:dateIssued)[1]">
 			<xsl:if test="starts-with(res:id(vivo:dateTimePrecision),'http://vivoweb.org/ontology/core#yearMonthDay') and string-length(vivo:dateTime/text()) &gt; 9">
-				<RegistrationDate>
+				<ApprovalDate>
 					<xsl:call-template name="date" />
-				</RegistrationDate>
+				</ApprovalDate>
 			</xsl:if>
 		</xsl:for-each>
 	</xsl:template>
 
-	<xsl:template name="filedDate">
+	<xsl:template name="registrationDate">
 		<xsl:for-each select="res:get(vivo:dateFiled)[1]">
-			<PublicationDate>
+			<RegistrationDate>
 				<xsl:call-template name="date" />
-			</PublicationDate>
+			</RegistrationDate>
 		</xsl:for-each>
 	</xsl:template>
 
@@ -402,8 +402,8 @@
             </xsl:attribute>
 			<xsl:call-template name="patentType" />
 			<xsl:call-template name="title" />
+			<xsl:call-template name="approvalDate" />
 			<xsl:call-template name="registrationDate" />
-			<xsl:call-template name="filedDate" />
 			<xsl:call-template name="patentNumber" />
 			<xsl:call-template name="url" />
 			<xsl:call-template name="inventors" />
