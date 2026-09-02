@@ -831,38 +831,50 @@
 
 	<xsl:template name="productType">
 		<xsl:variable name="types" select="res:types(.)" />
-		<Type
-			xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
-			<xsl:choose>
-				<xsl:when
-					test="$types = 'http://purl.org/ontology/bibo/AudioVisualDocument'">
+		<xsl:choose>
+			<xsl:when
+				test="$types = 'http://purl.org/ontology/bibo/AudioVisualDocument'">
+				<Type
+					xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
 					<xsl:text>http://purl.org/coar/resource_type/c_18cc</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://vivoweb.org/ontology/core#Video'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://vivoweb.org/ontology/core#Video'">
+				<Type
+					xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
 					<xsl:text>http://purl.org/coar/resource_type/c_12ce</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://vivoweb.org/ontology/core#CaseStudy'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://vivoweb.org/ontology/core#CaseStudy'">
+				<Type
+					xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
 					<xsl:text>http://purl.org/coar/resource_type/c_e059</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://vivoweb.org/ontology/core#Dataset'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://vivoweb.org/ontology/core#Dataset'">
+				<Type
+					xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
 					<xsl:text>http://purl.org/coar/resource_type/c_ddb1</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://purl.org/ontology/bibo/Image'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://purl.org/ontology/bibo/Image'">
+				<Type
+					xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
 					<xsl:text>http://purl.org/coar/resource_type/c_c513</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://purl.org/ontology/bibo/Map'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://purl.org/ontology/bibo/Map'">
+				<Type
+					xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
 					<xsl:text>http://purl.org/coar/resource_type/c_12cd</xsl:text>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:text>https://w3id.org/cerif/model#ResultProduct</xsl:text>
-				</xsl:otherwise>
-			</xsl:choose>
-		</Type>
+				</Type>
+			</xsl:when>
+		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template name="orgType">
