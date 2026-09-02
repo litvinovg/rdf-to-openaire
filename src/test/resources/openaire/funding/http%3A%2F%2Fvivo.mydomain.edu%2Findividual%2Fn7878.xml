@@ -5,7 +5,6 @@
    <Name xml:lang="en-US">Biological Annual Award</Name>
    <Funder>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n1657">
-         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
          <Name xml:lang="en-US">Biological Bonds: Foundations of Life Systems</Name>
       </OrgUnit>
    </Funder>

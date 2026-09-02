@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.mydomain.edu/individual/n5410">
-   <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>AKTC</Acronym>
    <Name xml:lang="en-US">Advancing Knowledge Through Science</Name>
    <ElectronicAddress>mailto:adscience@info.us</ElectronicAddress>
@@ -15,7 +14,6 @@
    </PartOf>
    <PartOf>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n5670">
-         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
          <Acronym>DES</Acronym>
          <Name xml:lang="en-US">Department of Environmental Studies</Name>
          <ElectronicAddress>mailto:envdepcontact@info.re</ElectronicAddress>

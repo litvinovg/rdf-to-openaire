@@ -8,7 +8,6 @@
    <Subject scheme="http://www.w3.org/2004/02/skos/core#Concept">http://vivo.mydomain.edu/individual/n5495</Subject>
    <Funder>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n2262">
-         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
          <Name xml:lang="en-US">Supporting Innovation, Fueling Growth</Name>
       </OrgUnit>
    </Funder>

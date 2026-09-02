@@ -6,7 +6,6 @@
    <Publishers>
       <Publisher>
          <OrgUnit id="http://vivo.ufl.edu/individual/n42998">
-            <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
             <Name>Plenum Press</Name>
          </OrgUnit>
       </Publisher>

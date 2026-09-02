@@ -7,7 +7,6 @@
    <Description xml:lang="en-US">&lt;p&gt;The "Innovative Approaches to Sustainable Energy Solutions" grant supports groundbreaking research and projects aimed at developing renewable energy technologies. By funding innovative strategies in solar, wind, and bioenergy, this grant promotes sustainable practices that address climate change and energy demands, fostering collaboration among researchers, industries, and communities for a greener future.&lt;/p&gt;</Description>
    <Funder>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n6010">
-         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
          <Name xml:lang="en-US">Foundations of Scientific Innovation</Name>
       </OrgUnit>
    </Funder>

@@ -17,7 +17,6 @@
    <Publishers>
       <Publisher>
          <OrgUnit id="http://vivo.mydomain.edu/individual/n7006">
-            <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
             <Name xml:lang="en-US">InnovateScience</Name>
          </OrgUnit>
       </Publisher>

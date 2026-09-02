@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.mydomain.edu/individual/n6010">
-   <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>FSI</Acronym>
    <Name xml:lang="en-US">Foundations of Scientific Innovation</Name>
    <ElectronicAddress>mailto:emu@info.com</ElectronicAddress>

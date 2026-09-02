@@ -24,7 +24,6 @@
    <Publishers>
       <Publisher>
          <OrgUnit id="http://vivo.mydomain.edu/individual/n4849">
-            <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
             <Name xml:lang="en-US">Innovative Publishing Solutions</Name>
          </OrgUnit>
       </Publisher>

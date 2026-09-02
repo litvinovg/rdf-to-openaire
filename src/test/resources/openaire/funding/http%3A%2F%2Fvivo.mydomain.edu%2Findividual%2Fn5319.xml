@@ -5,7 +5,6 @@
    <Name xml:lang="en-US">Renewable Energy Integration Award</Name>
    <Funder>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n6160">
-         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
          <Name xml:lang="en-US">Innovative Research Institute</Name>
       </OrgUnit>
    </Funder>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.mydomain.edu/individual/n1657">
-   <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>BBF</Acronym>
    <Name xml:lang="en-US">Biological Bonds: Foundations of Life Systems</Name>
    <ElectronicAddress>mailto:bbfoundation@info.com</ElectronicAddress>

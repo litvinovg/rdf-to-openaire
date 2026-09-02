@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.ufl.edu/individual/n193072">
-   <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>IRB,Health Science Center</Acronym>
    <Name xml:lang="en-US">UF Health Science Center Institutional Review Board -- IRB01</Name>
 </OrgUnit>

@@ -878,33 +878,38 @@
 
 	<xsl:template name="orgType">
 		<xsl:variable name="types" select="res:types(.)" />
-		<Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">
-			<xsl:choose>
-				<xsl:when
-					test="$types = 'http://vivoweb.org/ontology/core#University'">
+		<xsl:choose>
+			<xsl:when
+				test="$types = 'http://vivoweb.org/ontology/core#University'">
+				<Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">
 					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#University</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://vivoweb.org/ontology/core#ClinicalOrganization'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://vivoweb.org/ontology/core#ClinicalOrganization'">
+				<Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">
 					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#NationalHealthService</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://vivoweb.org/ontology/core#Company'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://vivoweb.org/ontology/core#Company'">
+				<Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">
 					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#Company</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://vivoweb.org/ontology/core#GovernmentAgency'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://vivoweb.org/ontology/core#GovernmentAgency'">
+				<Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">
 					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#Government</xsl:text>
-				</xsl:when>
-				<xsl:when
-					test="$types = 'http://vivoweb.org/ontology/core#Hospital'">
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://vivoweb.org/ontology/core#Hospital'">
+				<Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">
 					<xsl:text>https://w3id.org/cerif/vocab/OrganisationTypes#NationalHealthService</xsl:text>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:text>https://w3id.org/cerif/model#OrganisationUnit</xsl:text>
-				</xsl:otherwise>
-			</xsl:choose>
-		</Type>
+				</Type>
+			</xsl:when>
+		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template name="name">

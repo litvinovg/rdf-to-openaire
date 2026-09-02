@@ -7,7 +7,6 @@
    <Description xml:lang="en-US">&lt;p&gt;The "Renewable Energy Innovations Grant" provides financial support for groundbreaking research and development in renewable energy technologies. Aiming to increase efficiency and accessibility, the grant fosters innovative solutions in solar, wind, and bioenergy. This initiative promotes sustainability and contributes to global efforts in combating climate change and reducing carbon footprints.&lt;/p&gt;</Description>
    <Funder>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n6010">
-         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
          <Name xml:lang="en-US">Foundations of Scientific Innovation</Name>
       </OrgUnit>
    </Funder>
@@ -19,7 +18,6 @@
          <Description xml:lang="en-US">&lt;p&gt;The "Innovative Approaches to Sustainable Energy Solutions" grant supports groundbreaking research and projects aimed at developing renewable energy technologies. By funding innovative strategies in solar, wind, and bioenergy, this grant promotes sustainable practices that address climate change and energy demands, fostering collaboration among researchers, industries, and communities for a greener future.&lt;/p&gt;</Description>
          <Funder>
             <OrgUnit id="http://vivo.mydomain.edu/individual/n6010">
-               <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
                <Name xml:lang="en-US">Foundations of Scientific Innovation</Name>
             </OrgUnit>
          </Funder>

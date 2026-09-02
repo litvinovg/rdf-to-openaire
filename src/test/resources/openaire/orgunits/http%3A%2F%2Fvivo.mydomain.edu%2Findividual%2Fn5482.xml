@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.2/"
          id="http://vivo.mydomain.edu/individual/n5482">
-   <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
    <Acronym>BSDep</Acronym>
    <Name xml:lang="en-US">Department of Biological Sciences</Name>
    <ElectronicAddress>mailto:depinfo@mail.com</ElectronicAddress>
    <PartOf>
       <OrgUnit id="http://vivo.mydomain.edu/individual/n203">
-         <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/model#OrganisationUnit</Type>
          <Acronym>CLA</Acronym>
          <Name xml:lang="en-US">Chemistry Lab Adventures</Name>
          <ElectronicAddress>mailto:chem@info.us</ElectronicAddress>
