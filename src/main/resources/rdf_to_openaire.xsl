@@ -171,70 +171,73 @@
 		</xsl:if>
 	</xsl:template>
 
-
 	<xsl:template name="creators">
-		<xsl:variable name="creators"
-			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
-		<xsl:if test="$creators">
+		<xsl:if test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 			<Creators>
-				<xsl:for-each select="$creators">
-					<Creator>
-						<DisplayName>
-							<xsl:value-of select="rdfs:label/text()" />
-						</DisplayName>
-						<xsl:call-template name="person" />
-					</Creator>
+				<xsl:for-each select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
+					<xsl:sort select="vivo:rank" order="ascending" />
+					<xsl:for-each select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+						<Creator>
+							<DisplayName>
+								<xsl:value-of select="rdfs:label/text()" />
+							</DisplayName>
+							<xsl:call-template name="person" />
+						</Creator>
+					</xsl:for-each>
 				</xsl:for-each>
 			</Creators>
 		</xsl:if>
 	</xsl:template>
-
+	
 	<xsl:template name="inventors">
-		<xsl:variable name="inventors"
-			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
-		<xsl:if test="$inventors">
+		<xsl:if test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 			<Inventors>
-				<xsl:for-each select="$inventors">
-					<Inventor>
-						<DisplayName>
-							<xsl:value-of select="rdfs:label/text()" />
-						</DisplayName>
-						<xsl:call-template name="person" />
-					</Inventor>
+				<xsl:for-each select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
+					<xsl:sort select="vivo:rank" order="ascending" />
+					<xsl:for-each select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+						<Inventor>
+							<DisplayName>
+								<xsl:value-of select="rdfs:label/text()" />
+							</DisplayName>
+							<xsl:call-template name="person" />
+						</Inventor>
+					</xsl:for-each>
 				</xsl:for-each>
 			</Inventors>
 		</xsl:if>
 	</xsl:template>
 
 	<xsl:template name="authors">
-		<xsl:variable name="authors"
-			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
-		<xsl:if test="$authors">
+		<xsl:if test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 			<Authors>
-				<xsl:for-each select="$authors">
-					<Author>
-						<DisplayName>
-							<xsl:value-of select="rdfs:label/text()" />
-						</DisplayName>
-						<xsl:call-template name="person" />
-					</Author>
+				<xsl:for-each select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
+					<xsl:sort select="vivo:rank" order="ascending" />
+					<xsl:for-each select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+						<Author>
+							<DisplayName>
+								<xsl:value-of select="rdfs:label/text()" />
+							</DisplayName>
+							<xsl:call-template name="person" />
+						</Author>
+					</xsl:for-each>
 				</xsl:for-each>
 			</Authors>
 		</xsl:if>
 	</xsl:template>
 
 	<xsl:template name="editors">
-		<xsl:variable name="editors"
-			select="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']" />
-		<xsl:if test="$editors">
+		<xsl:if test="res:get(res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']/vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 			<Editors>
-				<xsl:for-each select="$editors">
-					<Editor>
-						<DisplayName>
-							<xsl:value-of select="rdfs:label/text()" />
-						</DisplayName>
-						<xsl:call-template name="person" />
-					</Editor>
+				<xsl:for-each select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Editorship']">
+					<xsl:sort select="vivo:rank" order="ascending" />
+					<xsl:for-each select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
+						<Editor>
+							<DisplayName>
+								<xsl:value-of select="rdfs:label/text()" />
+							</DisplayName>
+							<xsl:call-template name="person" />
+						</Editor>
+					</xsl:for-each>
 				</xsl:for-each>
 			</Editors>
 		</xsl:if>

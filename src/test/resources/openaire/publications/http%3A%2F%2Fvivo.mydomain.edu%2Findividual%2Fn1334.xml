@@ -11,12 +11,12 @@
    <DOI>10.2345/10233845.2897.1094783</DOI>
    <Authors>
       <Author>
-         <DisplayName>Murillo, Josue Huaco</DisplayName>
-         <Person id="http://vivo.mydomain.edu/individual/n2981"/>
-      </Author>
-      <Author>
          <DisplayName>Welch, Rivka Grana</DisplayName>
          <Person id="http://vivo.mydomain.edu/individual/n234"/>
+      </Author>
+      <Author>
+         <DisplayName>Murillo, Josue Huaco</DisplayName>
+         <Person id="http://vivo.mydomain.edu/individual/n2981"/>
       </Author>
    </Authors>
    <Editors>

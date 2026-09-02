@@ -35,6 +35,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.5:rank>1</j.5:rank>
         <j.5:relates>
           <j.6:Agent rdf:about="http://vivo.mydomain.edu/individual/n4398">
             <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
@@ -63,6 +64,7 @@
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Authorship"/>
         <rdf:type rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <j.5:rank>2</j.5:rank>
         <j.5:relates>
           <j.6:Agent rdf:about="http://vivo.mydomain.edu/individual/n2981">
             <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
