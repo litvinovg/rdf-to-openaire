@@ -4,5 +4,6 @@
    <Type scheme="https://w3id.org/cerif/vocab/OrganisationTypes">https://w3id.org/cerif/vocab/OrganisationTypes#NationalHealthService</Type>
    <Acronym>CHH</Acronym>
    <Name xml:lang="en-US">Caring Hands Hospital</Name>
+   <RORID>https://ror.org/05s5g6369</RORID>
    <ElectronicAddress>mailto:chhinfo@mail.com</ElectronicAddress>
 </OrgUnit>

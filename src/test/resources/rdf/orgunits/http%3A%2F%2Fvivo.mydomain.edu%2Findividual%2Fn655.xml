@@ -11,6 +11,7 @@
   <rdf:Description rdf:about="http://vivo.mydomain.edu/individual/n4923">
     <j.1:BFO_0000050>
       <j.3:Hospital rdf:about="http://vivo.mydomain.edu/individual/n655">
+        <j.3:rorId>https://ror.org/05s5g6369</j.3:rorId>
         <rdfs:comment>OpenAIRE OrgUnit</rdfs:comment>
         <j.3:abbreviation xml:lang="en-US">CHH</j.3:abbreviation>
         <j.1:ARG_2000028>

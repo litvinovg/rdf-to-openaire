@@ -388,6 +388,7 @@
 			<xsl:call-template name="orgType" />
 			<xsl:call-template name="acronym" />
 			<xsl:call-template name="name" />
+			<xsl:call-template name="rorId" />
 			<xsl:call-template name="electronicAddressUrl" />
 			<xsl:call-template name="email" />
 			<xsl:call-template name="telephone" />
@@ -586,6 +587,14 @@
 				<xsl:value-of select="text()" />
 			</ISSN>
 		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template name="rorId">
+		<xsl:if test="vivo:rorId">
+			<RORID>
+				<xsl:value-of select="vivo:rorId[1]/text()" />
+			</RORID>
+		</xsl:if>
 	</xsl:template>
 
 	<xsl:template name="partOfFunding">
