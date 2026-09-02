@@ -402,8 +402,8 @@
             </xsl:attribute>
 			<xsl:call-template name="patentType" />
 			<xsl:call-template name="title" />
-			<xsl:call-template name="approvalDate" />
 			<xsl:call-template name="registrationDate" />
+			<xsl:call-template name="approvalDate" />
 			<xsl:call-template name="patentNumber" />
 			<xsl:call-template name="url" />
 			<xsl:call-template name="inventors" />

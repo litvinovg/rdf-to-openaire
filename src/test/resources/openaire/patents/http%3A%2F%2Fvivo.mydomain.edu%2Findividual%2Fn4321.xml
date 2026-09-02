@@ -3,8 +3,8 @@
         id="http://vivo.mydomain.edu/individual/n4321">
    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types">http://purl.org/coar/resource_type/c_15cd</Type>
    <Title xml:lang="en-US">Innovative Compound for Enhanced Therapeutic Efficacy</Title>
-   <RegistrationDate>2000-08-16</RegistrationDate>
-   <PublicationDate>1999-02-09</PublicationDate>
+   <RegistrationDate>1999-02-09</RegistrationDate>
+   <ApprovalDate>2000-08-16</ApprovalDate>
    <PatentNumber>US-12234/988876-1</PatentNumber>
    <URL>https://thereff.com</URL>
    <Inventors>
