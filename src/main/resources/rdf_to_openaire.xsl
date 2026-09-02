@@ -992,6 +992,11 @@
 	<xsl:template name="nameAbbreviation">
 		<xsl:for-each select="vivo:abbreviation">
 			<NameAbbreviation>
+			    <xsl:if test="@xml:lang">
+				    <xsl:attribute name="xml:lang">
+				    	<xsl:value-of select="@xml:lang" />
+				    </xsl:attribute>
+			    </xsl:if>
 				<xsl:value-of select="." />
 			</NameAbbreviation>
 		</xsl:for-each>
