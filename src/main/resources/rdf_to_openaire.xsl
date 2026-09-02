@@ -422,6 +422,7 @@
 			<xsl:call-template name="name" />
 			<xsl:call-template name="amount" />
 			<xsl:call-template name="description" />
+			<xsl:call-template name="subject" />
 			<xsl:call-template name="funder" />
 			<xsl:call-template name="partOfFunding" />
 		</Funding>
