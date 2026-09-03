@@ -781,6 +781,9 @@
 					test="$types = 'http://purl.org/ontology/bibo/Journal'">
 					<xsl:text>http://purl.org/coar/resource_type/c_0640</xsl:text>
 				</xsl:when>
+				<xsl:otherwise>
+					<xsl:text>http://purl.org/coar/resource_type/c_1843</xsl:text>
+				</xsl:otherwise>
 			</xsl:choose>
 		</Type>
 	</xsl:template>
@@ -873,6 +876,26 @@
 					<xsl:text>http://purl.org/coar/resource_type/c_12cd</xsl:text>
 				</Type>
 			</xsl:when>
+			<xsl:when
+				test="$types = 'http://purl.org/ontology/bibo/Webpage'">
+				<Type
+					xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
+					<xsl:text>http://purl.org/coar/resource_type/c_7ad9</xsl:text>
+				</Type>
+			</xsl:when>
+			<xsl:when
+				test="$types = 'http://purl.org/ontology/bibo/AudioDocument'">
+				<Type
+					xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
+					<xsl:text>http://purl.org/coar/resource_type/c_18cc</xsl:text>
+				</Type>
+			</xsl:when>
+			<xsl:otherwise>
+				<Type
+					xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">
+					<xsl:text>http://purl.org/coar/resource_type/c_1843</xsl:text>
+				</Type>
+			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 
