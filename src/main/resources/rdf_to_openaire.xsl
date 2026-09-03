@@ -177,7 +177,7 @@
 			<Creators>
 				<xsl:for-each
 					select="res:get(vivo:relatedBy)[res:types(.) = 'http://vivoweb.org/ontology/core#Authorship']">
-					<xsl:sort select="vivo:rank" order="ascending" />
+					<xsl:sort data-type="number" select="vivo:rank" order="ascending" />
 					<xsl:for-each
 						select="res:get(./vivo:relates)[res:types(.) = 'http://xmlns.com/foaf/0.1/Person']">
 						<Creator>
